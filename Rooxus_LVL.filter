@@ -168,12 +168,23 @@ Hide # Currency - Scroll Fragment & Alteration Shard
     SetFontSize 25
 
 # #######################################################################################################################
-# Currency - Breach
+# Currency - Prophecy
 # #######################################################################################################################
 
 Show # Currency - Prophecy
     Class "Currency"
-    BaseType "Silver Coin" "Prophecy"
+    BaseType "Prophecy"
+    SetTextColor 170 158 130		    # currency
+    SetBackgroundColor 191 239 255      # lightblue1
+    SetBorderColor 170 158 130          # currency
+    SetFontSize 40
+    PlayAlertSound 9 225                # Sound - prophecy
+    MinimapIcon 0 White Star
+    PlayEffect White
+
+Show # Currency - Prophecy
+    Class "Currency"
+    BaseType "Silver Coin"
     SetTextColor 170 158 130			# currency
     SetBorderColor 159 15 213			# violett
     SetFontSize 40
@@ -203,7 +214,7 @@ Show # Currency - Essence - T1
     SetBorderColor 170 158 130          # currency
     SetFontSize 45
     PlayAlertSound 7 250                # Sound - T3 louder
-    MinimapIcon 2 White Square
+    MinimapIcon 0 White Star
     PlayEffect White
 
 Show # Currency - Essence - T2
@@ -496,7 +507,7 @@ Show # Maps - ShapedMap - DropLevel 71+
     MinimapIcon 2 Yellow Square
     PlayEffect Yellow
 
-Show # Maps - DropLevel -73 - removed sound and light
+Show # Maps - ilvl 79+ Maps 73-78 - removed sound and light
     ItemLevel >= 79
     DropLevel >= 73
     Class "Maps"
@@ -512,7 +523,7 @@ Show # Maps - DropLevel 72+
     MinimapIcon 2 Yellow Square
     PlayEffect Yellow
 
-Show # Maps - ShapedMap - DropLevel -73 - removed sound and light
+Show # Maps - ShapedMap - Maps 73-78 - removed sound and light
     ShapedMap True
     ItemLevel >= 79
     DropLevel >= 68
@@ -527,6 +538,10 @@ Show # Maps - ShapedMap - DropLevel 67+
     PlayAlertSound 4 100                # Sound - other
     MinimapIcon 2 Yellow Triangle
     PlayEffect Yellow
+
+Show # Maps - ilvl 73+ Maps 68-72 - removed sound and light
+    ItemLevel >= 73
+    Class "Maps"
 
 # #######################################################################################################################
 # Map Fragments
@@ -851,8 +866,8 @@ Show # Delve Mod Items
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 45
     PlayAlertSound 1 200                # Sound - T2
-    MinimapIcon 0 Brown Diamond
- 	PlayEffect Brown
+    MinimapIcon 0 Brown Star
+    PlayEffect Brown
 
 Show # Incursion Mod Items
     Identified True
@@ -861,8 +876,8 @@ Show # Incursion Mod Items
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 45
     PlayAlertSound 1 200                # Sound - T2
-    MinimapIcon 0 Brown Diamond
- 	PlayEffect Brown
+    MinimapIcon 0 Brown Star
+    PlayEffect Brown
 
 Show # Warband Mod Items
     Identified True
@@ -871,8 +886,8 @@ Show # Warband Mod Items
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 45
     PlayAlertSound 1 200                # Sound - T2
-    MinimapIcon 0 Brown Diamond
- 	PlayEffect Brown
+    MinimapIcon 0 Brown Star
+    PlayEffect Brown
 
 # #######################################################################################################################
 # Normal/Magic - Specials
