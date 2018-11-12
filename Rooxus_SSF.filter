@@ -902,7 +902,7 @@ Show # Fishing Rod
     PlayEffect Brown
 
 Show # Normal/Magic - Specials - T1
-    Rarity >= Normal
+    Rarity <= Magic
     BaseType "Steel Ring"
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 45
@@ -1079,10 +1079,34 @@ Show # Rare - Jewelery - Jewels
     Class "Jewel"
     SetBorderColor 150 0 0              # smoothred
 
+Show # Rare - Jewelery - Ring - T1
+    Rarity = Rare
+    BaseType "Steel Ring"
+    SetBorderColor 150 0 0              # smoothred
+    SetFontSize 45
+    PlayAlertSound 1 200                # Sound - T2
+    MinimapIcon 0 Brown Diamond
+    PlayEffect Brown
+
+Show # Rare - Jewelery - Ring - T1
+    Rarity = Rare
+    BaseType "Opal Ring"
+    SetBorderColor 150 0 0              # smoothred
+    SetFontSize 45
+    PlayAlertSound 1 200                # Sound - T2
+    MinimapIcon 0 Brown Diamond
+    PlayEffect Brown
+
 Show # Rare - Jewelery - Amulets/Rings
     Rarity = Rare
     Class "Amulets" "Rings"
     SetBorderColor 150 0 0              # smoothred
+
+Show # Rare - Jewelery - Belt - T1
+    Rarity = Rare
+    BaseType "Crystal Belt"
+    SetBorderColor 150 0 0              # smoothred
+    SetFontSize 45
 
 Show # Rare - Jewelery - Belt - T1
     Rarity = Rare
