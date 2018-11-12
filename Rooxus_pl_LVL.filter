@@ -683,11 +683,13 @@ Show # Gems - Q10+
     Quality >= 10
     Class "Gems"
     SetBorderColor 27 162 155           # gem
+    SetFontSize 40
 
 Show # Gems - Q1+
     Quality >= 1
     Class "Gems"
     SetTextColor 27 162 155             # gem
+    SetFontSize 40
 
 Show # Gems - DropOnly
     Class "Gems"
@@ -703,7 +705,6 @@ Show # Gems - Vaal
 Show # Gems - HideAll
     Class "Gems"
     SetTextColor 27 162 155             # gem
-    SetFontSize 25
 
 # #######################################################################################################################
 # Shaper
@@ -741,7 +742,7 @@ Show
     SetBackgroundColor 72 118 255		# royalblue1
     SetBorderColor 159 15 213			# violett
     SetFontSize 45
-    PlayAlertSound 1 100               # Sound - T2 quieter
+    PlayAlertSound 1 100                # Sound - T2 quieter
     MinimapIcon 0 Brown Diamond
  	PlayEffect Brown
 
@@ -753,7 +754,7 @@ Show
     SetBackgroundColor 72 118 255		# royalblue1
     SetBorderColor 159 15 213			# violett
     SetFontSize 45
-    PlayAlertSound 1 100               # Sound - T2 quieter
+    PlayAlertSound 1 100                # Sound - T2 quieter
     MinimapIcon 0 Brown Diamond
  	PlayEffect Brown
 
@@ -767,7 +768,7 @@ Show
     SetBackgroundColor 72 118 255		# royalblue1
     SetBorderColor 159 15 213			# violett
     SetFontSize 45
-    PlayAlertSound 1 100               # Sound - T2 quieter
+    PlayAlertSound 1 100                # Sound - T2 quieter
     MinimapIcon 0 Brown Diamond
  	PlayEffect Brown
 
@@ -814,7 +815,7 @@ Show
     SetBackgroundColor 72 118 255		# royalblue1
     SetBorderColor 159 15 213			# violett
     SetFontSize 45
-    PlayAlertSound 1 100               # Sound - T2 quieter
+    PlayAlertSound 1 100                # Sound - T2 quieter
     MinimapIcon 0 Brown Diamond
  	PlayEffect Brown
 
@@ -828,7 +829,7 @@ Show
     SetBackgroundColor 72 118 255		# royalblue1
     SetBorderColor 159 15 213			# violett
     SetFontSize 45
-    PlayAlertSound 1 100               # Sound - T2 quieter
+    PlayAlertSound 1 100                # Sound - T2 quieter
     MinimapIcon 0 Brown Diamond
  	PlayEffect Brown
 
@@ -948,12 +949,6 @@ Show
 # #######################################################################################################################
 
 Show
-    ItemLevel <= 40
-    Rarity <= Magic
-    BaseType "Leather Belt" "Coral Ring"
-    SetBorderColor 150 0 0              # smoothred
-
-Show
     ItemLevel <= 4
     Rarity = Normal
 
@@ -997,7 +992,6 @@ Show # Normal/Magic - Jewelery
     Class "Rings" "Amulets" "Belts"
     SetBorderColor 255 255 119          # Rare
     SetFontSize 35
-
 
 # #######################################################################################################################
 # Normal - Hide unwanted Drops for current char, Uncomment to show
@@ -1163,6 +1157,12 @@ Show # Flasks - Utility Flasks
     BaseType "Basalt Flask" "Stibnite Flask" "Granite Flask" "Jade Flask" "Bismuth Flask"
     SetBorderColor 255 140 0		    # darkorange
 
+Show # Flasks - Utility Flasks
+    ItemLevel <= 60
+    Rarity <= Magic
+    Class "Utility Flasks"
+    SetFontSize 30
+
 Show
     Quality >= 5
     Rarity <= Magic
@@ -1279,12 +1279,6 @@ Show
     ItemLevel <= 70
     DropLevel >= 60
     Class "Hybrid Flasks"
-    SetFontSize 30
-
-Show # Flasks - Utility Flasks
-    ItemLevel <= 60
-    Rarity <= Magic
-    Class "Utility Flasks"
     SetFontSize 30
 
 Hide # Flasks - HideAll
