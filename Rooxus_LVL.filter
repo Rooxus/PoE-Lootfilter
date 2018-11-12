@@ -1296,6 +1296,11 @@ Show # Flasks - Utility Flasks
     BaseType "Basalt Flask" "Stibnite Flask" "Granite Flask" "Jade Flask" "Bismuth Flask"
     SetBorderColor 255 140 0		    # darkorange
 
+Show # Flasks - Utility Flasks
+    Rarity <= Magic
+    Class "Utility Flasks"
+    SetFontSize 30
+
 Show
     Quality >= 5
     Rarity <= Magic
@@ -1412,17 +1417,6 @@ Show
     ItemLevel <= 70
     DropLevel >= 60
     Class "Hybrid Flasks"
-    SetFontSize 30
-
-Show # Flasks - Utility Flasks
-    ItemLevel <= 60
-    Rarity <= Magic
-    Class "Utility Flasks"
-    SetFontSize 30
-
-Show
-    ItemLevel <= 75
-    Class "Utility Flasks"
     SetFontSize 30
 
 Hide # Flasks - HideAll
