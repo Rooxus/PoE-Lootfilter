@@ -912,6 +912,7 @@ Show
     Rarity <= Magic
     Class "Body Armours" "Gloves" "Helmets" "Boots"
     SetBorderColor 150 0 0              # smoothred
+    SetFontSize 40
 
 Show
     LinkedSockets >= 4
@@ -919,6 +920,7 @@ Show
     Rarity <= Magic
     Class "Body Armours" "Gloves" "Helmets" "Boots"
     SetBorderColor 150 0 0              # smoothred
+    SetFontSize 40
 
 Show
     LinkedSockets >= 4
@@ -927,6 +929,7 @@ Show
     Rarity <= Magic
     Class "Body Armours" "Gloves" "Helmets" "Boots"
     SetBorderColor 150 0 0              # smoothred
+    SetFontSize 40
 
 Show
     LinkedSockets >= 4
@@ -935,6 +938,7 @@ Show
     Rarity <= Magic
     Class "Body Armours" "Gloves" "Helmets" "Boots"
     SetBorderColor 150 0 0              # smoothred
+    SetFontSize 40
 
 Show
     LinkedSockets >= 4
@@ -943,6 +947,7 @@ Show
     Rarity <= Magic
     Class "Body Armours" "Gloves" "Helmets" "Boots"
     SetBorderColor 150 0 0              # smoothred
+    SetFontSize 40
 
 # #######################################################################################################################
 # Normal/Magic - Leveling Specials
@@ -1057,6 +1062,11 @@ Hide # Normal - Hide unwanted Drops for current char, uncomment to show - Bows/Q
     Class "Bows" "Quivers"
     SetFontSize 25
 
+Hide # Normal - Hide unwanted Drops for current char, uncomment to show - Shields
+    Rarity = Normal
+    Class "Shields"
+    SetFontSize 25
+
 # #######################################################################################################################
 # Normal - Show caster weapons
 # #######################################################################################################################
@@ -1142,9 +1152,19 @@ Hide
 Show
     Rarity <= Normal
     Class "One Hand Swords" "Two Hand Swords" "One Hand Axes" "Two Hand Axes" "One Hand Maces" "Two Hand Maces" "Claws" "Daggers" "Sceptres" "Wands" "Bows" "Quivers" "Staves" 
-    SetBorderColor 150 0 0              # smoothred
-    SetFontSize 40
+    SetBorderColor 255 140 0		    # darkorange
+    SetFontSize 35
 
+# #######################################################################################################################
+# Armours
+# #######################################################################################################################
+
+Hide
+    Rarity = Normal
+    Class "Helmets" "Body Armours" "Gloves" "Boots" "Shields" 
+    SetBorderColor 255 255 255          # white
+    SetFontSize 35
+     
 # #######################################################################################################################
 # Flasks
 # #######################################################################################################################
