@@ -1379,28 +1379,14 @@ Show
 Show
     ItemLevel <= 15
     DropLevel >= 0
-    Rarity = Normal
-    Class "Hybrid Flasks"
-    SetFontSize 30
-
-Show
-    ItemLevel <= 15
-    DropLevel >= 0
-    Rarity = Magic
+    Rarity <= Magic
     Class "Hybrid Flasks"
     SetFontSize 30
 
 Show
     ItemLevel <= 25
     DropLevel >= 10
-    Rarity = Normal
-    Class "Hybrid Flasks"
-    SetFontSize 30
-
-Show
-    ItemLevel <= 25
-    DropLevel >= 10
-    Rarity = Magic
+    Rarity <= Magic
     Class "Hybrid Flasks"
     SetFontSize 30
 
@@ -1428,20 +1414,9 @@ Show
     Class "Hybrid Flasks"
     SetFontSize 30
 
-Show
-    ItemLevel <= 60
-    BaseType "Quicksilver Flask"
-    SetBorderColor 150 0 0              # smoothred
-
 Show # Flasks - Utility Flasks
     ItemLevel <= 60
-    Rarity = Normal
-    Class "Utility Flasks"
-    SetFontSize 30
-
-Show
-    ItemLevel <= 60
-    Rarity = Magic
+    Rarity <= Magic
     Class "Utility Flasks"
     SetFontSize 30
 
