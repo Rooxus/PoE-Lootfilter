@@ -973,38 +973,38 @@ Show
 
 Show
     LinkedSockets >= 3
-    ItemLevel < 20
+    ItemLevel <= 20
     Rarity <= Magic
     Class "Body Armours" "Gloves" "Helmets" "Boots"
     SetBorderColor 150 0 0              # smoothred
 
 Show
     LinkedSockets >= 4
-    ItemLevel < 30
+    ItemLevel <= 30
     Rarity <= Magic
     Class "Body Armours" "Gloves" "Helmets" "Boots"
     SetBorderColor 150 0 0              # smoothred
 
 Show
     LinkedSockets >= 4
-    ItemLevel < 40
-    DropLevel > 20
+    ItemLevel <= 40
+    DropLevel >= 20
     Rarity <= Magic
     Class "Body Armours" "Gloves" "Helmets" "Boots"
     SetBorderColor 150 0 0              # smoothred
 
 Show
     LinkedSockets >= 4
-    ItemLevel < 50
-    DropLevel > 30
+    ItemLevel <= 50
+    DropLevel >= 30
     Rarity <= Magic
     Class "Body Armours" "Gloves" "Helmets" "Boots"
     SetBorderColor 150 0 0              # smoothred
 
 Show
     LinkedSockets >= 4
-    ItemLevel < 67
-    DropLevel > 40
+    ItemLevel <= 67
+    DropLevel >= 40
     Rarity <= Magic
     Class "Body Armours" "Gloves" "Helmets" "Boots"
     SetBorderColor 150 0 0              # smoothred
