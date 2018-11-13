@@ -129,6 +129,7 @@ Show # Currency - Low Value
     Class "Currency"
     BaseType "Orb of Transmutation"
     SetTextColor 127 255 212            # aquamarine1
+    SetBorderColor 127 255 212          # aquamarine1
     SetFontSize 40
 
 Show # Currency - Low Value
@@ -147,6 +148,7 @@ Show # Currency - Low Value
     Class "Currency"
     BaseType "Orb of Augmentation"
     SetTextColor 127 255 212            # aquamarine1
+    SetBorderColor 127 255 212          # aquamarine1
     SetFontSize 35
 
 Show # Currency - Low Value
@@ -662,7 +664,7 @@ Show # Divination Cards - T4 (Neversink 12.11.2018)
     MinimapIcon 2 Blue Circle
     PlayEffect Blue
 
-Hide # Divination Cards - Hide crap
+Show # Divination Cards - Hide crap
     Class "Divination Card"
     BaseType "Rain of Chaos" "The Puzzle" "The Scholar" "A Mother's Parting Gift" "Anarchy's Price" "Audacity" "Birth of the Three" "Carrion Crow" "Cartographer's Delight" "Death" "Destined to Crumble" "Doedre's Madness" "Dying Anguish" "Hermit" "King's Blade" "Lantador's Lost Love" "Light and Truth" "Metalsmith's Gift" "Might is Right" "Other Cheek" "Prosperity" "Rain of Chaos" "Rain Tempter" "Struck by Lightning" "The Army of Blood" "The Betrayal" "The Coming Storm" "The Conduit" "The Eye of the Dragon" "The Feast" "The Incantation" "The Inoculated" "The Lich" "The Lover" "The Lunaris Priestess" "The Metalsmith's Gift" "The Oath" "The Rabid Rhoa" "The Ruthless Ceinture" "The Scarred Meadow" "The Scholar" "The Sigil" "The Siren" "The Surgeon" "The Tower" "The Twins" "The Warden" "The Wolverine" "Thunderous Skies" "Volatile Power"
     SetTextColor 0 180 255              # cards
@@ -903,12 +905,22 @@ Show # Fishing Rod
  	PlayEffect Brown
 
 # #######################################################################################################################
+# Rare - Corrupted
+# #######################################################################################################################
+
+Show # Rare - Corrupted
+    Corrupted True
+    Rarity <= Rare
+    SetBorderColor 255 140 0		    # darkorange
+    SetFontSize 35
+
+# #######################################################################################################################
 # Normal/Magic - Link Exceptions
 # #######################################################################################################################
 
 Show
     LinkedSockets >= 3
-    ItemLevel <= 20
+    ItemLevel <= 25
     Rarity <= Magic
     Class "Body Armours" "Gloves" "Helmets" "Boots"
     SetBorderColor 150 0 0              # smoothred
@@ -976,15 +988,9 @@ Show # Normal/Magic - Jewelery - Jewel
     SetBorderColor 136 136 255          # magic
 
 Hide
-    ItemLevel >= 45
+    ItemLevel >= 25
     Rarity <= Magic
     BaseType "Coral Amulet" "Paua Ring" "Paua Amulet" "Cloth Belt" "Studded Belt" "Heavy Belt"
-    SetFontSize 25
-
-Hide
-    ItemLevel >= 40
-    Rarity <= Magic
-    Class "Rings" "Amulets" "Belts"
     SetFontSize 25
 
 Show # Normal/Magic - Jewelery - Stygian Vise
@@ -1012,10 +1018,10 @@ Hide # Normal - Hide unwanted Drops for current char, uncomment to show - 2H Swo
     Class "Two Hand Swords"
     SetFontSize 25
 
-Hide # Normal - Hide unwanted Drops for current char, uncomment to show - 1H Axe
-    Rarity = Normal
-    Class "One Hand Axes"
-    SetFontSize 25
+# Hide # Normal - Hide unwanted Drops for current char, uncomment to show - 1H Axe
+#     Rarity = Normal
+#     Class "One Hand Axes"
+#     SetFontSize 25
 
 Hide # Normal - Hide unwanted Drops for current char, uncomment to show - 2H Axe
     Rarity = Normal
@@ -1037,10 +1043,10 @@ Hide # Normal - Hide unwanted Drops for current char, uncomment to show - 2H Mac
 #     Class "Claws"
 #     SetFontSize 25
 
-Hide # Normal - Hide unwanted Drops for current char, uncomment to show - Dagger
-    Rarity = Normal
-    Class "Daggers"
-    SetFontSize 25
+# Hide # Normal - Hide unwanted Drops for current char, uncomment to show - Dagger
+#     Rarity = Normal
+#     Class "Daggers"
+#     SetFontSize 25
 
 Hide # Normal - Hide unwanted Drops for current char, uncomment to show - Sceptre
     Rarity = Normal
