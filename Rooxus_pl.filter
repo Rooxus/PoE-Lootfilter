@@ -415,7 +415,7 @@ Show # Unique - Jewelery/Maps
 # Links and Sockets
 # #######################################################################################################################
 
-Show # Links and Sockets - # 6L
+Show # Links and Sockets - 6L
     LinkedSockets = 6
     SetTextColor 0 255 150              # high value
     SetBorderColor 0 255 150            # high value
@@ -685,11 +685,13 @@ Show # Gems - Q10+
     Quality >= 10
     Class "Gems"
     SetBorderColor 27 162 155           # gem
+    SetFontSize 40
 
-# Show # Gems - Q1+
-#     Quality >= 1
-#     Class "Gems"
-#     SetTextColor 27 162 155             # gem
+Show # Gems - Q1+
+    Quality >= 1
+    Class "Gems"
+    SetTextColor 27 162 155             # gem
+    SetFontSize 40
 
 Show # Gems - DropOnly
     Class "Gems"
@@ -705,7 +707,7 @@ Show # Gems - Vaal
 Show # Gems - HideAll
     Class "Gems"
     SetTextColor 27 162 155             # gem
-    SetFontSize 25
+    SetFontSize 30
 
 # #######################################################################################################################
 # Shaper
@@ -1692,6 +1694,11 @@ Show # Rare - Equipment - EVA+ES - Boots - T3
 Show # Rare - Equipment - Specials - Bone Helmet
     Rarity <= Rare
     BaseType "Bone Helmet"
+    SetBorderColor 150 0 0              # smoothred
+
+Show # Rare - Equipment - Specials - Fingerless Silk Gloves
+    Rarity <= Rare
+    BaseType "Fingerless Silk Gloves"
     SetBorderColor 150 0 0              # smoothred
 
 Show # Rare - Equipment - Specials - Gripped Gloves
