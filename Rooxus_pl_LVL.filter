@@ -707,6 +707,8 @@ Show # Gems - Vaal
 Show # Gems - HideAll
     Class "Gems"
     SetTextColor 27 162 155             # gem
+    SetFontSize 30
+
 
 # #######################################################################################################################
 # Shaper
