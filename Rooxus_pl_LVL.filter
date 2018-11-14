@@ -432,8 +432,27 @@ Show # Links and Sockets - 5L
     MinimapIcon 0 Green Diamond
     PlayEffect Green
 
-Show # Links and Sockets - 6s
+Show # Links and Sockets - 6s - T1
     Sockets = 6
+    BaseType "Vaal Regalia" "Astral Plate" "Glorious Plate" "Zodiac Leather" "Assassin's Garb" "Saintly Chainmail" "Carnal Armour" 
+    SetBorderColor 0 255 150            # high value
+    SetFontSize 45
+    PlayAlertSound 9 225
+    MinimapIcon 0 Green Square
+    PlayEffect Green
+
+Show # Links and Sockets - 6s - T2
+    Sockets = 6
+    BaseType "Occultist's Vestment" "Widowsilk Robe" "Gladiator Plate" "Exquisite Leather" "Triumphant Lamellar" "General's Brigandine" "Full Dragonscale" "Saint's Hauberk" "Elegant Ringmail" "Conquest Chainmail" "Sadist Garb" "Varnished Coat" "Blood Raiment" 
+    SetBorderColor 0 255 150            # high value
+    SetFontSize 40
+    PlayAlertSound 9 225
+    MinimapIcon 1 Green Square
+    PlayEffect Green
+
+Show # Links and Sockets - 6s - T3
+    Sockets = 6
+    BaseType "Necromancer Silks" "Savant's Robe" "Destroyer Regalia" "Crusader Plate" "Golden Plate" "Majestic Plate" "Destiny Leather" "Sharkskin Tunic" "Cutthroat's Garb" "Desert Brigandine" "Battle Lamellar" "Commander's Brigandine" "Dragonscale Doublet" "Devout Chainmail" "Ornate Ringmail" "Crusader Chainmail" "Chain Hauberk" "Sentinel Jacket" "Crypt Armour" "Lacquered Garb" 
     SetBorderColor 0 255 150            # high value
     SetFontSize 40
     PlayAlertSound 9 225
