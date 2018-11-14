@@ -157,7 +157,7 @@ Show # Currency - Low Value
     SetTextColor 127 255 212            # aquamarine1
     SetFontSize 35
 
-Show # Currency - Low Value
+Hide # Currency - Low Value
     Class "Currency"
     BaseType "Scroll of Wisdom"
     SetTextColor 127 255 212            # aquamarine1
@@ -994,6 +994,11 @@ Show
     ItemLevel <= 7
     Rarity = Magic
 
+Show # Normal - Hide unwanted Drops for current char, uncomment to show - 1H Axe
+    Rarity = Normal
+    BaseType "Siege Axe"
+    SetBorderColor 150 0 0              # smoothred
+
 # #######################################################################################################################
 # Normal/Magic - Jewelery
 # #######################################################################################################################
@@ -1039,10 +1044,10 @@ Hide # Normal - Hide unwanted Drops for current char, uncomment to show - 2H Swo
     Class "Two Hand Swords"
     SetFontSize 25
 
-# Hide # Normal - Hide unwanted Drops for current char, uncomment to show - 1H Axe
-#     Rarity = Normal
-#     Class "One Hand Axes"
-#     SetFontSize 25
+Hide # Normal - Hide unwanted Drops for current char, uncomment to show - 1H Axe
+    Rarity = Normal
+    Class "One Hand Axes"
+    SetFontSize 25
 
 Hide # Normal - Hide unwanted Drops for current char, uncomment to show - 2H Axe
     Rarity = Normal
@@ -1064,10 +1069,10 @@ Hide # Normal - Hide unwanted Drops for current char, uncomment to show - 2H Mac
 #     Class "Claws"
 #     SetFontSize 25
 
-# Hide # Normal - Hide unwanted Drops for current char, uncomment to show - Dagger
-#     Rarity = Normal
-#     Class "Daggers"
-#     SetFontSize 25
+Hide # Normal - Hide unwanted Drops for current char, uncomment to show - Dagger
+    Rarity = Normal
+    Class "Daggers"
+    SetFontSize 25
 
 Hide # Normal - Hide unwanted Drops for current char, uncomment to show - Sceptre
     Rarity = Normal
