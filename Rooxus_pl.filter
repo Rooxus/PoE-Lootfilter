@@ -60,8 +60,8 @@ Show # Currency - Valuable
 Show # Currency - Valuable
     Class "Currency"
     BaseType "Blessed Orb" "Orb of Annulment" "Gemcutter's Prism" "Stacked Deck"
-    SetTextColor 170 158 130			# currency
-    SetBorderColor 170 158 130          # currency
+    SetTextColor 127 255 212            # aquamarine1
+    SetBorderColor 127 255 212          # aquamarine1
     SetFontSize 40
     PlayAlertSound 7 180                # Sound - T3
     MinimapIcon 2 White Square
@@ -70,8 +70,8 @@ Show # Currency - Valuable
 Show # Currency - Valuable
     Class "Currency"
     BaseType "Orb of Scouring" "Orb of Alchemy" "Orb of Fusing" "Orb of Regret"
-    SetTextColor 170 158 130			# currency
-    SetBorderColor 170 158 130          # currency
+    SetTextColor 127 255 212            # aquamarine1
+    SetBorderColor 127 255 212          # aquamarine1
     SetFontSize 40
     PlayAlertSound 7 180                # Sound - T3
     MinimapIcon 2 White Square
@@ -80,8 +80,8 @@ Show # Currency - Valuable
 Show # Currency - Valuable shards
     Class "Currency"
     BaseType "Ancient Shard" "Engineer's Shard" "Exalted Shard" "Harbinger's Shard" "Horizon Shard"
-    SetTextColor 72 118 255             # royalblue1
-    SetBorderColor 170 158 130			# currency
+    SetTextColor 127 255 212            # aquamarine1
+    SetBorderColor 127 255 212          # aquamarine1
     SetFontSize 40
     PlayAlertSound 7 180                # Sound - T3
     MinimapIcon 2 White Square
@@ -90,77 +90,81 @@ Show # Currency - Valuable shards
 Show # Currency - Medium Value
     Class "Currency"
     BaseType "Glassblower's Bauble"
-    SetTextColor 170 158 130			# currency
-    SetBorderColor 170 158 130			# currency
+    SetTextColor 127 255 212            # aquamarine1
+    SetBorderColor 127 255 212          # aquamarine1
     SetFontSize 40
 
 Show # Currency - Medium Value
     Class "Currency"
     BaseType "Annulment Shard" "Binding Shard" "Chaos Shard" "Regal Shard" "Alchemy Shard"
-    SetTextColor 170 158 130			# currency
+    SetTextColor 127 255 212            # aquamarine1
+    SetBorderColor 127 255 212          # aquamarine1
     SetFontSize 40
 
 Show # Currency - Low Value
     Class "Currency"
     BaseType "Chromatic Orb"
     SetTextColor 170 158 130			# currency
-    SetBorderColor 0 197 205            # turquoise3
+    SetBorderColor 127 255 212          # aquamarine1
     SetFontSize 40
 
 Show # Currency - Low Value
     Class "Currency"
     BaseType "Jeweller's Orb"
     SetTextColor 170 158 130			# currency
+    SetBorderColor 127 255 212          # aquamarine1
     SetFontSize 40
 
 Show # Currency - Low Value
     Class "Currency"
     BaseType "Orb of Chance"
     SetTextColor 170 158 130			# currency
+    SetBorderColor 127 255 212          # aquamarine1
     SetFontSize 40
 
 Show # Currency - Low Value
     Class "Currency"
     BaseType "Orb of Alteration"
     SetTextColor 170 158 130			# currency
+    SetBorderColor 127 255 212          # aquamarine1
     SetFontSize 40
 
 Show # Currency - Low Value
     Class "Currency"
     BaseType "Orb of Transmutation"
-    SetTextColor 127 255 212            # aquamarine1
+    SetTextColor 170 158 130			# currency
+    SetBorderColor 127 255 212          # aquamarine1
+    SetFontSize 40
+
+Show # Currency - Low Value
+    Class "Currency"
+    BaseType "Orb of Augmentation"
+    SetTextColor 170 158 130			# currency
     SetBorderColor 127 255 212          # aquamarine1
     SetFontSize 40
 
 Show # Currency - Low Value
     Class "Currency"
     BaseType "Blacksmith's Whetstone"
-    SetTextColor 127 255 212            # aquamarine1
+    SetTextColor 170 158 130			# currency
     SetFontSize 35
 
 Show # Currency - Low Value
     Class "Currency"
     BaseType "Armourer's Scrap"
-    SetTextColor 127 255 212            # aquamarine1
-    SetFontSize 35
-
-Show # Currency - Low Value
-    Class "Currency"
-    BaseType "Orb of Augmentation"
-    SetTextColor 127 255 212            # aquamarine1
-    SetBorderColor 127 255 212          # aquamarine1
+    SetTextColor 170 158 130			# currency
     SetFontSize 35
 
 Show # Currency - Low Value
     Class "Currency"
     BaseType "Portal Scroll"
-    SetTextColor 127 255 212            # aquamarine1
+    SetTextColor 170 158 130			# currency
     SetFontSize 35
 
 Hide # Currency - Low Value
     Class "Currency"
     BaseType "Scroll of Wisdom"
-    SetTextColor 127 255 212            # aquamarine1
+    SetTextColor 170 158 130			# currency
     SetFontSize 35
 
 Hide # Currency - Scroll Fragment & Alteration Shard
@@ -942,11 +946,13 @@ Show # Normal/Magic - Jewelery - Abyss Jewel
     Rarity <= Magic
     Class "Abyss Jewel"
     SetBorderColor 150 0 0              # smoothred
+    SetFontSize 40
 
 Show # Normal/Magic - Jewelery - Jewel
     Rarity <= Magic
     Class "Jewel"
     SetBorderColor 136 136 255          # magic
+    SetFontSize 40
 
 Show # Normal/Magic - Jewelery - Ring - T1
     Rarity <= Rare
@@ -966,38 +972,55 @@ Show # Normal/Magic - Jewelery - Ring - T1
     MinimapIcon 0 Brown Diamond
     PlayEffect Brown
 
+Show # Normal/Magic - Jewelery - Ring - T2
+    Rarity <= Rare
+    BaseType "Two-Stone Ring" "Coral Ring" "Diamond Ring"
+    SetBorderColor 150 0 0              # smoothred
+    SetFontSize 40
+
+Show # Normal/Magic - Jewelery - Amulets - T2
+    Rarity <= Rare
+    BaseType "Jade Amulet" 
+    SetBorderColor 255 140 0		    # darkorange
+    SetFontSize 40
+
+Show # Normal/Magic - Jewelery - Belt - T1
+    Rarity <= Rare
+    BaseType "Crystal Belt"
+    SetBorderColor 150 0 0              # smoothred
+    SetFontSize 45
+
+Show # Normal/Magic - Jewelery - Belt - T1
+    Rarity <= Magic
+    BaseType "Stygian Vise"
+    SetBorderColor 150 0 0              # smoothred
+    SetFontSize 45
+    PlayAlertSound 1 200                # Sound - T2
+    MinimapIcon 0 Brown Diamond
+    PlayEffect Brown
+
+
+Show # Normal/Magic - Jewelery - Belt - T2
+    Rarity <= Rare
+    BaseType "Heavy Belt" "Leather Belt" "Rustic Sash"
+    SetBorderColor 255 255 119          # Rare
+
+Show # Normal/Magic - Jewelery - Specials - T2
+    Rarity <= Magic
+    BaseType "Vanguard Belt" "Marble Amulet" "Blue Pearl Amulet"
+    SetBorderColor 255 140 0		    # darkorange
+    SetFontSize 40
+
 Hide
     ItemLevel >= 25
     Rarity <= Magic
     BaseType "Coral Amulet" "Paua Ring" "Paua Amulet" "Cloth Belt" "Studded Belt" "Heavy Belt"
     SetFontSize 25
 
-Show # Normal/Magic - Specials - T2
-    Rarity <= Magic
-    BaseType "Vanguard Belt" "Marble Amulet" "Blue Pearl Amulet"
-    SetBorderColor 255 140 0		    # darkorange
-    SetFontSize 35
-
-Show # Rare - Jewelery - Belt - T1
-    Rarity <= Rare
-    BaseType "Crystal Belt"
-    SetBorderColor 150 0 0              # smoothred
-    SetFontSize 45
-
-Show # Normal/Magic - Jewelery - Belt - Stygian Vise
-    Rarity <= Magic
-    BaseType "Stygian Vise"
-    SetBorderColor 150 0 0              # smoothred
-
-Show # Rare - Jewelery - Belt - T2
-    Rarity <= Rare
-    BaseType "Heavy Belt" "Leather Belt" "Rustic Sash"
-    SetBorderColor 255 255 119          # Rare
-
 Show # Rare - Jewelery - Amulets/Rings
-    Rarity = Rare
+    Rarity <= Rare
     Class "Amulets" "Rings"
-    SetBorderColor 150 0 0              # smoothred
+    SetBorderColor 255 140 0		    # darkorange
 
 Hide # Rare - Jewelery - Belt - T3
     Rarity <= Rare
@@ -1143,8 +1166,9 @@ Hide # Rare - Jewelery - Belt - T3
 
 Show # Rare - Claw - T1
     Rarity <= Rare
-    BaseType "Imperial Claw" "Hellion's Paw"
+    BaseType "Imperial Claw"
     SetBorderColor 150 0 0              # smoothred
+     SetFontSize 40
 
 # Show # Rare - Claw - T2
 #     Rarity <= Rare
@@ -1299,24 +1323,28 @@ Show # Rare - Equipment - ES - Helmet - T1
     LinkedSockets >= 4
     BaseType "Hubris Circlet"
     SetBorderColor 150 0 0              # smoothred
+    SetFontSize 40
 
 Show # Rare - Equipment - ES - Body Armour - T1
     Rarity <= Rare
     LinkedSockets >= 4
     BaseType "Vaal Regalia"
     SetBorderColor 150 0 0              # smoothred
+    SetFontSize 40
 
 Show # Rare - Equipment - ES - Gloves - T1
     Rarity <= Rare
     LinkedSockets >= 4
     BaseType "Sorcerer Gloves" "Fingerless Silk Gloves"
     SetBorderColor 150 0 0              # smoothred
+    SetFontSize 40
 
 Show # Rare - Equipment - ES - Boots - T1
     Rarity <= Rare
     LinkedSockets >= 4
     BaseType "Sorcerer Boots"
     SetBorderColor 150 0 0              # smoothred
+    SetFontSize 40
 
 Show # Rare - Equipment - ES - Helmet - T2
     Rarity <= Rare
@@ -1371,24 +1399,28 @@ Show # Rare - Equipment - ARM - Helmet - T1
     LinkedSockets >= 4
     BaseType "Royal Burgonet"
     SetBorderColor 150 0 0              # smoothred
+    SetFontSize 40
 
 Show # Rare - Equipment - ARM - Body Armour - T1
     Rarity <= Rare
     LinkedSockets >= 4
     BaseType "Astral Plate" "Glorious Plate"
     SetBorderColor 150 0 0              # smoothred
+    SetFontSize 40
 
 Show # Rare - Equipment - ARM - Gloves - T1
     Rarity <= Rare
     LinkedSockets >= 4
     BaseType "Titan Gauntlets"
     SetBorderColor 150 0 0              # smoothred
+    SetFontSize 40
 
 Show # Rare - Equipment - ARM - Boots - T1
     Rarity <= Rare
     LinkedSockets >= 4
     BaseType "Titan Greaves"
     SetBorderColor 150 0 0              # smoothred
+    SetFontSize 40
 
 Show # Rare - Equipment - ARM - Helmet - T2
     Rarity <= Rare
@@ -1443,24 +1475,28 @@ Show # Rare - Equipment - EVA - Helmet - T1
     LinkedSockets >= 4
     BaseType "Lion Pelt"
     SetBorderColor 150 0 0              # smoothred
+    SetFontSize 40
 
 Show # Rare - Equipment - EVA - Body Armour - T1
     Rarity <= Rare
     LinkedSockets >= 4
     BaseType "Zodiac Leather" "Assassin's Garb"
     SetBorderColor 150 0 0              # smoothred
+    SetFontSize 40
 
 Show # Rare - Equipment - EVA - Gloves - T1
     Rarity <= Rare
     LinkedSockets >= 4
     BaseType "Slink Gloves"
     SetBorderColor 150 0 0              # smoothred
+    SetFontSize 40
 
 Show # Rare - Equipment - EVA - Boots - T1
     Rarity <= Rare
     LinkedSockets >= 4
     BaseType "Slink Boots"
     SetBorderColor 150 0 0              # smoothred
+    SetFontSize 40
 
 Show # Rare - Equipment - EVA - Helmet - T2
     Rarity <= Rare
@@ -1515,18 +1551,21 @@ Show # Rare - Equipment - EVA+ARM - Helmet - T1
     LinkedSockets >= 4
     BaseType "Nightmare Bascinet"
     SetBorderColor 150 0 0              # smoothred
+    SetFontSize 40
 
 Show # Rare - Equipment - EVA+ARM - Gloves - T1
     Rarity <= Rare
     LinkedSockets >= 4
     BaseType "Dragonscale Gauntlets"
     SetBorderColor 150 0 0              # smoothred
+    SetFontSize 40
 
 Show # Rare - Equipment - EVA+ARM - Boots - T1
     Rarity <= Rare
     LinkedSockets >= 4
     BaseType "Dragonscale Boots"
     SetBorderColor 150 0 0              # smoothred
+    SetFontSize 40
 
 Show # Rare - Equipment - EVA+ARM - Helmet - T2
     Rarity <= Rare
@@ -1581,24 +1620,28 @@ Show # Rare - Equipment - ARM+ES - Helmet - T1
     LinkedSockets >= 4
     BaseType "Praetor Crown"
     SetBorderColor 150 0 0              # smoothred
+    SetFontSize 40
 
 Show # Rare - Equipment - ARM+ES - Body Armour - T1
     Rarity <= Rare
     LinkedSockets >= 4
     BaseType "Saintly Chainmail"
     SetBorderColor 150 0 0              # smoothred
+    SetFontSize 40
 
 Show # Rare - Equipment - ARM+ES - Gloves - T1
     Rarity <= Rare
     LinkedSockets >= 4
     BaseType "Crusader Gloves"
     SetBorderColor 150 0 0              # smoothred
+    SetFontSize 40
 
 Show # Rare - Equipment - ARM+ES - Boots - T1
     Rarity <= Rare
     LinkedSockets >= 4
     BaseType "Crusader Boots"
     SetBorderColor 150 0 0              # smoothred
+    SetFontSize 40
 
 Show # Rare - Equipment - ARM+ES - Helmet - T2
     Rarity <= Rare
@@ -1643,24 +1686,28 @@ Show # Rare - Equipment - EVA+ES - Helmet - T1
     LinkedSockets >= 4
     BaseType "Vaal Mask"
     SetBorderColor 150 0 0              # smoothred
+    SetFontSize 40
 
 Show # Rare - Equipment - EVA+ES - Body Armour - T1
     Rarity <= Rare
     LinkedSockets >= 4
     BaseType "Carnal Armour"
     SetBorderColor 150 0 0              # smoothred
+    SetFontSize 40
 
 Show # Rare - Equipment - EVA+ES - Gloves - T1
     Rarity <= Rare
     LinkedSockets >= 4
     BaseType "Murder Mitts"
     SetBorderColor 150 0 0              # smoothred
+    SetFontSize 40
 
 Show # Rare - Equipment - EVA+ES - Boots - T1
     Rarity <= Rare
     LinkedSockets >= 4
     BaseType "Murder Boots"
     SetBorderColor 150 0 0              # smoothred
+    SetFontSize 40
 
 Show # Rare - Equipment - EVA+ES - Helmet - T2
     Rarity <= Rare
@@ -1714,26 +1761,31 @@ Show # Rare - Equipment - Specials - Bone Helmet
     Rarity <= Rare
     BaseType "Bone Helmet"
     SetBorderColor 150 0 0              # smoothred
+    SetFontSize 40
 
 Show # Rare - Equipment - Specials - Fingerless Silk Gloves
     Rarity <= Rare
     BaseType "Fingerless Silk Gloves"
     SetBorderColor 150 0 0              # smoothred
+    SetFontSize 40
 
 Show # Rare - Equipment - Specials - Gripped Gloves
     Rarity <= Rare
     BaseType "Gripped Gloves"
     SetBorderColor 150 0 0              # smoothred
+    SetFontSize 40
 
 Show # Rare - Equipment - Specials - Spiked Gloves
     Rarity <= Rare
     BaseType "Spiked Gloves"
     SetBorderColor 150 0 0              # smoothred
+    SetFontSize 40
 
 Show # Rare - Equipment - Specials - Two-Toned Boots
     Rarity <= Rare
     BaseType "Two-Toned Boots"
     SetBorderColor 150 0 0              # smoothred
+    SetFontSize 40
 
 # #######################################################################################################################
 # Rare - Shield - ES
