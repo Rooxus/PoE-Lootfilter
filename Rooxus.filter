@@ -1965,6 +1965,7 @@ Hide # Flasks - Quality 10+
     SetFontSize 30
 
 Hide # Flasks - Hide
+    Rarity <= Magic
     Class "Flasks"
     SetFontSize 25
 
