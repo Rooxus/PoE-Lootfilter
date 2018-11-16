@@ -1206,10 +1206,12 @@ Hide
 # #######################################################################################################################
 
 Show # Flasks - Utility Flasks
+    Rarity <= Magic
     BaseType "Quicksilver Flask" "Silver Flask" "Sulphur Flask" "Diamond Flask"
     SetBorderColor 150 0 0              # smoothred
 
 Show # Flasks - Utility Flasks
+    Rarity <= Magic
     BaseType "Basalt Flask" "Stibnite Flask" "Granite Flask" "Jade Flask" "Bismuth Flask"
     SetBorderColor 255 140 0		    # darkorange
 
@@ -1242,60 +1244,70 @@ Show
 Show
     ItemLevel <= 18
     DropLevel >= 6
+    Rarity <= Magic
     Class "Life Flasks" "Mana Flasks"
     SetFontSize 30
 
 Show
     ItemLevel <= 24
     DropLevel >= 12
+    Rarity <= Magic
     Class "Life Flasks" "Mana Flasks"
     SetFontSize 30
 
 Show
     ItemLevel <= 30
     DropLevel >= 18
+    Rarity <= Magic
     Class "Life Flasks" "Mana Flasks"
     SetFontSize 30
 
 Show
     ItemLevel <= 45
     DropLevel >= 24
+    Rarity <= Magic
     Class "Life Flasks" "Mana Flasks"
     SetFontSize 30
 
 Show
     ItemLevel <= 42
     DropLevel >= 30
+    Rarity <= Magic
     Class "Life Flasks" "Mana Flasks"
     SetFontSize 30
 
 Show
     ItemLevel <= 50
     DropLevel >= 36
+    Rarity <= Magic
     Class "Life Flasks" "Mana Flasks"
     SetFontSize 30
 
 Show
     ItemLevel <= 70
     DropLevel = 42
+    Rarity <= Magic
     Class "Life Flasks" "Mana Flasks"
     SetFontSize 30
 
 Show
     ItemLevel <= 65
     DropLevel >= 50
+    Rarity <= Magic
     Class "Life Flasks" "Mana Flasks"
     SetFontSize 30
 
 Show
     ItemLevel <= 70
     DropLevel >= 60
+    Rarity <= Magic
     Class "Life Flasks" "Mana Flasks"
     SetFontSize 30
 
 Show
     Quality >= 5
     ItemLevel <= 70
+    Rarity <= Magic
     Class "Hybrid Flasks"
     SetFontSize 30
 
@@ -1316,28 +1328,33 @@ Show
 Show
     ItemLevel <= 35
     DropLevel >= 20
+    Rarity <= Magic
     Class "Hybrid Flasks"
     SetFontSize 30
 
 Show
     ItemLevel <= 45
     DropLevel >= 30
+    Rarity <= Magic
     Class "Hybrid Flasks"
     SetFontSize 30
 
 Show
     ItemLevel <= 55
     DropLevel >= 40
+    Rarity <= Magic
     Class "Hybrid Flasks"
     SetFontSize 30
 
 Show
     ItemLevel <= 70
     DropLevel >= 60
+    Rarity <= Magic
     Class "Hybrid Flasks"
     SetFontSize 30
 
 Hide # Flasks - HideAll
+    Rarity <= Magic
     Class "Flasks"
     SetFontSize 25
 
