@@ -972,13 +972,13 @@ Show # Normal/Magic - Jewelery - Ring - T1
     MinimapIcon 0 Brown Diamond
     PlayEffect Brown
 
-Show # Normal/Magic - Jewelery - Ring - T2
+Hide # Normal/Magic - Jewelery - Ring - T2
     Rarity <= Rare
     BaseType "Two-Stone Ring" "Coral Ring" "Diamond Ring"
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 40
 
-Show # Normal/Magic - Jewelery - Amulets - T2
+Hide # Normal/Magic - Jewelery - Amulets - T2
     Rarity <= Rare
     BaseType "Jade Amulet" 
     SetBorderColor 255 140 0		    # darkorange
@@ -1000,7 +1000,7 @@ Show # Normal/Magic - Jewelery - Belt - T1
     PlayEffect Brown
 
 
-Show # Normal/Magic - Jewelery - Belt - T2
+Hide # Normal/Magic - Jewelery - Belt - T2
     Rarity <= Rare
     BaseType "Heavy Belt" "Leather Belt" "Rustic Sash"
     SetBorderColor 255 255 119          # Rare
@@ -1017,7 +1017,7 @@ Hide
     BaseType "Coral Amulet" "Paua Ring" "Paua Amulet" "Cloth Belt" "Studded Belt" "Heavy Belt"
     SetFontSize 25
 
-Show # Rare - Jewelery - Amulets/Rings
+Hide # Rare - Jewelery - Amulets/Rings
     Rarity <= Rare
     Class "Amulets" "Rings"
     SetBorderColor 255 140 0		    # darkorange
@@ -1164,7 +1164,7 @@ Hide # Rare - Jewelery - Belt - T3
 # Rare - Claw
 # #######################################################################################################################
 
-Show # Rare - Claw - T1
+Hide # Rare - Claw - T1
     Rarity <= Rare
     BaseType "Imperial Claw"
     SetBorderColor 150 0 0              # smoothred
@@ -1981,6 +1981,7 @@ Hide # Flasks - Quality 10+
     SetFontSize 30
 
 Hide # Flasks - Hide
+    Rarity <= Magic
     Class "Flasks"
     SetFontSize 25
 
