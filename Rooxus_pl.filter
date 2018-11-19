@@ -129,7 +129,7 @@ Show # Currency - Low Value
     SetBorderColor 127 255 212          # aquamarine1
     SetFontSize 40
 
-Show # Currency - Low Value
+Hide # Currency - Low Value
     Class "Currency"
     BaseType "Orb of Transmutation"
     SetTextColor 170 158 130			# currency
@@ -155,7 +155,7 @@ Show # Currency - Low Value
     SetTextColor 170 158 130			# currency
     SetFontSize 35
 
-Show # Currency - Low Value
+Hide # Currency - Low Value
     Class "Currency"
     BaseType "Portal Scroll"
     SetTextColor 170 158 130			# currency
@@ -870,11 +870,11 @@ Show
 # Chance
 # #######################################################################################################################
 
-# Show # Chance - Sadist Garb
-#     Corrupted False
-#     Rarity = Normal
-#     BaseType "Sadist Garb"
-#     SetBorderColor 231 180 120          # chance
+Show # Chance - Laminated Kite Shield
+    Corrupted False
+    Rarity = Normal
+    BaseType "Laminated Kite Shield"
+    SetBorderColor 231 180 120          # chance
 
 # Show # Chance - Glorious Plate
 #     Corrupted False
@@ -1179,6 +1179,11 @@ Hide # Rare - Claw - T1
 # Rare - Dagger
 # #######################################################################################################################
 
+Show # Rare - Dagger - T1
+    Rarity <= Rare
+    BaseType "Prong Dagger" "Trisula"
+    SetBorderColor 150 0 0              # smoothred
+
 # Show # Rare - Dagger - T1
 #     Rarity <= Rare
 #     BaseType "Demon Dagger" "Ambusher"
@@ -1325,12 +1330,12 @@ Show # Rare - Equipment - ES - Helmet - T1
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 40
 
-Show # Rare - Equipment - ES - Body Armour - T1
-    Rarity <= Rare
-    LinkedSockets >= 4
-    BaseType "Vaal Regalia"
-    SetBorderColor 150 0 0              # smoothred
-    SetFontSize 40
+# Show # Rare - Equipment - ES - Body Armour - T1
+#     Rarity <= Rare
+#     LinkedSockets >= 4
+#     BaseType "Vaal Regalia"
+#     SetBorderColor 150 0 0              # smoothred
+#     SetFontSize 40
 
 Show # Rare - Equipment - ES - Gloves - T1
     Rarity <= Rare
@@ -1352,11 +1357,11 @@ Show # Rare - Equipment - ES - Helmet - T2
     BaseType "Mind Cage"
     SetBorderColor 255 255 119          # Rare
 
-Show # Rare - Equipment - ES - Body Armour - T2
-    Rarity <= Rare
-    LinkedSockets >= 4
-    BaseType "Occultist's Vestment" "Widowsilk Robe"
-    SetBorderColor 255 255 119          # Rare
+# Show # Rare - Equipment - ES - Body Armour - T2
+#     Rarity <= Rare
+#     LinkedSockets >= 4
+#     BaseType "Occultist's Vestment" "Widowsilk Robe"
+#     SetBorderColor 255 255 119          # Rare
 
 Show # Rare - Equipment - ES - Gloves - T2
     Rarity <= Rare
@@ -1370,25 +1375,25 @@ Show # Rare - Equipment - ES - Boots - T2
     BaseType "Arcanist Slippers"
     SetBorderColor 255 255 119          # Rare
 
-Show # Rare - Equipment - ES - Helmet - T3
-    Rarity <= Rare
-    LinkedSockets >= 4
-    BaseType "Solaris Circlet" "Necromancer Circlet"
+# Show # Rare - Equipment - ES - Helmet - T3
+#     Rarity <= Rare
+#     LinkedSockets >= 4
+#     BaseType "Solaris Circlet" "Necromancer Circlet"
 
-Show # Rare - Equipment - ES - Body Armour - T3
-    Rarity <= Rare
-    LinkedSockets >= 4
-    BaseType "Necromancer Silks" "Savant's Robe" "Destroyer Regalia"
+# Show # Rare - Equipment - ES - Body Armour - T3
+#     Rarity <= Rare
+#     LinkedSockets >= 4
+#     BaseType "Necromancer Silks" "Savant's Robe" "Destroyer Regalia"
 
-Show # Rare - Equipment - ES - Gloves - T3
-    Rarity <= Rare
-    LinkedSockets >= 4
-    BaseType "Conjurer Gloves"
+# Show # Rare - Equipment - ES - Gloves - T3
+#     Rarity <= Rare
+#     LinkedSockets >= 4
+#     BaseType "Conjurer Gloves"
 
-Show # Rare - Equipment - ES - Boots - T3
-    Rarity <= Rare
-    LinkedSockets >= 4
-    BaseType "Conjurer Boots"
+# Show # Rare - Equipment - ES - Boots - T3
+#     Rarity <= Rare
+#     LinkedSockets >= 4
+#     BaseType "Conjurer Boots"
 
 # #######################################################################################################################
 # Rare - Equipment - ARM
@@ -1401,12 +1406,12 @@ Show # Rare - Equipment - ARM - Helmet - T1
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 40
 
-Show # Rare - Equipment - ARM - Body Armour - T1
-    Rarity <= Rare
-    LinkedSockets >= 4
-    BaseType "Astral Plate" "Glorious Plate"
-    SetBorderColor 150 0 0              # smoothred
-    SetFontSize 40
+# Show # Rare - Equipment - ARM - Body Armour - T1
+#     Rarity <= Rare
+#     LinkedSockets >= 4
+#     BaseType "Astral Plate" "Glorious Plate"
+#     SetBorderColor 150 0 0              # smoothred
+#     SetFontSize 40
 
 Show # Rare - Equipment - ARM - Gloves - T1
     Rarity <= Rare
@@ -1428,11 +1433,11 @@ Show # Rare - Equipment - ARM - Helmet - T2
     BaseType "Eternal Burgonet" "Ezomyte Burgonet"
     SetBorderColor 255 255 119          # Rare
 
-Show # Rare - Equipment - ARM - Body Armour - T2
-    Rarity <= Rare
-    LinkedSockets >= 4
-    BaseType "Gladiator Plate"
-    SetBorderColor 255 255 119          # Rare
+# Show # Rare - Equipment - ARM - Body Armour - T2
+#     Rarity <= Rare
+#     LinkedSockets >= 4
+#     BaseType "Gladiator Plate"
+#     SetBorderColor 255 255 119          # Rare
 
 Show # Rare - Equipment - ARM - Gloves - T2
     Rarity <= Rare
@@ -1446,25 +1451,25 @@ Show # Rare - Equipment - ARM - Boots - T2
     BaseType "Vaal Greaves"
     SetBorderColor 255 255 119          # Rare
 
-Show # Rare - Equipment - ARM - Helmet - T3
-    Rarity <= Rare
-    LinkedSockets >= 4
-    BaseType "Samite Helmet"
+# Show # Rare - Equipment - ARM - Helmet - T3
+#     Rarity <= Rare
+#     LinkedSockets >= 4
+#     BaseType "Samite Helmet"
 
-Show # Rare - Equipment - ARM - Body Armour - T3
-    Rarity <= Rare
-    LinkedSockets >= 4
-    BaseType "Crusader Plate" "Golden Plate" "Majestic Plate"
+# Show # Rare - Equipment - ARM - Body Armour - T3
+#     Rarity <= Rare
+#     LinkedSockets >= 4
+#     BaseType "Crusader Plate" "Golden Plate" "Majestic Plate"
 
-Show # Rare - Equipment - ARM - Gloves - T3
-    Rarity <= Rare
-    LinkedSockets >= 4
-    BaseType "Goliath Gauntlets"
+# Show # Rare - Equipment - ARM - Gloves - T3
+#     Rarity <= Rare
+#     LinkedSockets >= 4
+#     BaseType "Goliath Gauntlets"
 
-Show # Rare - Equipment - ARM - Boots - T3
-    Rarity <= Rare
-    LinkedSockets >= 4
-    BaseType "Goliath Greaves"
+# Show # Rare - Equipment - ARM - Boots - T3
+#     Rarity <= Rare
+#     LinkedSockets >= 4
+#     BaseType "Goliath Greaves"
 
 # #######################################################################################################################
 # Rare - Equipment - EVA
@@ -1477,12 +1482,12 @@ Show # Rare - Equipment - EVA - Helmet - T1
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 40
 
-Show # Rare - Equipment - EVA - Body Armour - T1
-    Rarity <= Rare
-    LinkedSockets >= 4
-    BaseType "Zodiac Leather" "Assassin's Garb"
-    SetBorderColor 150 0 0              # smoothred
-    SetFontSize 40
+# Show # Rare - Equipment - EVA - Body Armour - T1
+#     Rarity <= Rare
+#     LinkedSockets >= 4
+#     BaseType "Zodiac Leather" "Assassin's Garb"
+#     SetBorderColor 150 0 0              # smoothred
+#     SetFontSize 40
 
 Show # Rare - Equipment - EVA - Gloves - T1
     Rarity <= Rare
@@ -1504,11 +1509,11 @@ Show # Rare - Equipment - EVA - Helmet - T2
     BaseType "Sinner Tricorne" "Silken Hood"
     SetBorderColor 255 255 119          # Rare
 
-Show # Rare - Equipment - EVA - Body Armour - T2
-    Rarity <= Rare
-    LinkedSockets >= 4
-    BaseType "Exquisite Leather"
-    SetBorderColor 255 255 119          # Rare
+# Show # Rare - Equipment - EVA - Body Armour - T2
+#     Rarity <= Rare
+#     LinkedSockets >= 4
+#     BaseType "Exquisite Leather"
+#     SetBorderColor 255 255 119          # Rare
 
 Show # Rare - Equipment - EVA - Gloves - T2
     Rarity <= Rare
@@ -1522,25 +1527,25 @@ Show # Rare - Equipment - EVA - Boots - T2
     BaseType "Stealth Boots"
     SetBorderColor 255 255 119          # Rare
 
-Show # Rare - Equipment - EVA - Helmet - T3
-    Rarity <= Rare
-    LinkedSockets >= 4
-    BaseType "Ursine Pelt" "Noble Tricorne"
+# Show # Rare - Equipment - EVA - Helmet - T3
+#     Rarity <= Rare
+#     LinkedSockets >= 4
+#     BaseType "Ursine Pelt" "Noble Tricorne"
 
-Show # Rare - Equipment - EVA - Body Armour - T3
-    Rarity <= Rare
-    LinkedSockets >= 4
-    BaseType "Destiny Leather" "Sharkskin Tunic" "Cutthroat's Garb"
+# Show # Rare - Equipment - EVA - Body Armour - T3
+#     Rarity <= Rare
+#     LinkedSockets >= 4
+#     BaseType "Destiny Leather" "Sharkskin Tunic" "Cutthroat's Garb"
 
-Show # Rare - Equipment - EVA - Gloves - T3
-    Rarity <= Rare
-    LinkedSockets >= 4
-    BaseType "Shagreen Gloves" "Sharkskin Gloves"
+# Show # Rare - Equipment - EVA - Gloves - T3
+#     Rarity <= Rare
+#     LinkedSockets >= 4
+#     BaseType "Shagreen Gloves" "Sharkskin Gloves"
 
-Show # Rare - Equipment - EVA - Boots - T3
-    Rarity <= Rare
-    LinkedSockets >= 4
-    BaseType "Shagreen Boots" "Sharkskin Boots" "Eelskin Boots"
+# Show # Rare - Equipment - EVA - Boots - T3
+#     Rarity <= Rare
+#     LinkedSockets >= 4
+#     BaseType "Shagreen Boots" "Sharkskin Boots" "Eelskin Boots"
 
 # #######################################################################################################################
 # Rare - Equipment - EVA+ARM
@@ -1573,11 +1578,11 @@ Show # Rare - Equipment - EVA+ARM - Helmet - T2
     BaseType "Pig-Faced Bascinet"
     SetBorderColor 255 255 119          # Rare
 
-Show # Rare - Equipment - EVA+ARM - Body Armour - T2
-    Rarity <= Rare
-    LinkedSockets >= 4
-    BaseType "Triumphant Lamellar" "General's Brigandine" "Full Dragonscale"
-    SetBorderColor 255 255 119          # Rare
+# Show # Rare - Equipment - EVA+ARM - Body Armour - T2
+#     Rarity <= Rare
+#     LinkedSockets >= 4
+#     BaseType "Triumphant Lamellar" "General's Brigandine" "Full Dragonscale"
+#     SetBorderColor 255 255 119          # Rare
 
 Show # Rare - Equipment - EVA+ARM - Gloves - T2
     Rarity <= Rare
@@ -1591,25 +1596,25 @@ Show # Rare - Equipment - EVA+ARM - Boots - T2
     BaseType "Hydrascale Boots"
     SetBorderColor 255 255 119          # Rare
 
-Show # Rare - Equipment - EVA+ARM - Helmet - T3
-    Rarity <= Rare
-    LinkedSockets >= 4
-    BaseType "Lacquered Helmet" "Fencer Helm" "Fluted Bascinet"
+# Show # Rare - Equipment - EVA+ARM - Helmet - T3
+#     Rarity <= Rare
+#     LinkedSockets >= 4
+#     BaseType "Lacquered Helmet" "Fencer Helm" "Fluted Bascinet"
 
-Show # Rare - Equipment - EVA+ARM - Body Armour - T3
-    Rarity <= Rare
-    LinkedSockets >= 4
-    BaseType "Desert Brigandine" "Battle Lamellar" "Commander's Brigandine" "Dragonscale Doublet"
+# Show # Rare - Equipment - EVA+ARM - Body Armour - T3
+#     Rarity <= Rare
+#     LinkedSockets >= 4
+#     BaseType "Desert Brigandine" "Battle Lamellar" "Commander's Brigandine" "Dragonscale Doublet"
 
-Show # Rare - Equipment - EVA+ARM - Gloves - T3
-    Rarity <= Rare
-    LinkedSockets >= 4
-    BaseType "Wyrmscale Gauntlets" "Serpentscale Gauntlets"
+# Show # Rare - Equipment - EVA+ARM - Gloves - T3
+#     Rarity <= Rare
+#     LinkedSockets >= 4
+#     BaseType "Wyrmscale Gauntlets" "Serpentscale Gauntlets"
 
-Show # Rare - Equipment - EVA+ARM - Boots - T3
-    Rarity <= Rare
-    LinkedSockets >= 4
-    BaseType "Wyrmscale Boots" "Serpentscale Boots"
+# Show # Rare - Equipment - EVA+ARM - Boots - T3
+#     Rarity <= Rare
+#     LinkedSockets >= 4
+#     BaseType "Wyrmscale Boots" "Serpentscale Boots"
 
 # #######################################################################################################################
 # Rare - Equipment - ARM+ES
@@ -1622,12 +1627,12 @@ Show # Rare - Equipment - ARM+ES - Helmet - T1
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 40
 
-Show # Rare - Equipment - ARM+ES - Body Armour - T1
-    Rarity <= Rare
-    LinkedSockets >= 4
-    BaseType "Saintly Chainmail"
-    SetBorderColor 150 0 0              # smoothred
-    SetFontSize 40
+# Show # Rare - Equipment - ARM+ES - Body Armour - T1
+#     Rarity <= Rare
+#     LinkedSockets >= 4
+#     BaseType "Saintly Chainmail"
+#     SetBorderColor 150 0 0              # smoothred
+#     SetFontSize 40
 
 Show # Rare - Equipment - ARM+ES - Gloves - T1
     Rarity <= Rare
@@ -1649,11 +1654,11 @@ Show # Rare - Equipment - ARM+ES - Helmet - T2
     BaseType "Magistrate Crown" "Prophet Crown"
     SetBorderColor 255 255 119          # Rare
 
-Show # Rare - Equipment - ARM+ES - Body Armour - T2
-    Rarity <= Rare
-    LinkedSockets >= 4
-    BaseType "Saint's Hauberk" "Elegant Ringmail" "Conquest Chainmail"
-    SetBorderColor 255 255 119          # Rare
+# Show # Rare - Equipment - ARM+ES - Body Armour - T2
+#     Rarity <= Rare
+#     LinkedSockets >= 4
+#     BaseType "Saint's Hauberk" "Elegant Ringmail" "Conquest Chainmail"
+#     SetBorderColor 255 255 119          # Rare
 
 Show # Rare - Equipment - ARM+ES - Gloves - T2
     Rarity <= Rare
@@ -1667,15 +1672,15 @@ Show # Rare - Equipment - ARM+ES - Boots - T2
     BaseType "Legion Boots" "Soldier Boots"
     SetBorderColor 255 255 119          # Rare
 
-Show # Rare - Equipment - ARM+ES - Helmet - T3
-    Rarity <= Rare
-    LinkedSockets >= 4
-    BaseType "Great Crown"
+# Show # Rare - Equipment - ARM+ES - Helmet - T3
+#     Rarity <= Rare
+#     LinkedSockets >= 4
+#     BaseType "Great Crown"
 
-Show # Rare - Equipment - ARM+ES - Body Armour - T3
-    Rarity <= Rare
-    LinkedSockets >= 4
-    BaseType "Devout Chainmail" "Ornate Ringmail" "Crusader Chainmail" "Chain Hauberk"
+# Show # Rare - Equipment - ARM+ES - Body Armour - T3
+#     Rarity <= Rare
+#     LinkedSockets >= 4
+#     BaseType "Devout Chainmail" "Ornate Ringmail" "Crusader Chainmail" "Chain Hauberk"
 
 # #######################################################################################################################
 # Rare - Equipment - EVA+ES
@@ -1688,12 +1693,12 @@ Show # Rare - Equipment - EVA+ES - Helmet - T1
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 40
 
-Show # Rare - Equipment - EVA+ES - Body Armour - T1
-    Rarity <= Rare
-    LinkedSockets >= 4
-    BaseType "Carnal Armour"
-    SetBorderColor 150 0 0              # smoothred
-    SetFontSize 40
+# Show # Rare - Equipment - EVA+ES - Body Armour - T1
+#     Rarity <= Rare
+#     LinkedSockets >= 4
+#     BaseType "Carnal Armour"
+#     SetBorderColor 150 0 0              # smoothred
+#     SetFontSize 40
 
 Show # Rare - Equipment - EVA+ES - Gloves - T1
     Rarity <= Rare
@@ -1715,11 +1720,11 @@ Show # Rare - Equipment - EVA+ES - Helmet - T2
     BaseType "Deicide Mask" "Harlequin Mask"
     SetBorderColor 255 255 119          # Rare
 
-Show # Rare - Equipment - EVA+ES - Body Armour - T2
-    Rarity <= Rare
-    LinkedSockets >= 4
-    BaseType "Sadist Garb" "Varnished Coat" "Blood Raiment"
-    SetBorderColor 255 255 119          # Rare
+# Show # Rare - Equipment - EVA+ES - Body Armour - T2
+#     Rarity <= Rare
+#     LinkedSockets >= 4
+#     BaseType "Sadist Garb" "Varnished Coat" "Blood Raiment"
+#     SetBorderColor 255 255 119          # Rare
 
 Show # Rare - Equipment - EVA+ES - Gloves - T2
     Rarity <= Rare
@@ -1733,25 +1738,25 @@ Show # Rare - Equipment - EVA+ES - Boots - T2
     BaseType "Assassin's Boots"
     SetBorderColor 255 255 119          # Rare
 
-Show # Rare - Equipment - EVA+ES - Helmet - T3
-    Rarity <= Rare
-    LinkedSockets >= 4
-    BaseType "Regicide Mask" "Callous Mask"
+# Show # Rare - Equipment - EVA+ES - Helmet - T3
+#     Rarity <= Rare
+#     LinkedSockets >= 4
+#     BaseType "Regicide Mask" "Callous Mask"
 
-Show # Rare - Equipment - EVA+ES - Body Armour - T3
-    Rarity <= Rare
-    LinkedSockets >= 4
-    BaseType "Sentinel Jacket" "Crypt Armour" "Lacquered Garb"
+# Show # Rare - Equipment - EVA+ES - Body Armour - T3
+#     Rarity <= Rare
+#     LinkedSockets >= 4
+#     BaseType "Sentinel Jacket" "Crypt Armour" "Lacquered Garb"
 
-Show # Rare - Equipment - EVA+ES - Gloves - T3
-    Rarity <= Rare
-    LinkedSockets >= 4
-    BaseType "Carnal Mitts" "Ambush Mitts" "Trapper Mitts"
+# Show # Rare - Equipment - EVA+ES - Gloves - T3
+#     Rarity <= Rare
+#     LinkedSockets >= 4
+#     BaseType "Carnal Mitts" "Ambush Mitts" "Trapper Mitts"
 
-Show # Rare - Equipment - EVA+ES - Boots - T3
-    Rarity <= Rare
-    LinkedSockets >= 4
-    BaseType "Carnal Boots" "Ambush Boots" "Trapper Boots"
+# Show # Rare - Equipment - EVA+ES - Boots - T3
+#     Rarity <= Rare
+#     LinkedSockets >= 4
+#     BaseType "Carnal Boots" "Ambush Boots" "Trapper Boots"
 
 # #######################################################################################################################
 # Rare - Equipment - Specials
@@ -1760,30 +1765,35 @@ Show # Rare - Equipment - EVA+ES - Boots - T3
 Show # Rare - Equipment - Specials - Bone Helmet
     Rarity <= Rare
     BaseType "Bone Helmet"
+    SetTextColor 255 140 0              # darkorange
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 40
 
 Show # Rare - Equipment - Specials - Fingerless Silk Gloves
     Rarity <= Rare
     BaseType "Fingerless Silk Gloves"
+    SetTextColor 255 140 0              # darkorange
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 40
 
 Show # Rare - Equipment - Specials - Gripped Gloves
     Rarity <= Rare
     BaseType "Gripped Gloves"
+    SetTextColor 255 140 0              # darkorange
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 40
 
 Show # Rare - Equipment - Specials - Spiked Gloves
     Rarity <= Rare
     BaseType "Spiked Gloves"
+    SetTextColor 255 140 0              # darkorange
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 40
 
 Show # Rare - Equipment - Specials - Two-Toned Boots
     Rarity <= Rare
     BaseType "Two-Toned Boots"
+    SetTextColor 255 140 0              # darkorange
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 40
 
@@ -1899,10 +1909,10 @@ Show # Rare - Equipment - Specials - Two-Toned Boots
 # Rare - Shield - Res
 # #######################################################################################################################
 
-Show # Rare - Shield - Res - T1
-    Rarity <= Rare
-    BaseType "Archon Kite Shield"
-    SetBorderColor 150 0 0              # smoothred
+# Show # Rare - Shield - Res - T1
+#     Rarity <= Rare
+#     BaseType "Archon Kite Shield"
+#     SetBorderColor 150 0 0              # smoothred
 
 # Show # Rare - Shield - Res - T2
 #     Rarity <= Rare
