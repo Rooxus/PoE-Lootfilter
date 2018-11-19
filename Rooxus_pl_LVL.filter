@@ -1068,10 +1068,10 @@ Hide # Normal - Hide unwanted Drops for current char, uncomment to show - 2H Mac
     Class "Two Hand Maces" 
     SetFontSize 25
 
-# Hide # Normal - Hide unwanted Drops for current char, uncomment to show - Claw
-#     Rarity <= Normal
-#     Class "Claws"
-#     SetFontSize 25
+Hide # Normal - Hide unwanted Drops for current char, uncomment to show - Claw
+    Rarity <= Normal
+    Class "Claws"
+    SetFontSize 25
 
 Hide # Normal - Hide unwanted Drops for current char, uncomment to show - Dagger
     Rarity = Normal
