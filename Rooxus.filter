@@ -60,8 +60,8 @@ Show # Currency - Valuable
 Show # Currency - Valuable
     Class "Currency"
     BaseType "Blessed Orb" "Orb of Annulment" "Gemcutter's Prism" "Stacked Deck"
-    SetTextColor 170 158 130			# currency
-    SetBorderColor 170 158 130          # currency
+    SetTextColor 127 255 212            # aquamarine1
+    SetBorderColor 127 255 212          # aquamarine1
     SetFontSize 40
     PlayAlertSound 7 180                # Sound - T3
     MinimapIcon 2 White Square
@@ -70,8 +70,8 @@ Show # Currency - Valuable
 Show # Currency - Valuable
     Class "Currency"
     BaseType "Orb of Scouring" "Orb of Alchemy" "Orb of Fusing" "Orb of Regret"
-    SetTextColor 170 158 130			# currency
-    SetBorderColor 170 158 130          # currency
+    SetTextColor 127 255 212            # aquamarine1
+    SetBorderColor 127 255 212          # aquamarine1
     SetFontSize 40
     PlayAlertSound 7 180                # Sound - T3
     MinimapIcon 2 White Square
@@ -80,8 +80,8 @@ Show # Currency - Valuable
 Show # Currency - Valuable shards
     Class "Currency"
     BaseType "Ancient Shard" "Engineer's Shard" "Exalted Shard" "Harbinger's Shard" "Horizon Shard"
-    SetTextColor 72 118 255             # royalblue1
-    SetBorderColor 170 158 130			# currency
+    SetTextColor 127 255 212            # aquamarine1
+    SetBorderColor 127 255 212          # aquamarine1
     SetFontSize 40
     PlayAlertSound 7 180                # Sound - T3
     MinimapIcon 2 White Square
@@ -90,75 +90,81 @@ Show # Currency - Valuable shards
 Show # Currency - Medium Value
     Class "Currency"
     BaseType "Glassblower's Bauble"
-    SetTextColor 170 158 130			# currency
-    SetBorderColor 170 158 130			# currency
+    SetTextColor 127 255 212            # aquamarine1
+    SetBorderColor 127 255 212          # aquamarine1
     SetFontSize 40
 
 Show # Currency - Medium Value
     Class "Currency"
     BaseType "Annulment Shard" "Binding Shard" "Chaos Shard" "Regal Shard" "Alchemy Shard"
-    SetTextColor 170 158 130			# currency
+    SetTextColor 127 255 212            # aquamarine1
+    SetBorderColor 127 255 212          # aquamarine1
     SetFontSize 40
 
 Show # Currency - Low Value
     Class "Currency"
     BaseType "Chromatic Orb"
     SetTextColor 170 158 130			# currency
-    SetBorderColor 0 197 205            # turquoise3
+    SetBorderColor 127 255 212          # aquamarine1
     SetFontSize 40
 
 Show # Currency - Low Value
     Class "Currency"
     BaseType "Jeweller's Orb"
     SetTextColor 170 158 130			# currency
+    SetBorderColor 127 255 212          # aquamarine1
     SetFontSize 40
 
 Hide # Currency - Low Value
     Class "Currency"
     BaseType "Orb of Chance"
     SetTextColor 170 158 130			# currency
+    SetBorderColor 127 255 212          # aquamarine1
     SetFontSize 40
 
 Show # Currency - Low Value
     Class "Currency"
     BaseType "Orb of Alteration"
     SetTextColor 170 158 130			# currency
+    SetBorderColor 127 255 212          # aquamarine1
     SetFontSize 40
 
 Hide # Currency - Low Value
     Class "Currency"
     BaseType "Orb of Transmutation"
-    SetTextColor 127 255 212            # aquamarine1
+    SetTextColor 170 158 130			# currency
+    SetBorderColor 127 255 212          # aquamarine1
+    SetFontSize 40
+
+Hide # Currency - Low Value
+    Class "Currency"
+    BaseType "Orb of Augmentation"
+    SetTextColor 170 158 130			# currency
+    SetBorderColor 127 255 212          # aquamarine1
     SetFontSize 40
 
 Hide # Currency - Low Value
     Class "Currency"
     BaseType "Blacksmith's Whetstone"
-    SetTextColor 127 255 212            # aquamarine1
+    SetTextColor 170 158 130			# currency
     SetFontSize 35
 
 Hide # Currency - Low Value
     Class "Currency"
     BaseType "Armourer's Scrap"
-    SetTextColor 127 255 212            # aquamarine1
-    SetFontSize 35
-
-Hide # Currency - Low Value
-    Class "Currency"
-    BaseType "Orb of Augmentation"
-    SetTextColor 127 255 212            # aquamarine1
+    SetTextColor 170 158 130			# currency
     SetFontSize 35
 
 Hide # Currency - Low Value
     Class "Currency"
     BaseType "Portal Scroll"
-    SetTextColor 127 255 212            # aquamarine1
+    SetTextColor 170 158 130			# currency
     SetFontSize 35
 
 Hide # Currency - Low Value
     Class "Currency"
     BaseType "Scroll of Wisdom"
-    SetTextColor 127 255 212            # aquamarine1
+    SetTextColor 170 158 130			# currency
     SetFontSize 35
 
 Hide # Currency - Scroll Fragment & Alteration Shard
@@ -413,7 +419,7 @@ Show # Unique - Jewelery/Maps
 # Links and Sockets
 # #######################################################################################################################
 
-Show # Links and Sockets - # 6L
+Show # Links and Sockets - 6L
     LinkedSockets = 6
     SetTextColor 0 255 150              # high value
     SetBorderColor 0 255 150            # high value
