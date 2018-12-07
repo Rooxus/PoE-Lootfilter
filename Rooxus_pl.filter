@@ -143,13 +143,13 @@ Show # Currency - Low Value
     SetBorderColor 127 255 212          # aquamarine1
     SetFontSize 40
 
-Show # Currency - Low Value
+Hide # Currency - Low Value
     Class "Currency"
     BaseType "Blacksmith's Whetstone"
     SetTextColor 170 158 130			# currency
     SetFontSize 35
 
-Show # Currency - Low Value
+Hide # Currency - Low Value
     Class "Currency"
     BaseType "Armourer's Scrap"
     SetTextColor 170 158 130			# currency
@@ -1030,6 +1030,11 @@ Hide # Rare - Jewelery - Belt - T3
 # Rare - Crit Sword
 # #######################################################################################################################
 
+Show # Rare - Crit Sword - T1
+    Rarity <= Rare
+    BaseType "Jagged Foil" "Elegant Foil"
+    SetBorderColor 150 0 0              # smoothred
+
 # Show # Rare - Crit Sword - T1
 #     Rarity <= Rare
 #     BaseType "Jewelled Foil" "Spiraled Foil"
@@ -1179,10 +1184,10 @@ Hide # Rare - Claw - T1
 # Rare - Dagger
 # #######################################################################################################################
 
-Show # Rare - Dagger - T1
-    Rarity <= Rare
-    BaseType "Prong Dagger" "Trisula"
-    SetBorderColor 150 0 0              # smoothred
+# Show # Rare - Dagger - T1
+#     Rarity <= Rare
+#     BaseType "Prong Dagger" "Trisula"
+#     SetBorderColor 150 0 0              # smoothred
 
 # Show # Rare - Dagger - T1
 #     Rarity <= Rare
