@@ -366,7 +366,7 @@ Show # Unique - T2 (Neversink 07.12.2018)
 
 Show # Unique - Multibase (Neversink 07.12.2018)
     Rarity = Unique
-	BaseType "Amber Amulet" "Exquisite Leather" "Lapis Amulet" "Leather Belt" "Magistrate Crown" "Onyx Amulet" "Topaz Ring" 	BaseType "Carved Wand" "Citrine Amulet" "Ebony Tower Shield" "Goathide Boots" "Gold Amulet" "Gold Ring" "Granite Flask" "Hubris Circlet" "Imperial Bow" "Imperial Staff" "Murder Boots" "Paua Ring" "Sadist Garb" "Sorcerer Boots" "Stibnite Flask" "Terror Claw" "Tornado Wand" "Two-Stone Ring" "Unset Ring" "Vaal Sceptre"
+	BaseType "Amber Amulet" "Exquisite Leather" "Lapis Amulet" "Leather Belt" "Magistrate Crown" "Onyx Amulet" "Topaz Ring" "Carved Wand" "Citrine Amulet" "Ebony Tower Shield" "Goathide Boots" "Gold Amulet" "Gold Ring" "Granite Flask" "Hubris Circlet" "Imperial Bow" "Imperial Staff" "Murder Boots" "Paua Ring" "Sadist Garb" "Sorcerer Boots" "Stibnite Flask" "Terror Claw" "Tornado Wand" "Two-Stone Ring" "Unset Ring" "Vaal Sceptre"
     SetTextColor 0 0 0 0                # transparent
     SetBackgroundColor 175 96 37        # uniq
     SetBorderColor 0 0 0 0              # transparent
@@ -1088,6 +1088,17 @@ Show # Rare - Chromatic Orb Recipe
     SetBorderColor 0 197 205            # turquoise3
 
 # #######################################################################################################################
+# Rare - Show caster weapons
+# #######################################################################################################################
+
+Show # Rare - Show caster weapons
+    ItemLevel <= 68
+    Rarity = Rare
+    Class "Daggers" "Wands" "Sceptres"
+    SetBorderColor 150 0 0              # smoothred
+    SetFontSize 40
+
+# #######################################################################################################################
 # Rare - Hide unwanted Drops for current char, Uncomment to show
 # #######################################################################################################################
 
@@ -1146,21 +1157,10 @@ Hide # Rare - Hide unwanted Drops for current char, uncomment to show - Staff
     Class "Staves"
     SetFontSize 25
 
-# Hide # Rare - Hide unwanted Drops for current char, uncomment to show - Bows/Quivers
-#     Rarity = Rare
-#     Class "Bows" "Quivers"
-#     SetFontSize 25
-
-# #######################################################################################################################
-# Rare - Show caster weapons
-# #######################################################################################################################
-
-# Show # Rare - Show caster weapons
-#     ItemLevel <= 68
-#     Rarity = Rare
-#     Class "Daggers" "Wands" "Staves" "Sceptres"
-#     SetBorderColor 150 0 0              # smoothred
-#     SetFontSize 40
+Hide # Rare - Hide unwanted Drops for current char, uncomment to show - Bows/Quivers
+    Rarity = Rare
+    Class "Bows" "Quivers"
+    SetFontSize 25
 
 # #######################################################################################################################
 # Rare - Hide Obsolete Gear
