@@ -564,7 +564,6 @@ Show # Divination Cards - exclusion
     Class "Divination Card"
 	BaseType "The Wolf's Shadow" "The Master Artisan"
     SetTextColor 0 180 255              # cards
-    SetFontSize 45
 
 Show # Divination Cards - T1 (Neversink 18.12.2018)
     Class "Divination Card"
