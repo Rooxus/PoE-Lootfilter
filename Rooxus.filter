@@ -344,9 +344,9 @@ Hide # Currency - Low Value
 # Unique
 # #######################################################################################################################
 
-Show # Unique - T1 (Neversink 07.12.2018)
+Show # Unique - T1 (Neversink 18.12.2018)
     Rarity = Unique
-	BaseType "Arcanist Gloves" "Assassin's Boots" "Callous Mask" "Clutching Talisman" "Crusader Boots" "Ezomyte Tower Shield" "Glorious Plate" "Greatwolf Talisman" "Harlequin Mask" "Imperial Maul" "Legion Gloves" "Nightmare Mace" "Occultist's Vestment" "Prismatic Jewel" "Prophecy Wand" "Rawhide Boots" "Rawhide Tower Shield" "Riveted Gloves" "Rotfeather Talisman" "Royal Axe" "Ruby Flask" "Sanctified Life Flask" "Sapphire Flask" "Wereclaw Talisman" "Jewelled Foil" "Lion Pelt" "Crystal Belt"
+	BaseType "Arcanist Gloves" "Assassin's Boots" "Callous Mask" "Clutching Talisman" "Crusader Boots" "Ezomyte Tower Shield" "Glorious Plate" "Greatwolf Talisman" "Jewelled Foil" "Nightmare Mace" "Occultist's Vestment" "Prismatic Jewel" "Prophecy Wand" "Rawhide Boots" "Rawhide Tower Shield" "Riveted Gloves" "Rotfeather Talisman" "Royal Axe" "Ruby Flask" "Sapphire Flask" "Wereclaw Talisman"
     SetTextColor 175 96 37              # uniq
     SetBackgroundColor 255 255 255      # white
     SetBorderColor 175 96 37            # uniq
@@ -355,18 +355,18 @@ Show # Unique - T1 (Neversink 07.12.2018)
     MinimapIcon 0 Red Star
     PlayEffect Red
 
-Show # Unique - T2 (Neversink 07.12.2018)
+Show # Unique - T2 (Neversink 18.12.2018)
     Rarity = Unique
-	BaseType "Abyssal Axe" "Arcanist Slippers" "Bismuth Flask" "Black Maw Talisman" "Blood Raiment" "Blood Sceptre" "Carnal Sceptre" "Cedar Tower Shield" "Citadel Bow" "Clasped Mitts" "Cutlass" "Deicide Mask" "Destiny Leather" "Ezomyte Burgonet" "Full Wyrmscale" "Gladiator Plate" "Grand Mana Flask" "Hellion's Paw" "Highborn Staff" "Hydrascale Boots" "Hydrascale Gauntlets" "Jingling Spirit Shield" "Leather Cap" "Nubuck Boots" "Nubuck Gloves" "Penetrating Arrow Quiver" "Pinnacle Tower Shield" "Raven Mask" "Ritual Sceptre" "Royal Burgonet" "Sacrificial Garb" "Sanctified Mana Flask" "Savant's Robe" "Sharkskin Tunic" "Siege Axe" "Silken Hood" "Steelhead" "Thorium Spirit Shield" "Titan Greaves" "Topaz Flask" "Vaal Mask" "Vaal Spirit Shield" "Void Axe" "Wyrmscale Doublet" "Lacquered Garb" "Varnished Coat" "Nightmare Bascinet" "Champion Kite Shield"
+	BaseType "Ambush Mitts" "Ancient Gauntlets" "Arcanist Slippers" "Bismuth Flask" "Blood Sceptre" "Carnal Boots" "Carnal Sceptre" "Citadel Bow" "Cutlass" "Full Wyrmscale" "Gemstone Sword" "Gladiator Plate" "Grand Mana Flask" "Harlequin Mask" "Highborn Staff" "Hydrascale Gauntlets" "Imperial Maul" "Iron Sceptre" "Jingling Spirit Shield" "Legion Gloves" "Nightmare Bascinet" "Nubuck Boots" "Royal Burgonet" "Sacrificial Garb" "Sanctified Mana Flask" "Savant's Robe" "Siege Axe" "Thorium Spirit Shield" "Topaz Flask" "Vaal Mask" "Vaal Spirit Shield" "Varnished Coat" "Void Axe" "Zodiac Leather"
     SetBorderColor 0 255 150            # high value
     SetFontSize 45
     PlayAlertSound 1 200                # Sound - T2
     MinimapIcon 0 Red Diamond
     PlayEffect Red
 
-Show # Unique - Multibase (Neversink 07.12.2018)
+Show # Unique - Multibase (Neversink 18.12.2018)
     Rarity = Unique
-	BaseType "Amber Amulet" "Exquisite Leather" "Lapis Amulet" "Leather Belt" "Magistrate Crown" "Onyx Amulet" "Topaz Ring" "Carved Wand" "Citrine Amulet" "Ebony Tower Shield" "Goathide Boots" "Gold Amulet" "Gold Ring" "Granite Flask" "Hubris Circlet" "Imperial Bow" "Imperial Staff" "Murder Boots" "Paua Ring" "Sadist Garb" "Sorcerer Boots" "Stibnite Flask" "Terror Claw" "Tornado Wand" "Two-Stone Ring" "Unset Ring" "Vaal Sceptre"
+	BaseType "Amber Amulet" "Imperial Staff" "Lapis Amulet" "Leather Belt" "Magistrate Crown" "Onyx Amulet" "Carved Wand" "Citrine Amulet" "Ebony Tower Shield" "Goathide Boots" "Gold Amulet" "Gold Ring" "Granite Flask" "Hubris Circlet" "Imperial Bow" "Murder Boots" "Sadist Garb" "Sorcerer Boots" "Stibnite Flask" "Terror Claw" "Tornado Wand" "Two-Stone Ring" "Unset Ring" "Vaal Sceptre"
     SetTextColor 0 0 0 0                # transparent
     SetBackgroundColor 175 96 37        # uniq
     SetBorderColor 0 0 0 0              # transparent
@@ -375,7 +375,7 @@ Show # Unique - Multibase (Neversink 07.12.2018)
     MinimapIcon 2 Red Star
     PlayEffect Red
 
-Show # Unique - Fated (Neversink 07.12.2018)
+Show # Unique - Fated (Neversink 18.12.2018)
     Rarity = Unique
 	BaseType "Coral Amulet" "Coral Ring" "Crude Bow" "Death Bow" "Fire Arrow Quiver" "Gavel" "Gilded Sallet" "Gnarled Branch" "Goathide Gloves" "Golden Buckler" "Iron Circlet" "Iron Hat" "Iron Ring" "Iron Staff" "Jade Amulet" "Jade Hatchet" "Jagged Maul" "Long Bow" "Ornate Sword" "Painted Buckler" "Plank Kite Shield" "Plate Vest" "Reaver Sword" "Reinforced Greaves" "Royal Bow" "Royal Staff" "Scholar Boots" "Serrated Arrow Quiver" "Sledgehammer" "Spiraled Wand" "Studded Belt" "Velvet Gloves" "Velvet Slippers" "Vine Circlet" "War Buckler" "Wild Leather" "Woodsplitter"
     SetBorderColor 159 15 213			# violett
@@ -566,9 +566,9 @@ Show # Divination Cards - exclusion
     SetTextColor 0 180 255              # cards
     SetFontSize 45
 
-Show # Divination Cards - T1 (Neversink 07.12.2018)
+Show # Divination Cards - T1 (Neversink 18.12.2018)
     Class "Divination Card"
-	BaseType "Abandoned Wealth" "Beauty Through Death" "Heterochromia" "House of Mirrors" "Hunter's Reward" "Immortal Resolve" "Mawr Blaidd" "Pride Before the Fall" "The Celestial Stone" "The Doctor" "The Dragon's Heart" "The Fiend" "The Immortal" "The Iron Bard" "The King's Heart" "The Mayor" "The Queen" "The Samurai's Eye" "The Spark and the Flame" "The Undaunted" "The Wolf" "The Wolven King's Bite" "The Master" "The Nurse" "The Sacrifice"
+	BaseType "A Dab of Ink" "Abandoned Wealth" "Beauty Through Death" "House of Mirrors" "Hunter's Reward" "Immortal Resolve" "Pride Before the Fall" "The Doctor" "The Dragon's Heart" "The Fiend" "The Immortal" "The Iron Bard" "The King's Heart" "The Mayor" "The Nurse" "The Queen" "The Samurai's Eye" "The Spark and the Flame" "The Wolven King's Bite" "The World Eater" "Wealth and Power"
     SetTextColor 0 180 255              # cards
     SetBorderColor 0 255 150            # high value
     SetFontSize 45
@@ -576,9 +576,9 @@ Show # Divination Cards - T1 (Neversink 07.12.2018)
     MinimapIcon 0 Blue Star
     PlayEffect Blue
 
-Show # Divination Cards - T2 (Neversink 07.12.2018)
+Show # Divination Cards - T2 (Neversink 18.12.2018)
     Class "Divination Card"
-	BaseType "Boon of the First Ones" "Chaotic Disposition" "Last Hope" "Perfection" "The Artist" "The Cartographer" "The Celestial Justicar" "The Enlightened" "The Hoarder" "The Hunger" "The Last One Standing" "The Offering" "The Professor" "The Saint's Treasure" "The Sephirot" "The Undisputed" "The Valkyrie" "The Vast" "The Void" "The Wind" "The World Eater" "Wealth and Power" "The Life Thief"
+	BaseType "Chaotic Disposition" "Mawr Blaidd" "Perfection" "The Artist" "The Brittle Emperor" "The Cartographer" "The Celestial Justicar" "The Celestial Stone" "The Endless Darkness" "The Enlightened" "The Ethereal" "The Hoarder" "The Hunger" "The Last One Standing" "The Life Thief" "The Master" "The Offering" "The Polymath" "The Professor" "The Risk" "The Sacrifice" "The Saint's Treasure" "The Sephirot" "The Undaunted" "The Valkyrie" "The Void"
     SetTextColor 0 180 255              # cards
     SetBorderColor 0 180 255            # cards
     SetFontSize 45
@@ -586,9 +586,9 @@ Show # Divination Cards - T2 (Neversink 07.12.2018)
     MinimapIcon 0 Blue Diamond
     PlayEffect Blue
 
-Show # Divination Cards - T3 (Neversink 07.12.2018)
+Show # Divination Cards - T3 (Neversink 18.12.2018)
     Class "Divination Card"
-	BaseType "Atziri's Arsenal" "Blessing of God" "Bowyer's Dream" "Emperor of Purity" "Gemcutter's Promise" "Glimmer of Hope" "Harmony of Souls" "Hope" "Hubris" "Humility" "Jack in the Box" "Left to Fate" "Lingering Remnants" "Lucky Connections" "Lucky Deck" "No Traces" "Rebirth" "Scholar of the Seas" "The Admirer" "The Aesthete" "The Beast" "The Body" "The Breach" "The Brittle Emperor" "The Cacophony" "The Chains that Bind" "The Cursed King" "The Dapper Prodigy" "The Dark Mage" "The Darkest Dream" "The Dreamer" "The Dreamland" "The Encroaching Darkness" "The Endless Darkness" "The Ethereal" "The Fletcher" "The Formless Sea" "The Gladiator" "The Hale Heart" "The Innocent" "The Inventor" "The Jester" "The Jeweller's Boon" "The Lion" "The Obscured" "The Penitent" "The Polymath" "The Porcupine" "The Price of Protection" "The Risk" "The Soul" "The Standoff" "The Surveyor" "The Sword King's Salute" "The Thaumaturgist" "The Throne" "The Trial" "The Twilight Moon" "The Valley of Steel Boxes" "The Warlord" "The Wilted Rose" "The Wretched" "Time-Lost Relic" "A Dab of Ink"
+	BaseType "Atziri's Arsenal" "Boon of the First Ones" "Bowyer's Dream" "Emperor of Purity" "Glimmer of Hope" "Harmony of Souls" "Heterochromia" "Hope" "Humility" "Last Hope" "Left to Fate" "Lingering Remnants" "Lucky Connections" "Lucky Deck" "No Traces" "Rebirth" "Scholar of the Seas" "The Admirer" "The Beast" "The Body" "The Breach" "The Cacophony" "The Chains that Bind" "The Cursed King" "The Dapper Prodigy" "The Dark Mage" "The Darkest Dream" "The Dreamer" "The Dreamland" "The Encroaching Darkness" "The Fletcher" "The Formless Sea" "The Gladiator" "The Hale Heart" "The Innocent" "The Inventor" "The Jester" "The Jeweller's Boon" "The Lion" "The Mercenary" "The Obscured" "The Penitent" "The Porcupine" "The Price of Protection" "The Soul" "The Sword King's Salute" "The Thaumaturgist" "The Throne" "The Trial" "The Twilight Moon" "The Undisputed" "The Valley of Steel Boxes" "The Vast" "The Warlord" "The Wilted Rose" "The Wind" "The Wolf" "The Wretched" "Time-Lost Relic"
     SetTextColor 0 180 255              # cards
     SetBorderColor 0 180 255            # cards
     SetFontSize 45
@@ -596,7 +596,7 @@ Show # Divination Cards - T3 (Neversink 07.12.2018)
     MinimapIcon 2 Blue Square
     PlayEffect Blue
 
-Show # Divination Cards - T4 (Neversink 07.12.2018)
+Show # Divination Cards - T4 (Neversink 18.12.2018)
     Class "Divination"
 	BaseType "Coveted Possession" "Emperor's Luck" "Loyalty" "The Catalyst" "The Gemcutter" "The Survivalist" "The Union" "The Wrath" "Three Faces in the Dark" "Three Voices" "Vinia's Token"
     SetTextColor 0 180 255              # cards
@@ -629,7 +629,7 @@ Show # Gems - Q10+
     SetBorderColor 27 162 155           # gem
     SetFontSize 45
 
-Show # Gems - Q1+
+Hide # Gems - Q1+
     Quality >= 1
     Class "Gems"
     SetTextColor 27 162 155             # gem
@@ -642,7 +642,7 @@ Show # Gems - DropOnly
     SetBorderColor 27 162 155           # gem
     SetFontSize 45
 
-Show # Gems - Vaal
+Hide # Gems - Vaal
     Class "Gems"
     BaseType "Vaal"
     SetTextColor 27 162 155             # gem
@@ -824,6 +824,15 @@ Show # Delve Mod Items
     Identified True
     Rarity = Magic
     HasExplicitMod "of Crafting" "of Spellcraft" "of Weaponcraft" "of the Underground" "Subterranean"
+    SetBorderColor 150 0 0              # smoothred
+    SetFontSize 45
+    PlayAlertSound 1 200                # Sound - T2
+    MinimapIcon 0 Brown Star
+    PlayEffect Brown
+
+Show # Bestiary Mod Items
+	Identified True
+	HasExplicitMod "of Farrul" "of Craiceann" "of Fenumus" "of Saqawal"
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 45
     PlayAlertSound 1 200                # Sound - T2
@@ -1027,11 +1036,11 @@ Hide # Normal/Magic - Hide Equipment
 # Rare - Corrupted
 # #######################################################################################################################
 
-Show # Rare - Corrupted
-    Corrupted True
-    Rarity = Rare
-    SetBorderColor 255 140 0		    # darkorange
-    SetFontSize 45
+# Show # Rare - Corrupted
+#     Corrupted True
+#     Rarity = Rare
+#     SetBorderColor 255 140 0		    # darkorange
+#     SetFontSize 45
 
 # #######################################################################################################################
 # Rare - Jewelery
@@ -1081,11 +1090,17 @@ Show # Rare - Jewelery - Belt - T1
 
 Show # Rare - Jewelery - Belt - T2
     Rarity = Rare
-    BaseType "Heavy Belt" "Leather Belt" "Rustic Sash"
+    BaseType "Leather Belt"
     SetBorderColor 255 255 119          # Rare
     SetFontSize 40
 
-# Show # Rare - Jewelery - Belt - T3
+Show # Rare - Jewelery - Belt - T3
+    Rarity = Rare
+    BaseType "Heavy Belt" "Rustic Sash"
+    SetBorderColor 255 255 119          # Rare
+    SetFontSize 40
+
+# Show # Rare - Jewelery - Belt - T4
 #     Rarity = Rare
 #     Class "Belts"
 
@@ -1093,322 +1108,322 @@ Show # Rare - Jewelery - Belt - T2
 # Rare - Crit Sword
 # #######################################################################################################################
 
-# Show # Rare - Crit Sword - T1
-#     Rarity = Rare
-#     BaseType "Jewelled Foil" "Spiraled Foil"
-#     SetBorderColor 150 0 0              # smoothred
-#     SetFontSize 45
+Hide # Rare - Crit Sword - T1
+    Rarity = Rare
+    BaseType "Jewelled Foil" "Spiraled Foil"
+    SetBorderColor 150 0 0              # smoothred
+    SetFontSize 45
 
-# Show # Rare - Crit Sword - T2
-#     Rarity = Rare
-#     BaseType "Pecoraro" "Dragonbone Rapier"
-#     SetBorderColor 255 255 119          # Rare
-#     SetFontSize 40
+Hide # Rare - Crit Sword - T2
+    Rarity = Rare
+    BaseType "Pecoraro" "Dragonbone Rapier"
+    SetBorderColor 255 255 119          # Rare
+    SetFontSize 40
 
-# Show # Rare - Crit Sword - T2
-#    Rarity = Rare
-#    BaseType "Serrated Foil" "Fancy Foil" "Dragonbone Rapier" "Pecoraro"
-#    SetBorderColor 255 255 119 # Rare
-#     SetFontSize 40
+Hide # Rare - Crit Sword - T2
+   Rarity = Rare
+   BaseType "Serrated Foil" "Fancy Foil" "Dragonbone Rapier" "Pecoraro"
+   SetBorderColor 255 255 119 # Rare
+    SetFontSize 40
 
-# Show # Rare - Crit Sword - T3
-#     Rarity = Rare
-#     BaseType "Jagged Foil" "Elegant Foil" "Whalebone Rapier" "Basket Rapier" "Wyrmbone Rapier" "Estoc"
-#     SetFontSize 40
+Hide # Rare - Crit Sword - T3
+    Rarity = Rare
+    BaseType "Jagged Foil" "Elegant Foil" "Whalebone Rapier" "Basket Rapier" "Wyrmbone Rapier" "Estoc"
+    SetFontSize 40
 
-# Show # Rare - Crit Sword - T2
-#     Rarity = Rare
-#     BaseType "Harpy Rapier" "Vaal Rapier" "Pecoraro" "Tempered Foil" "Apex Rapier" "Fancy Foil"
-#     SetBorderColor 255 255 119          # Rare
-#     SetFontSize 40
+Hide # Rare - Crit Sword - T2
+    Rarity = Rare
+    BaseType "Harpy Rapier" "Vaal Rapier" "Pecoraro" "Tempered Foil" "Apex Rapier" "Fancy Foil"
+    SetBorderColor 255 255 119          # Rare
+    SetFontSize 40
 
-# Show # Rare - Crit Sword - T3
-#     Rarity = Rare
-#     BaseType "Dragonbone Rapier" "Primeval Rapier" "Serrated Foil" "Estoc" "Wyrmbone Rapier" "Elegant Foil" "Jagged Foil" "Whalebone Rapier" "Basket Rapier"
-#     SetFontSize 40
+Hide # Rare - Crit Sword - T3
+    Rarity = Rare
+    BaseType "Dragonbone Rapier" "Primeval Rapier" "Serrated Foil" "Estoc" "Wyrmbone Rapier" "Elegant Foil" "Jagged Foil" "Whalebone Rapier" "Basket Rapier"
+    SetFontSize 40
 
 # #######################################################################################################################
 # Rare - Accuracy Sword
 # #######################################################################################################################
 
-# Show # Rare - Accuracy Sword - T1
-#     Rarity = Rare
-#     BaseType "Corsair Sword" "Eternal Sword"
-#     SetBorderColor 150 0 0              # smoothred
-#     SetFontSize 45
+Hide # Rare - Accuracy Sword - T1
+    Rarity = Rare
+    BaseType "Corsair Sword" "Eternal Sword"
+    SetBorderColor 150 0 0              # smoothred
+    SetFontSize 45
 
-# Show # Rare - Accuracy Sword - T2
-#     Rarity = Rare
-#     BaseType "Tiger Hook" "Midnight Blade" "Vaal Blade" "Legion Sword" "Gladius"
-#     SetBorderColor 255 255 119          # Rare
-#     SetFontSize 40
+Hide # Rare - Accuracy Sword - T2
+    Rarity = Rare
+    BaseType "Tiger Hook" "Midnight Blade" "Vaal Blade" "Legion Sword" "Gladius"
+    SetBorderColor 255 255 119          # Rare
+    SetFontSize 40
 
-# Show # Rare - Accuracy Sword - T3
-#     Rarity = Rare
-#     BaseType "Graceful Sword" "Cutlass" "Elegant Sword" "Sabre"
-#     SetFontSize 40
+Hide # Rare - Accuracy Sword - T3
+    Rarity = Rare
+    BaseType "Graceful Sword" "Cutlass" "Elegant Sword" "Sabre"
+    SetFontSize 40
 
 # #######################################################################################################################
 # Rare - Bleed Sword
 # #######################################################################################################################
 
-# Show # Rare - Bleed Sword - T1
-#     Rarity = Rare
-#     BaseType "Dragoon Sword"
-#     SetBorderColor 150 0 0              # smoothred
-#     SetFontSize 45
+Hide # Rare - Bleed Sword - T1
+    Rarity = Rare
+    BaseType "Dragoon Sword"
+    SetBorderColor 150 0 0              # smoothred
+    SetFontSize 45
 
-# Show # Rare - Bleed Sword - T2
-#     Rarity = Rare
-#     BaseType "Courtesan Sword"
-#     SetBorderColor 255 255 119          # Rare
-#     SetFontSize 40
+Hide # Rare - Bleed Sword - T2
+    Rarity = Rare
+    BaseType "Courtesan Sword"
+    SetBorderColor 255 255 119          # Rare
+    SetFontSize 40
 
 # #######################################################################################################################
 # Rare - 2H Sword
 # #######################################################################################################################
 
-# Show # Rare - 2H Sword - T1
-#     Rarity = Rare
-#     BaseType "Exquisite Blade" "Reaver Sword"
-#     SetBorderColor 150 0 0              # smoothred
-#     SetFontSize 45
+Hide # Rare - 2H Sword - T1
+    Rarity = Rare
+    BaseType "Exquisite Blade" "Reaver Sword"
+    SetBorderColor 150 0 0              # smoothred
+    SetFontSize 45
 
-# Show # Rare - 2H Sword - T2
-#     Rarity = Rare
-#     BaseType "Infernal Sword" "Lion Sword" "Vaal Greatsword" "Ezomyte Blade" "Headman's Sword" "Lithe Blade" "Wraith Sword" "Tiger Sword"
-#     SetBorderColor 255 255 119          # Rare
-#     SetFontSize 40
+Hide # Rare - 2H Sword - T2
+    Rarity = Rare
+    BaseType "Infernal Sword" "Lion Sword" "Vaal Greatsword" "Ezomyte Blade" "Headman's Sword" "Lithe Blade" "Wraith Sword" "Tiger Sword"
+    SetBorderColor 255 255 119          # Rare
+    SetFontSize 40
 
 # #######################################################################################################################
 # Rare - 1H Axe
 # #######################################################################################################################
 
-# Show # Rare - 1H Axe - T1
-#     Rarity = Rare
-#     BaseType "Siege Axe" "Vaal Hatchet" "Runic Hatchet"
-#     SetBorderColor 150 0 0              # smoothred
-#     SetFontSize 45
+Hide # Rare - 1H Axe - T1
+    Rarity = Rare
+    BaseType "Siege Axe" "Vaal Hatchet" "Runic Hatchet"
+    SetBorderColor 150 0 0              # smoothred
+    SetFontSize 45
 
-# Show # Rare - 1H Axe - T2
-#     Rarity = Rare
-#     BaseType "Infernal Axe" "Royal Axe" "Butcher Axe" "Reaver Axe" "Karui Axe"
-#     SetBorderColor 255 255 119          # Rare
-#     SetFontSize 40
+Hide # Rare - 1H Axe - T2
+    Rarity = Rare
+    BaseType "Infernal Axe" "Royal Axe" "Butcher Axe" "Reaver Axe" "Karui Axe"
+    SetBorderColor 255 255 119          # Rare
+    SetFontSize 40
 
 # #######################################################################################################################
 # Rare - 2H Axe
 # #######################################################################################################################
 
-# Show # Rare - 2H Axe - T1
-#     Rarity = Rare
-#     BaseType "Fleshripper" "Vaal Axe"
-#     SetBorderColor 150 0 0              # smoothred
-#     SetFontSize 45
+Hide # Rare - 2H Axe - T1
+    Rarity = Rare
+    BaseType "Fleshripper" "Vaal Axe"
+    SetBorderColor 150 0 0              # smoothred
+    SetFontSize 45
 
-# Show # Rare - 2H Axe - T2
-#     Rarity = Rare
-#     BaseType "Void Axe" "Despot Axe" "Ezomyte Axe" "Sundering Axe" "Talon Axe" "Karui Chopper"
-#     SetBorderColor 255 255 119          # Rare
-#     SetFontSize 40
+Hide # Rare - 2H Axe - T2
+    Rarity = Rare
+    BaseType "Void Axe" "Despot Axe" "Ezomyte Axe" "Sundering Axe" "Talon Axe" "Karui Chopper"
+    SetBorderColor 255 255 119          # Rare
+    SetFontSize 40
 
 # #######################################################################################################################
 # Rare - 1H Mace
 # #######################################################################################################################
 
-# Show # Rare - 1H Mace - T1
-#     Rarity = Rare
-#     BaseType "Nightmare Mace" "Legion Hammer" "Behemoth Mace"
-#     SetBorderColor 150 0 0              # smoothred
-#     SetFontSize 45
+Hide # Rare - 1H Mace - T1
+    Rarity = Rare
+    BaseType "Nightmare Mace" "Legion Hammer" "Behemoth Mace"
+    SetBorderColor 150 0 0              # smoothred
+    SetFontSize 45
 
-# Show # Rare - 1H Mace - T2
-#     Rarity = Rare
-#     BaseType "Auric Mace" "Pernarch" "Gavel" "Tenderizer"
-#     SetBorderColor 255 255 119          # Rare
-#     SetFontSize 40
+Hide # Rare - 1H Mace - T2
+    Rarity = Rare
+    BaseType "Auric Mace" "Pernarch" "Gavel" "Tenderizer"
+    SetBorderColor 255 255 119          # Rare
+    SetFontSize 40
 
 # #######################################################################################################################
 # Rare - 2H Mace
 # #######################################################################################################################
 
-# Show # Rare - 2H Mace - T1
-#     Rarity = Rare
-#     BaseType "Piledriver" "Coronal Maul"
-#     SetBorderColor 150 0 0              # smoothred
-#     SetFontSize 45
+Hide # Rare - 2H Mace - T1
+    Rarity = Rare
+    BaseType "Piledriver" "Coronal Maul"
+    SetBorderColor 150 0 0              # smoothred
+    SetFontSize 45
 
-# Show # Rare - 2H Mace - T2
-#     Rarity = Rare
-#     BaseType "Terror Maul" "Imperial Maul" "Meatgrinder" "Colossus Mallet"
-#     SetBorderColor 255 255 119          # Rare
-#     SetFontSize 40
+Hide # Rare - 2H Mace - T2
+    Rarity = Rare
+    BaseType "Terror Maul" "Imperial Maul" "Meatgrinder" "Colossus Mallet"
+    SetBorderColor 255 255 119          # Rare
+    SetFontSize 40
 
 # #######################################################################################################################
 # Rare - Claw
 # #######################################################################################################################
 
-# Show # Rare - Claw - T1
-#     Rarity = Rare
-#     BaseType "Imperial Claw" "Hellion's Paw"
-#     SetBorderColor 150 0 0              # smoothred
-#     SetFontSize 45
+Hide # Rare - Claw - T1
+    Rarity = Rare
+    BaseType "Imperial Claw" "Hellion's Paw"
+    SetBorderColor 150 0 0              # smoothred
+    SetFontSize 45
 
-# Show # Rare - Claw - T2
-#     Rarity = Rare
-#     BaseType "Gemini Claw" "Terror Claw" "Vaal Claw" "Eye Gouger" "Throat Stabber"
-#     SetBorderColor 255 255 119          # Rare
-#     SetFontSize 40
+Hide # Rare - Claw - T2
+    Rarity = Rare
+    BaseType "Gemini Claw" "Terror Claw" "Vaal Claw" "Eye Gouger" "Throat Stabber"
+    SetBorderColor 255 255 119          # Rare
+    SetFontSize 40
 
 # #######################################################################################################################
 # Rare - Dagger
 # #######################################################################################################################
 
-# Show # Rare - Dagger - T1
-#     Rarity = Rare
-#     BaseType "Demon Dagger" "Ambusher"
-#     SetBorderColor 150 0 0              # smoothred
-#     SetFontSize 45
+Hide # Rare - Dagger - T1
+    Rarity = Rare
+    BaseType "Demon Dagger" "Ambusher"
+    SetBorderColor 150 0 0              # smoothred
+    SetFontSize 45
 
-# Show # Rare - Dagger - T2
-#     Rarity = Rare
-#     BaseType "Imperial Skean" "Platinum Kris" "Ezomyte Dagger" "Slaughter Knife"
-#     SetBorderColor 255 255 119          # Rare
-#     SetFontSize 40
+Hide # Rare - Dagger - T2
+    Rarity = Rare
+    BaseType "Imperial Skean" "Platinum Kris" "Ezomyte Dagger" "Slaughter Knife"
+    SetBorderColor 255 255 119          # Rare
+    SetFontSize 40
 
-# Show # Rare - Dagger - T3
-#     Rarity = Rare
-#     Class "Daggers"
-#     SetFontSize 40
+Hide # Rare - Dagger - T3
+    Rarity = Rare
+    Class "Daggers"
+    SetFontSize 40
 
 # #######################################################################################################################
 # Rare - Sceptre
 # #######################################################################################################################
 
-# Show # Rare - Sceptre - T1
-#     Rarity = Rare
-#     BaseType "Sambar Sceptre" "Void Sceptre" "Vaal Sceptre"
-#     SetBorderColor 150 0 0              # smoothred
-#     SetFontSize 45
+Hide # Rare - Sceptre - T1
+    Rarity = Rare
+    BaseType "Sambar Sceptre" "Void Sceptre" "Vaal Sceptre"
+    SetBorderColor 150 0 0              # smoothred
+    SetFontSize 45
 
-# Show # Rare - Sceptre - T2
-#     Rarity = Rare
-#     BaseType "Carnal Sceptre" "Platinum Sceptre" "Opal Sceptre"
-#     SetBorderColor 255 255 119          # Rare
-#     SetFontSize 40
+Hide # Rare - Sceptre - T2
+    Rarity = Rare
+    BaseType "Carnal Sceptre" "Platinum Sceptre" "Opal Sceptre"
+    SetBorderColor 255 255 119          # Rare
+    SetFontSize 40
 
-# Show # Rare - Sceptre - T2
-#     Rarity = Rare
-#     Class "Sceptres"
-#     SetFontSize 40
+Hide # Rare - Sceptre - T3
+    Rarity = Rare
+    Class "Sceptres"
+    SetFontSize 40
 
 # #######################################################################################################################
 # Rare - Wand
 # #######################################################################################################################
 
-# Show # Rare - Wand - T1
-#     Rarity = Rare
-#     BaseType "Imbued Wand"
-#     SetBorderColor 150 0 0              # smoothred
-#     SetFontSize 45
+Hide # Rare - Wand - T1
+    Rarity = Rare
+    BaseType "Imbued Wand"
+    SetBorderColor 150 0 0              # smoothred
+    SetFontSize 45
 
-# Show # Rare - Wand - T1
-#     Rarity = Rare
-#     BaseType "Profane Wand"
-#     SetBorderColor 150 0 0              # smoothred
-#     SetFontSize 45
+Hide # Rare - Wand - T1
+    Rarity = Rare
+    BaseType "Profane Wand"
+    SetBorderColor 150 0 0              # smoothred
+    SetFontSize 45
 
-# Show # Rare - Wand - T2
-#     Rarity = Rare
-#     BaseType "Prophecy Wand" "Tornado Wand" "Opal Wand" "Demon's Horn" "Engraved Wand"
-#     SetBorderColor 255 255 119          # Rare
-#     SetFontSize 40
+Hide # Rare - Wand - T2
+    Rarity = Rare
+    BaseType "Prophecy Wand" "Tornado Wand" "Opal Wand" "Demon's Horn" "Engraved Wand"
+    SetBorderColor 255 255 119          # Rare
+    SetFontSize 40
 
-# Show # Rare - Wand - T3
-#     Rarity = Rare
-#     BaseType "Carved Wand" "Driftwood Wand" "Pagan Wand" "Heathen Wand"
-#     SetFontSize 40
+Hide # Rare - Wand - T3
+    Rarity = Rare
+    BaseType "Carved Wand" "Driftwood Wand" "Pagan Wand" "Heathen Wand"
+    SetFontSize 40
 
-# Show # Rare - Wand - T3
-#     Rarity = Rare
-#     Class "Wands"
-#     SetFontSize 40
+Hide # Rare - Wand - T3
+    Rarity = Rare
+    Class "Wands"
+    SetFontSize 40
 
 # #######################################################################################################################
 # Rare - Staff
 # #######################################################################################################################
 
-# Show # Rare - Staff - T1
-#     Rarity = Rare
-#     BaseType "Eclipse Staff" "Lathi"
-#     SetBorderColor 150 0 0              # smoothred
-#     SetFontSize 45
+Hide # Rare - Staff - T1
+    Rarity = Rare
+    BaseType "Eclipse Staff" "Lathi"
+    SetBorderColor 150 0 0              # smoothred
+    SetFontSize 45
 
-# Show # Rare - Staff - T2
-#     Rarity = Rare
-#     BaseType "Judgement Staff" "Imperial Staff" "Maelström Staff" "Ezomyte Staff"
-#     SetBorderColor 255 255 119          # Rare
-#     SetFontSize 40
+Hide # Rare - Staff - T2
+    Rarity = Rare
+    BaseType "Judgement Staff" "Imperial Staff" "Maelström Staff" "Ezomyte Staff"
+    SetBorderColor 255 255 119          # Rare
+    SetFontSize 40
 
-# Show # Rare - Staff - T2
-#     Rarity = Rare
-#     Class "Staves"
-#     SetFontSize 40
+Hide # Rare - Staff - T2
+    Rarity = Rare
+    Class "Staves"
+    SetFontSize 40
 
 # #######################################################################################################################
 # Rare - Bow
 # #######################################################################################################################
 
-# Show # Rare - Bow - T1
-#     Rarity = Rare
-#     BaseType "Harbinger Bow"
-#     SetBorderColor 150 0 0              # smoothred
-#     SetFontSize 45
+Hide # Rare - Bow - T1
+    Rarity = Rare
+    BaseType "Harbinger Bow"
+    SetBorderColor 150 0 0              # smoothred
+    SetFontSize 45
 
-# Show # Rare - Bow - T1 - Speed
-#     Rarity = Rare
-#     BaseType "Maraketh Bow" "Thicket Bow"
-#     SetBorderColor 150 0 0              # smoothred
-#     SetFontSize 45
+Hide # Rare - Bow - T1 - Speed
+    Rarity = Rare
+    BaseType "Maraketh Bow" "Thicket Bow"
+    SetBorderColor 150 0 0              # smoothred
+    SetFontSize 45
 
-# Show # Rare - Bow - T2
-#     Rarity = Rare
-#     BaseType "Maraketh Bow" "Imperial Bow" "Spine Bow" "Assassin Bow" "Ranger Bow"
-#     SetBorderColor 255 255 119          # Rare
-#     SetFontSize 40
+Hide # Rare - Bow - T2
+    Rarity = Rare
+    BaseType "Maraketh Bow" "Imperial Bow" "Spine Bow" "Assassin Bow" "Ranger Bow"
+    SetBorderColor 255 255 119          # Rare
+    SetFontSize 40
 
-# Show # Rare - Bow - T2 - Speed
-#     Rarity = Rare
-#     BaseType "Crude Bow" "Short Bow" "Grove Bow" "Royal Bow" "Highborn Bow" "Imperial Bow" "Reflex Bow" "Steelwood Bow"
-#     SetBorderColor 255 255 119          # Rare
-#     SetFontSize 40
+Hide # Rare - Bow - T2 - Speed
+    Rarity = Rare
+    BaseType "Crude Bow" "Short Bow" "Grove Bow" "Royal Bow" "Highborn Bow" "Imperial Bow" "Reflex Bow" "Steelwood Bow"
+    SetBorderColor 255 255 119          # Rare
+    SetFontSize 40
 
-# Show # Rare - Bow
-#     Rarity = Rare
-#     Class "Bows"
-#     SetFontSize 40
+Hide # Rare - Bow
+    Rarity = Rare
+    Class "Bows"
+    SetFontSize 40
 
 # #######################################################################################################################
 # Rare - Quiver
 # #######################################################################################################################
 
-# Show # Rare - Quiver - T1
-#     Rarity = Rare
-#     BaseType "Spike-Point Arrow Quiver"
-#     SetBorderColor 150 0 0              # smoothred
-#     SetFontSize 45
+Hide # Rare - Quiver - T1
+    Rarity = Rare
+    BaseType "Spike-Point Arrow Quiver"
+    SetBorderColor 150 0 0              # smoothred
+    SetFontSize 45
 
-# Show # Rare - Quiver - T2
-#     Rarity = Rare
-#     BaseType "Penetrating Arrow Quiver"
-#     SetBorderColor 150 0 0              # smoothred
-#     SetFontSize 40
+Hide # Rare - Quiver - T2
+    Rarity = Rare
+    BaseType "Penetrating Arrow Quiver"
+    SetBorderColor 150 0 0              # smoothred
+    SetFontSize 40
 
-# Show # Rare - Quiver
-#     Rarity = Rare
-#     Class "Quivers"
-#     SetBorderColor 255 255 119          # Rare
-#     SetFontSize 40
+Hide # Rare - Quiver
+    Rarity = Rare
+    Class "Quivers"
+    SetBorderColor 255 255 119          # Rare
+    SetFontSize 40
 
 # #######################################################################################################################
 # Rare - Equipment - Quality Recipe
