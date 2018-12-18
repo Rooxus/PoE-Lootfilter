@@ -171,7 +171,7 @@ Hide # Currency - Scroll Fragment & Alteration Shard
     Class "Currency"
     BaseType "Scroll Fragment" "Alteration Shard" "Transmutation Shard"
     SetTextColor 170 158 130			# currency
-    SetFontSize 35
+    SetFontSize 25
 
 # #######################################################################################################################
 # Currency - Prophecy
@@ -338,7 +338,7 @@ Hide # Currency - Low Value
     Class "Currency"
     BaseType "Reinforced Steel Net" "Simple Steel Net" "Strong Iron Net" "Reinforced Iron Net" "Simple Iron Net" "Strong Rope Net" "Simple Rope Net"
     SetTextColor 170 158 130			# currency
-    SetFontSize 45
+    SetFontSize 25
 
 # #######################################################################################################################
 # Unique
@@ -610,7 +610,7 @@ Hide # Divination Cards - Hide crap
     Class "Divination Card"
 	BaseType "A Mother's Parting Gift" "Anarchy's Price" "Audacity" "Birth of the Three" "Carrion Crow" "Cartographer's Delight" "Death" "Destined to Crumble" "Doedre's Madness" "Dying Anguish" "Hermit" "King's Blade" "Lantador's Lost Love" "Light and Truth" "Metalsmith's Gift" "Might is Right" "Other Cheek" "Prosperity" "Rain Tempter" "Struck by Lightning" "The Army of Blood" "The Betrayal" "The Coming Storm" "The Conduit" "The Eye of the Dragon" "The Feast" "The Incantation" "The Inoculated" "The Lich" "The Lover" "The Lunaris Priestess" "The Metalsmith's Gift" "The Oath" "The Rabid Rhoa" "The Ruthless Ceinture" "The Scarred Meadow" "The Sigil" "The Siren" "The Surgeon" "The Tower" "The Twins" "The Warden" "The Wolverine" "Thunderous Skies" "Volatile Power" "Rain of Chaos" "The Puzzle" "The Scholar"
     SetTextColor 0 180 255              # cards
-    SetFontSize 35
+    SetFontSize 25
 
 # #######################################################################################################################
 # Gems
@@ -651,8 +651,8 @@ Hide # Gems - Vaal
 Hide # Gems - HideAll
     Class "Gems"
     SetTextColor 27 162 155             # gem
-    SetFontSize 35
-
+    SetFontSize 25
+    
 # #######################################################################################################################
 # Shaper
 # #######################################################################################################################
@@ -969,7 +969,6 @@ Hide # Normal/Magic - Jewelery
 #    SetBackgroundColor 191 239 255      # lightblue1
 #    SetBackgroundColor 70 70 70	     # darkgrey
 #    SetBorderColor 255 255 119          # Rare
-#    SetFontSize 30
 
 # Show
 #    ItemLevel >= 86
@@ -978,7 +977,6 @@ Hide # Normal/Magic - Jewelery
 #    SetTextColor 255 255 255            # white
 #    SetBackgroundColor 70 70 70	     # darkgrey
 #    SetBorderColor 255 255 119          # Rare
-#    SetFontSize 30
 
 # Show
 #    ItemLevel >= 84
@@ -986,7 +984,6 @@ Hide # Normal/Magic - Jewelery
 #    BaseType "Titanium Spirit Shield"
 #    SetBackgroundColor 191 239 255      # lightblue1
 #    SetBackgroundColor 70 70 70	     # darkgrey
-#    SetFontSize 30
 
 # Show
 #    ItemLevel >= 84
@@ -994,7 +991,6 @@ Hide # Normal/Magic - Jewelery
 #    BaseType "Titanium Spirit Shield"
 #    SetTextColor 255 255 255            # white
 #    SetBackgroundColor 70 70 70	     # darkgrey
-#    SetFontSize 30
 
 # Show
 #    ItemLevel >= 83
@@ -1002,7 +998,6 @@ Hide # Normal/Magic - Jewelery
 #    BaseType "Jewelled Foil"
 #    SetBackgroundColor 191 239 255      # lightblue1
 #    SetBackgroundColor 70 70 70	     # darkgrey
-#    SetFontSize 30
 
 # Show
 #    ItemLevel >= 83
@@ -1010,7 +1005,6 @@ Hide # Normal/Magic - Jewelery
 #    BaseType "Jewelled Foil"
 #    SetTextColor 255 255 255             # white
 #    SetBackgroundColor 70 70 70          # darkgrey
-#    SetFontSize 30
 
 # #######################################################################################################################
 # Normal/Magic - Hide Equipment
@@ -2075,18 +2069,18 @@ Hide # Flasks - Utility Flasks
 Hide # Flasks - Utility Flasks
     Rarity <= Magic
     Class "Utility Flasks"
-    SetFontSize 30
+    SetFontSize 25
 
 Hide # Flasks - Quality 10+
     Quality >= 10
     Rarity <= Magic
     Class "Flasks"
-    SetFontSize 30
+    SetFontSize 25
 
 Hide # Flasks - Hide
     Rarity <= Magic
     Class "Flasks"
-    SetFontSize 35
+    SetFontSize 25
 
 # #######################################################################################################################
 # Misc
@@ -2147,8 +2141,7 @@ Show # CatchAll - Map Fragments
 Show # CatchAll - Normal/Magic
     Rarity <= Magic
     SetBorderColor 50 250 50            # green (catch all)
-    SetFontSize 35
-
+    
 Show # CatchAll - Rare
     Rarity = Rare
     SetBorderColor 50 250 50            # green (catch all)
