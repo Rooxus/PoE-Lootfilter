@@ -136,7 +136,7 @@ Show # Currency - Low Value
     SetBorderColor 127 255 212          # aquamarine1
     SetFontSize 45
 
-HiShowde # Currency - Low Value
+Show # Currency - Low Value
     Class "Currency"
     BaseType "Orb of Augmentation"
     SetTextColor 170 158 130			# currency
@@ -995,6 +995,12 @@ Show
     LinkedSockets = 3
     ItemLevel <= 50
     BaseType "Quartz Sceptre" "Crystal Sceptre"
+    SetBorderColor 150 0 0              # smoothred
+
+Show
+    ItemLevel <= 40
+    Rarity = Magic
+    Class "Boots"
     SetBorderColor 150 0 0              # smoothred
 
 Show
