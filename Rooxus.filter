@@ -26,7 +26,7 @@ Show # Currency - Very Valuable
 
 Show # Currency - Very Valuable
     Class "Currency"
-    BaseType "Divine Orb"
+    BaseType "Divine Orb" "Exalted Shard"
     SetTextColor 170 158 130			# currency
     SetBackgroundColor 191 239 255      # lightblue1
     SetBorderColor 175 96 37            # uniq
@@ -79,7 +79,7 @@ Show # Currency - Valuable
 
 Show # Currency - Valuable shards
     Class "Currency"
-    BaseType "Ancient Shard" "Engineer's Shard" "Exalted Shard" "Harbinger's Shard" "Horizon Shard"
+    BaseType "Ancient Shard" "Engineer's Shard" "Harbinger's Shard" "Horizon Shard"
     SetTextColor 127 255 212            # aquamarine1
     SetBorderColor 127 255 212          # aquamarine1
     SetFontSize 45
@@ -466,6 +466,13 @@ Show # Maps - MapTier 13-15
     PlayAlertSound 4 250                # Sound - Map
     MinimapIcon 0 Yellow Diamond
     PlayEffect Yellow
+
+Hide # Maps - MapTier low maps on T15+
+	MapTier <= 9
+    ItemLevel >= 82 
+    Class "Maps"
+    SetBorderColor 255 140 0		    # darkorange
+    SetFontSize 45
 
 Show # Maps - MapTier 10-12
 	MapTier >= 10
@@ -961,42 +968,29 @@ Hide # Normal/Magic - Jewelery
 # Normal/Magic - Endgame Craft
 # #######################################################################################################################
 
-# Show
-#    ItemLevel >= 86
-#    Rarity = Magic
-#    BaseType "Titanium Spirit Shield"
-#    SetBackgroundColor 191 239 255      # lightblue1
-#    SetBackgroundColor 70 70 70	     # darkgrey
-#    SetBorderColor 255 255 119          # Rare
+Show
+    ItemLevel >= 86
+    Rarity <= Rare
+    BaseType "Two-Toned Boots" "Fingerless Silk Gloves" "Steel Ring" "Opal Ring" "Crystal Belt" "Titanium Spirit Shield" "Opal Sceptre" "Gripped Gloves" "Bone Helmet" "Titan Greaves" "Stygian Vise" "Sorcerer Boots" "Spiked Gloves" "Crystal Sceptre" "Marble Amulet" "Imperial Claw" "Opal Wand" "Thorium Spirit Shield" "Hubris Circlet""Vaal Regalia" "Sorcerer Gloves"
+    SetBackgroundColor 191 239 255      # lightblue1
+    SetBorderColor 150 0 0              # smoothred
+    SetFontSize 45
 
-# Show
-#    ItemLevel >= 86
-#    Rarity = Normal
-#    BaseType "Titanium Spirit Shield"
-#    SetTextColor 255 255 255            # white
-#    SetBackgroundColor 70 70 70	     # darkgrey
-#    SetBorderColor 255 255 119          # Rare
+Show
+    ItemLevel >= 85
+    Rarity = Magic
+    BaseType "Opal Ring" "Steel Ring" "Fingerless Silk Gloves" "Stygian Vise" "Tiger's Paw" "Opal Sceptre"
+    SetBackgroundColor 191 239 255      # lightblue1
+    SetBorderColor 255 140 0		    # darkorange
+    SetFontSize 45
 
-# Show
-#    ItemLevel >= 84
-#    Rarity = Magic
-#    BaseType "Titanium Spirit Shield"
-#    SetBackgroundColor 191 239 255      # lightblue1
-#    SetBackgroundColor 70 70 70	     # darkgrey
-
-# Show
-#    ItemLevel >= 84
-#    Rarity = Normal
-#    BaseType "Titanium Spirit Shield"
-#    SetTextColor 255 255 255            # white
-#    SetBackgroundColor 70 70 70	     # darkgrey
-
-# Show
-#    ItemLevel >= 83
-#    Rarity = Magic
-#    BaseType "Jewelled Foil"
-#    SetBackgroundColor 191 239 255      # lightblue1
-#    SetBackgroundColor 70 70 70	     # darkgrey
+Show
+    ItemLevel >= 84
+    Rarity = Magic
+    BaseType "Opal Ring" "Steel Ring" "Fingerless Silk Gloves"
+    SetBackgroundColor 191 239 255      # lightblue1
+    SetBorderColor 255 140 0		    # darkorange
+    SetFontSize 45
 
 # Show
 #    ItemLevel >= 83
@@ -1087,7 +1081,7 @@ Hide # Rare - Jewelery - Belt - T2
     SetBorderColor 255 255 119          # Rare
     SetFontSize 40
 
-Show # Rare - Jewelery - Belt - T3
+Hide # Rare - Jewelery - Belt - T3
     Rarity = Rare
     BaseType "Heavy Belt" "Rustic Sash"
     SetBorderColor 255 255 119          # Rare
