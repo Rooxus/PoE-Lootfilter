@@ -129,7 +129,7 @@ Show # Currency - Low Value
     SetBorderColor 127 255 212          # aquamarine1
     SetFontSize 45
 
-Show # Currency - Low Value
+Hide # Currency - Low Value
     Class "Currency"
     BaseType "Orb of Transmutation"
     SetTextColor 170 158 130			# currency
@@ -826,6 +826,25 @@ Show # Veiled Mod
 # Magic - Specific League Items
 # #######################################################################################################################
 
+Show # Synthesis - Fractured Items
+	FracturedItem True
+	Rarity <= Rare
+	SetFontSize 45
+    SetBorderColor 150 0 0              # smoothred
+    SetFontSize 45
+    PlayAlertSound 1 200                # Sound - T2
+    MinimapIcon 0 Brown Star
+    PlayEffect Brown
+
+Show # Synthesis - Synthesis Items
+	SynthesisedItem True
+	Rarity <= Rare
+    SetBorderColor 150 0 0              # smoothred
+    SetFontSize 45
+    PlayAlertSound 1 200                # Sound - T2
+    MinimapIcon 0 Brown Star
+    PlayEffect Brown
+
 Show # Delve Mod Items
     Identified True
     Rarity = Magic
@@ -993,7 +1012,7 @@ Show
     SetFontSize 45
 
 Show
-    ItemLevel >= 84
+    ItemLevel >= 83
     Rarity = Normal
     BaseType "Jewelled Foil"
     SetBackgroundColor 191 239 255      # lightblue1
@@ -1019,6 +1038,18 @@ Hide # Normal/Magic - Hide Equipment
 #     Class "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Bows" "Staves"
 #     SetBorderColor 255 255 255           # white
 #     SetFontSize 45
+
+# #######################################################################################################################
+# Rare - Chaos Recipe
+# #######################################################################################################################
+
+Show # Rare - Chaos Recipe
+    ItemLevel <= 75
+    ItemLevel >= 61
+    Rarity = Rare
+    Class "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Bows" "Staves" "Body Armours"
+    SetBorderColor 255 255 255           # white
+    SetFontSize 45
 
 # #######################################################################################################################
 # Rare - Corrupted
@@ -1088,9 +1119,9 @@ Show # Rare - Jewelery - Belt - T3
     SetBorderColor 255 255 119          # Rare
     SetFontSize 40
 
-# Show # Rare - Jewelery - Belt - T4
-#     Rarity = Rare
-#     Class "Belts"
+Show # Rare - Jewelery - Belt - T4
+    Rarity = Rare
+    Class "Belts"
 
 # #######################################################################################################################
 # Rare - Crit Sword
@@ -1109,9 +1140,9 @@ Show # Rare - Crit Sword - T2
     SetFontSize 40
 
 Show # Rare - Crit Sword - T2
-   Rarity = Rare
-   BaseType "Serrated Foil" "Fancy Foil" "Dragonbone Rapier" "Pecoraro"
-   SetBorderColor 255 255 119 # Rare
+    Rarity = Rare
+    BaseType "Serrated Foil" "Fancy Foil" "Dragonbone Rapier" "Pecoraro"
+    SetBorderColor 255 255 119 # Rare
     SetFontSize 40
 
 Show # Rare - Crit Sword - T3

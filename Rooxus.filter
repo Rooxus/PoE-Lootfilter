@@ -826,6 +826,25 @@ Show # Veiled Mod
 # Magic - Specific League Items
 # #######################################################################################################################
 
+Show # Synthesis - Fractured Items
+	FracturedItem True
+	Rarity <= Rare
+	SetFontSize 45
+    SetBorderColor 150 0 0              # smoothred
+    SetFontSize 45
+    PlayAlertSound 1 200                # Sound - T2
+    MinimapIcon 0 Brown Star
+    PlayEffect Brown
+
+Show # Synthesis - Synthesis Items
+	SynthesisedItem True
+	Rarity <= Rare
+    SetBorderColor 150 0 0              # smoothred
+    SetFontSize 45
+    PlayAlertSound 1 200                # Sound - T2
+    MinimapIcon 0 Brown Star
+    PlayEffect Brown
+
 Show # Delve Mod Items
     Identified True
     Rarity = Magic

@@ -819,10 +819,38 @@ Show # Chance - Varnished Coat
 # Magic - Specific League Items
 # #######################################################################################################################
 
+Show # Synthesis - Fractured Items
+	FracturedItem True
+	Rarity <= Rare
+	SetFontSize 45
+    SetBorderColor 150 0 0              # smoothred
+    SetFontSize 45
+    PlayAlertSound 1 200                # Sound - T2
+    MinimapIcon 0 Brown Star
+    PlayEffect Brown
+
+Show # Synthesis - Synthesis Items
+	SynthesisedItem True
+	Rarity <= Rare
+    SetBorderColor 150 0 0              # smoothred
+    SetFontSize 45
+    PlayAlertSound 1 200                # Sound - T2
+    MinimapIcon 0 Brown Star
+    PlayEffect Brown
+
 Show # Delve Mod Items
     Identified True
     Rarity = Magic
     HasExplicitMod "of Crafting" "of Spellcraft" "of Weaponcraft" "of the Underground" "Subterranean"
+    SetBorderColor 150 0 0              # smoothred
+    SetFontSize 45
+    PlayAlertSound 1 200                # Sound - T2
+    MinimapIcon 0 Brown Star
+    PlayEffect Brown
+
+Show # Bestiary Mod Items
+	Identified True
+	HasExplicitMod "of Farrul" "of Craiceann" "of Fenumus" "of Saqawal"
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 45
     PlayAlertSound 1 200                # Sound - T2

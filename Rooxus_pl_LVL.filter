@@ -161,7 +161,7 @@ Show # Currency - Low Value
     SetTextColor 170 158 130			# currency
     SetFontSize 35
 
-Hide # Currency - Low Value
+Show # Currency - Low Value
     Class "Currency"
     BaseType "Scroll of Wisdom"
     SetTextColor 170 158 130			# currency
@@ -871,26 +871,48 @@ Show
 # Chance
 # #######################################################################################################################
 
-Hide # Chance - Sadist Garb
-    Corrupted False
-    Rarity = Normal
-    BaseType "Sadist Garb"
-    SetBorderColor 231 180 120          # chance 
-
-Show # Chance - Glorious Plate
-    Corrupted False
-    Rarity = Normal
-    BaseType "Glorious Plate"
-    SetBorderColor 231 180 120          # chance 
+# Hide # Chance - Sadist Garb
+#     Corrupted False
+#     Rarity = Normal
+#     BaseType "Sadist Garb"
+#     SetBorderColor 231 180 120          # chance 
 
 # #######################################################################################################################
 # Magic - Specific League Items
 # #######################################################################################################################
 
+Show # Synthesis - Fractured Items
+	FracturedItem True
+	Rarity <= Rare
+	SetFontSize 45
+    SetBorderColor 150 0 0              # smoothred
+    SetFontSize 45
+    PlayAlertSound 1 200                # Sound - T2
+    MinimapIcon 0 Brown Star
+    PlayEffect Brown
+
+Show # Synthesis - Synthesis Items
+	SynthesisedItem True
+	Rarity <= Rare
+    SetBorderColor 150 0 0              # smoothred
+    SetFontSize 45
+    PlayAlertSound 1 200                # Sound - T2
+    MinimapIcon 0 Brown Star
+    PlayEffect Brown
+
 Show # Delve Mod Items
     Identified True
     Rarity = Magic
     HasExplicitMod "of Crafting" "of Spellcraft" "of Weaponcraft" "of the Underground" "Subterranean"
+    SetBorderColor 150 0 0              # smoothred
+    SetFontSize 45
+    PlayAlertSound 1 200                # Sound - T2
+    MinimapIcon 0 Brown Star
+    PlayEffect Brown
+
+Show # Bestiary Mod Items
+	Identified True
+	HasExplicitMod "of Farrul" "of Craiceann" "of Fenumus" "of Saqawal"
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 45
     PlayAlertSound 1 200                # Sound - T2
