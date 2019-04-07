@@ -1011,19 +1011,19 @@ Show
 # #######################################################################################################################
 # Normal/Magic - Leveling Specials
 # #######################################################################################################################
-
 Show
-    ItemLevel <= 4
+    ItemLevel <= 68
     Rarity = Normal
-
-Show
-    ItemLevel <= 7
-    Rarity = Magic
-
-Show # Normal - Hide unwanted Drops for current char, uncomment to show - 1H Axe
-    Rarity = Normal
-    BaseType "Siege Axe"
+    BaseType "Leather Belt" "Coral Ring"
     SetBorderColor 150 0 0              # smoothred
+
+# Show
+#     ItemLevel <= 4
+#     Rarity = Normal
+
+# Show
+#     ItemLevel <= 7
+#     Rarity = Magic
 
 # #######################################################################################################################
 # Normal/Magic - Jewelery
@@ -1055,6 +1055,17 @@ Show # Normal/Magic - Jewelery
     Class "Rings" "Amulets" "Belts"
     SetBorderColor 255 255 119          # Rare
     SetFontSize 35
+
+# #######################################################################################################################
+# Normal - Show caster weapons
+# #######################################################################################################################
+
+# Show # Normal - Show caster weapons
+#     ItemLevel <= 68
+#     Rarity = Normal
+#     Class "Daggers" "Wands" "Staves" "Sceptres"
+#     SetBorderColor 150 0 0              # smoothred
+#     SetFontSize 40
 
 # #######################################################################################################################
 # Normal - Hide unwanted Drops for current char, Uncomment to show
@@ -1100,15 +1111,15 @@ Hide # Normal - Hide unwanted Drops for current char, uncomment to show - Dagger
     Class "Daggers"
     SetFontSize 25
 
-Hide # Normal - Hide unwanted Drops for current char, uncomment to show - Sceptre
-    Rarity = Normal
-    Class "Sceptres"
-    SetFontSize 25
+# Hide # Normal - Hide unwanted Drops for current char, uncomment to show - Sceptre
+#     Rarity = Normal
+#     Class "Sceptres"
+#     SetFontSize 25
 
-Hide # Normal - Hide unwanted Drops for current char, uncomment to show - Wand
-    Rarity = Normal
-    Class "Wands"
-    SetFontSize 25
+# Hide # Normal - Hide unwanted Drops for current char, uncomment to show - Wand
+#     Rarity = Normal
+#     Class "Wands"
+#     SetFontSize 25
 
 Hide # Normal - Hide unwanted Drops for current char, uncomment to show - Staff
     Rarity = Normal
@@ -1120,21 +1131,10 @@ Hide # Normal - Hide unwanted Drops for current char, uncomment to show - Bows/Q
     Class "Bows" "Quivers"
     SetFontSize 25
 
-Hide # Normal - Hide unwanted Drops for current char, uncomment to show - Shields
-    Rarity = Normal
-    Class "Shields"
-    SetFontSize 25
-
-# #######################################################################################################################
-# Normal - Show caster weapons
-# #######################################################################################################################
-
-# Show # Normal - Show caster weapons
-#     ItemLevel <= 68
+# Hide # Normal - Hide unwanted Drops for current char, uncomment to show - Shields
 #     Rarity = Normal
-#     Class "Daggers" "Wands" "Staves" "Sceptres"
-#     SetBorderColor 150 0 0              # smoothred
-#     SetFontSize 40
+#     Class "Shields"
+#     SetFontSize 25
 
 # #######################################################################################################################
 # Normal - Hide Obsolete Gear
@@ -1217,7 +1217,7 @@ Show
 # Armours
 # #######################################################################################################################
 
-Hide
+Show
     Rarity = Normal
     Class "Helmets" "Body Armours" "Gloves" "Boots" "Shields" 
     SetBorderColor 255 255 255          # white
