@@ -161,7 +161,7 @@ Show # Currency - Low Value
     SetTextColor 170 158 130			# currency
     SetFontSize 35
 
-Show # Currency - Low Value
+Hide # Currency - Low Value
     Class "Currency"
     BaseType "Scroll of Wisdom"
     SetTextColor 170 158 130			# currency
@@ -871,11 +871,11 @@ Show
 # Chance
 # #######################################################################################################################
 
-# Hide # Chance - Sadist Garb
-#     Corrupted False
-#     Rarity = Normal
-#     BaseType "Sadist Garb"
-#     SetBorderColor 231 180 120          # chance 
+Show # Chance - Goldrim
+    Corrupted False
+    Rarity = Normal
+    BaseType "Leather Cap"
+    SetBorderColor 231 180 120          # chance 
 
 # #######################################################################################################################
 # Magic - Specific League Items
@@ -1060,12 +1060,21 @@ Show # Normal/Magic - Jewelery
 # Normal - Show caster weapons
 # #######################################################################################################################
 
-# Show # Normal - Show caster weapons
-#     ItemLevel <= 68
-#     Rarity = Normal
-#     Class "Daggers" "Wands" "Staves" "Sceptres"
-#     SetBorderColor 150 0 0              # smoothred
-#     SetFontSize 40
+Show # Normal - Show caster weapons
+    LinkedSockets >= 3
+    ItemLevel <= 68
+    Rarity = Normal
+    Class "Wands" "Sceptres" "Daggers"
+    SetBorderColor 150 0 0              # smoothred
+    SetFontSize 40
+
+Show # Normal - Show caster weapons
+    LinkedSockets >= 4
+    ItemLevel <= 68
+    Rarity = Normal
+    Class "Staves"
+    SetBorderColor 150 0 0              # smoothred
+    SetFontSize 40
 
 # #######################################################################################################################
 # Normal - Hide unwanted Drops for current char, Uncomment to show
@@ -1111,15 +1120,15 @@ Hide # Normal - Hide unwanted Drops for current char, uncomment to show - Dagger
     Class "Daggers"
     SetFontSize 25
 
-# Hide # Normal - Hide unwanted Drops for current char, uncomment to show - Sceptre
-#     Rarity = Normal
-#     Class "Sceptres"
-#     SetFontSize 25
+Hide # Normal - Hide unwanted Drops for current char, uncomment to show - Sceptre
+    Rarity = Normal
+    Class "Sceptres"
+    SetFontSize 25
 
-# Hide # Normal - Hide unwanted Drops for current char, uncomment to show - Wand
-#     Rarity = Normal
-#     Class "Wands"
-#     SetFontSize 25
+Hide # Normal - Hide unwanted Drops for current char, uncomment to show - Wand
+    Rarity = Normal
+    Class "Wands"
+    SetFontSize 25
 
 Hide # Normal - Hide unwanted Drops for current char, uncomment to show - Staff
     Rarity = Normal
@@ -1141,64 +1150,71 @@ Hide # Normal - Hide unwanted Drops for current char, uncomment to show - Bows/Q
 # #######################################################################################################################
 
 Hide
-    ItemLevel >= 25
+    ItemLevel >= 11
     DropLevel <= 5
     Rarity = Normal
     Class "Helmets" "Body Armours" "Gloves" "Boots" "Shields" "One Hand Swords" "Two Hand Swords" "One Hand Axes" "Two Hand Axes" "One Hand Maces" "Two Hand Maces" "Claws" "Daggers" "Sceptres" "Wands" "Bows" "Staves"
     SetFontSize 30
 
 Hide
-    ItemLevel >= 30
+    ItemLevel >= 18
     DropLevel <= 10
     Rarity = Normal
     Class "Helmets" "Body Armours" "Gloves" "Boots" "Shields" "One Hand Swords" "Two Hand Swords" "One Hand Axes" "Two Hand Axes" "One Hand Maces" "Two Hand Maces" "Claws" "Daggers" "Sceptres" "Wands" "Bows" "Staves"
     SetFontSize 30
 
 Hide
-    ItemLevel >= 35
+    ItemLevel >= 25
     DropLevel <= 15
     Rarity = Normal
     Class "Helmets" "Body Armours" "Gloves" "Boots" "Shields" "One Hand Swords" "Two Hand Swords" "One Hand Axes" "Two Hand Axes" "One Hand Maces" "Two Hand Maces" "Claws" "Daggers" "Sceptres" "Wands" "Bows" "Staves"
     SetFontSize 30
 
 Hide
-    ItemLevel >= 40
+    ItemLevel >= 28
     DropLevel <= 20
     Rarity = Normal
     Class "Helmets" "Body Armours" "Gloves" "Boots" "Shields" "One Hand Swords" "Two Hand Swords" "One Hand Axes" "Two Hand Axes" "One Hand Maces" "Two Hand Maces" "Claws" "Daggers" "Sceptres" "Wands" "Bows" "Staves"
     SetFontSize 30
 
 Hide
-    ItemLevel >= 45
+    ItemLevel >= 35
     DropLevel <= 25
     Rarity = Normal
     Class "Helmets" "Body Armours" "Gloves" "Boots" "Shields" "One Hand Swords" "Two Hand Swords" "One Hand Axes" "Two Hand Axes" "One Hand Maces" "Two Hand Maces" "Claws" "Daggers" "Sceptres" "Wands" "Bows" "Staves"
     SetFontSize 30
 
 Hide
-    ItemLevel >= 50
+    ItemLevel >= 41
     DropLevel <= 30
     Rarity = Normal
     Class "Helmets" "Body Armours" "Gloves" "Boots" "Shields" "One Hand Swords" "Two Hand Swords" "One Hand Axes" "Two Hand Axes" "One Hand Maces" "Two Hand Maces" "Claws" "Daggers" "Sceptres" "Wands" "Bows" "Staves"
     SetFontSize 30
 
 Hide
-    ItemLevel >= 55
+    ItemLevel >= 45
     DropLevel <= 35
     Rarity = Normal
     Class "Helmets" "Body Armours" "Gloves" "Boots" "Shields" "One Hand Swords" "Two Hand Swords" "One Hand Axes" "Two Hand Axes" "One Hand Maces" "Two Hand Maces" "Claws" "Daggers" "Sceptres" "Wands" "Bows" "Staves"
     SetFontSize 30
 
 Hide
-    ItemLevel >= 60
+    ItemLevel >= 49
     DropLevel <= 40
     Rarity = Normal
     Class "Helmets" "Body Armours" "Gloves" "Boots" "Shields" "One Hand Swords" "Two Hand Swords" "One Hand Axes" "Two Hand Axes" "One Hand Maces" "Two Hand Maces" "Claws" "Daggers" "Sceptres" "Wands" "Bows" "Staves"
     SetFontSize 30
 
 Hide
-    ItemLevel >= 68
+    ItemLevel >= 56
     DropLevel <= 45
+    Rarity = Normal
+    Class "Helmets" "Body Armours" "Gloves" "Boots" "Shields" "One Hand Swords" "Two Hand Swords" "One Hand Axes" "Two Hand Axes" "One Hand Maces" "Two Hand Maces" "Claws" "Daggers" "Sceptres" "Wands" "Bows" "Staves"
+    SetFontSize 30
+
+Hide
+    ItemLevel >= 68
+    DropLevel <= 50
     Rarity = Normal
     Class "Helmets" "Body Armours" "Gloves" "Boots" "Shields" "One Hand Swords" "Two Hand Swords" "One Hand Axes" "Two Hand Axes" "One Hand Maces" "Two Hand Maces" "Claws" "Daggers" "Sceptres" "Wands" "Bows" "Staves"
     SetFontSize 30
