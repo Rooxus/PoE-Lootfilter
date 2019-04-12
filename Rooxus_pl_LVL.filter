@@ -438,7 +438,7 @@ Show # Links and Sockets - 5L
 
 Show # Links and Sockets - 6s - T1
     Sockets = 6
-    BaseType "Vaal Regalia" "Astral Plate" "Glorious Plate" "Zodiac Leather" "Assassin's Garb" "Saintly Chainmail" "Carnal Armour" 
+    BaseType "Vaal Regalia" "Astral Plate" "Glorious Plate" "Zodiac Leather" "Assassin's Garb" "Saintly Chainmail" "Carnal Armour"
     SetBorderColor 0 255 150            # high value
     SetFontSize 45
     PlayAlertSound 9 225
@@ -447,7 +447,7 @@ Show # Links and Sockets - 6s - T1
 
 Show # Links and Sockets - 6s - T2
     Sockets = 6
-    BaseType "Occultist's Vestment" "Widowsilk Robe" "Gladiator Plate" "Exquisite Leather" "Triumphant Lamellar" "General's Brigandine" "Full Dragonscale" "Saint's Hauberk" "Elegant Ringmail" "Conquest Chainmail" "Sadist Garb" "Varnished Coat" "Blood Raiment" 
+    BaseType "Occultist's Vestment" "Widowsilk Robe" "Gladiator Plate" "Exquisite Leather" "Triumphant Lamellar" "General's Brigandine" "Full Dragonscale" "Saint's Hauberk" "Elegant Ringmail" "Conquest Chainmail" "Sadist Garb" "Varnished Coat" "Blood Raiment"
     SetBorderColor 0 255 150            # high value
     SetFontSize 40
     PlayAlertSound 9 225
@@ -456,7 +456,7 @@ Show # Links and Sockets - 6s - T2
 
 Show # Links and Sockets - 6s - T3
     Sockets = 6
-    BaseType "Necromancer Silks" "Savant's Robe" "Destroyer Regalia" "Crusader Plate" "Golden Plate" "Majestic Plate" "Destiny Leather" "Sharkskin Tunic" "Cutthroat's Garb" "Desert Brigandine" "Battle Lamellar" "Commander's Brigandine" "Dragonscale Doublet" "Devout Chainmail" "Ornate Ringmail" "Crusader Chainmail" "Chain Hauberk" "Sentinel Jacket" "Crypt Armour" "Lacquered Garb" 
+    BaseType "Necromancer Silks" "Savant's Robe" "Destroyer Regalia" "Crusader Plate" "Golden Plate" "Majestic Plate" "Destiny Leather" "Sharkskin Tunic" "Cutthroat's Garb" "Desert Brigandine" "Battle Lamellar" "Commander's Brigandine" "Dragonscale Doublet" "Devout Chainmail" "Ornate Ringmail" "Crusader Chainmail" "Chain Hauberk" "Sentinel Jacket" "Crypt Armour" "Lacquered Garb"
     SetBorderColor 0 255 150            # high value
     SetFontSize 40
     PlayAlertSound 9 225
@@ -875,7 +875,7 @@ Show # Chance - Goldrim
     Corrupted False
     Rarity = Normal
     BaseType "Leather Cap"
-    SetBorderColor 231 180 120          # chance 
+    SetBorderColor 231 180 120          # chance
 
 # #######################################################################################################################
 # Magic - Specific League Items
@@ -1107,7 +1107,7 @@ Hide # Normal - Hide unwanted Drops for current char, uncomment to show - 1H Mac
 
 Hide # Normal - Hide unwanted Drops for current char, uncomment to show - 2H Mace
     Rarity = Normal
-    Class "Two Hand Maces" 
+    Class "Two Hand Maces"
     SetFontSize 25
 
 Hide # Normal - Hide unwanted Drops for current char, uncomment to show - Claw
@@ -1225,7 +1225,7 @@ Hide
 
 Show
     Rarity <= Normal
-    Class "One Hand Swords" "Two Hand Swords" "One Hand Axes" "Two Hand Axes" "One Hand Maces" "Two Hand Maces" "Claws" "Daggers" "Sceptres" "Wands" "Bows" "Quivers" "Staves" 
+    Class "One Hand Swords" "Two Hand Swords" "One Hand Axes" "Two Hand Axes" "One Hand Maces" "Two Hand Maces" "Claws" "Daggers" "Sceptres" "Wands" "Bows" "Quivers" "Staves"
     SetBorderColor 255 140 0		    # darkorange
     SetFontSize 35
 
@@ -1235,10 +1235,10 @@ Show
 
 Show
     Rarity = Normal
-    Class "Helmets" "Body Armours" "Gloves" "Boots" "Shields" 
+    Class "Helmets" "Body Armours" "Gloves" "Boots" "Shields"
     SetBorderColor 255 255 255          # white
     SetFontSize 35
-     
+
 # #######################################################################################################################
 # Flasks
 # #######################################################################################################################

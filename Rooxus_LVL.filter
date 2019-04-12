@@ -651,7 +651,7 @@ Hide # Gems - HideAll
     Class "Gems"
     SetTextColor 27 162 155             # gem
     SetFontSize 25
-    
+
 # #######################################################################################################################
 # Shaper
 # #######################################################################################################################
@@ -807,13 +807,13 @@ Hide # Chance - Sadist Garb
     Corrupted False
     Rarity = Normal
     BaseType "Sadist Garb"
-    SetBorderColor 231 180 120          # chance 
+    SetBorderColor 231 180 120          # chance
 
 Show # Chance - Varnished Coat
     Corrupted False
     Rarity = Normal
     BaseType "Varnished Coat"
-    SetBorderColor 231 180 120          # chance 
+    SetBorderColor 231 180 120          # chance
 
 # #######################################################################################################################
 # Magic - Specific League Items
@@ -1168,7 +1168,7 @@ Hide # Rare - Hide unwanted Drops for current char, uncomment to show - 1H Mace
 
 Hide # Rare - Hide unwanted Drops for current char, uncomment to show - 2H Mace
     Rarity = Rare
-    Class "Two Hand Maces" 
+    Class "Two Hand Maces"
     SetFontSize 25
 
 Hide # Rare - Hide unwanted Drops for current char, uncomment to show - Claw
@@ -1274,7 +1274,7 @@ Hide
 
 Show
     Rarity = Rare
-    Class "One Hand Swords" "Two Hand Swords" "One Hand Axes" "Two Hand Axes" "One Hand Maces" "Two Hand Maces" "Claws" "Daggers" "Sceptres" "Wands" "Bows" "Quivers" "Staves" 
+    Class "One Hand Swords" "Two Hand Swords" "One Hand Axes" "Two Hand Axes" "One Hand Maces" "Two Hand Maces" "Claws" "Daggers" "Sceptres" "Wands" "Bows" "Quivers" "Staves"
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 40
 

@@ -469,7 +469,7 @@ Show # Maps - MapTier 13-15
 
 Hide # Maps - MapTier low maps on T15+
 	MapTier <= 9
-    ItemLevel >= 82 
+    ItemLevel >= 82
     Class "Maps"
     SetBorderColor 255 140 0		    # darkorange
     SetFontSize 45
@@ -658,7 +658,7 @@ Hide # Gems - HideAll
     Class "Gems"
     SetTextColor 27 162 155             # gem
     SetFontSize 25
-    
+
 # #######################################################################################################################
 # Shaper
 # #######################################################################################################################
@@ -820,7 +820,7 @@ Show # Veiled Mod
 #     Corrupted False
 #     Rarity = Normal
 #     BaseType "Varnished Coat"
-#     SetBorderColor 231 180 120          # chance 
+#     SetBorderColor 231 180 120          # chance
 
 # #######################################################################################################################
 # Magic - Specific League Items
@@ -2066,7 +2066,7 @@ Hide # Rare - Hide - Jewelery
 Hide # Flasks - Divine Life Flask
     BaseType "Divine Life Flask"
     Rarity <= Magic
-    SetBorderColor 150 0 0   
+    SetBorderColor 150 0 0
 
 Hide # Flasks - Utility Flasks
     BaseType "Quicksilver Flask" "Silver Flask" "Sulphur Flask" "Diamond Flask"
@@ -2153,7 +2153,7 @@ Show # CatchAll - Map Fragments
 Show # CatchAll - Normal/Magic
     Rarity <= Magic
     SetBorderColor 50 250 50            # green (catch all)
-    
+
 Show # CatchAll - Rare
     Rarity = Rare
     SetBorderColor 50 250 50            # green (catch all)
