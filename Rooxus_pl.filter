@@ -344,9 +344,9 @@ Hide # Currency - Low Value
 # Unique
 # #######################################################################################################################
 
-Show # Unique - T1 (Neversink 12.04.2019)
+Show # Unique - T1 (Neversink 11.06.2019)
     Rarity = Unique
-	BaseType "Ambush Mitts" "Callous Mask" "Champion Kite Shield" "Clutching Talisman" "Crusader Boots" "Glorious Plate" "Greatwolf Talisman" "Highborn Staff" "Jewelled Foil" "Jingling Spirit Shield" "Legion Gloves" "Nubuck Boots" "Occultist's Vestment" "Prismatic Jewel" "Prophecy Wand" "Rawhide Boots" "Rawhide Tower Shield" "Riveted Gloves" "Ruby Flask" "Sapphire Flask" "Vaal Spirit Shield"
+	BaseType "Ambush Mitts" "Callous Mask" "Carnal Boots" "Clutching Talisman" "Crusader Boots" "Ezomyte Tower Shield" "Gemstone Sword" "Glorious Plate" "Golden Mantle" "Golden Wreath" "Grand Mana Flask" "Greatwolf Talisman" "Highborn Staff" "Hydrascale Gauntlets" "Imperial Maul" "Jewelled Foil" "Jingling Spirit Shield" "Legion Gloves" "Nubuck Boots" "Occultist's Vestment" "Ornate Quiver" "Prismatic Jewel" "Prophecy Wand" "Rawhide Boots" "Rawhide Tower Shield" "Riveted Gloves" "Rotfeather Talisman" "Royal Axe" "Ruby Amulet" "Ruby Flask" "Sorcerer Boots" "Wereclaw Talisman" "Wyrmscale Doublet" "Zodiac Leather"
     SetTextColor 175 96 37              # uniq
     SetBackgroundColor 255 255 255      # white
     SetBorderColor 175 96 37            # uniq
@@ -355,18 +355,18 @@ Show # Unique - T1 (Neversink 12.04.2019)
     MinimapIcon 0 Red Star
     PlayEffect Red
 
-Show # Unique - T2 (Neversink 12.04.2019)
+Show # Unique - T2 (Neversink 11.06.2019)
     Rarity = Unique
-	BaseType "Ancient Gauntlets" "Arcanist Gloves" "Arcanist Slippers" "Assassin's Boots" "Bismuth Flask" "Blood Raiment" "Blood Sceptre" "Cardinal Round Shield" "Carnal Boots" "Carnal Sceptre" "Coronal Leather" "Cutlass" "Destiny Leather" "Ezomyte Tower Shield" "Full Wyrmscale" "Gemstone Sword" "Gladiator Plate" "Grand Mana Flask" "Hydrascale Gauntlets" "Nightmare Mace" "Rotfeather Talisman" "Royal Axe" "Sacrificial Garb" "Sanctified Life Flask" "Savant's Robe" "Siege Axe" "Steelwood Bow" "Thorium Spirit Shield" "Topaz Flask" "Vaal Mask" "Vaal Rapier" "Varnished Coat" "Wereclaw Talisman"
+	BaseType "Abyssal Axe" "Ancient Gauntlets" "Assassin's Boots" "Bismuth Flask" "Carnal Sceptre" "Champion Kite Shield" "Clasped Mitts" "Coiled Staff" "Corsair Sword" "Destiny Leather" "Ezomyte Burgonet" "Full Wyrmscale" "Granite Flask" "Hellion's Paw" "Imperial Claw" "Iron Sceptre" "Jasper Chopper" "Midnight Blade" "Necromancer Silks" "Nightmare Bascinet" "Nightmare Mace" "Ritual Sceptre" "Sacrificial Garb" "Sanctified Life Flask" "Sapphire Flask" "Serpentscale Gauntlets" "Siege Axe" "Sorcerer Gloves" "Steelwood Bow" "Two-Stone Ring" "Vaal Axe" "Vaal Mask" "Vaal Rapier" "Vaal Sceptre" "Vaal Spirit Shield" "Varnished Coat" "Void Axe"
     SetBorderColor 0 255 150            # high value
     SetFontSize 45
     PlayAlertSound 1 200                # Sound - T2
     MinimapIcon 0 Red Diamond
     PlayEffect Red
 
-Show # Unique - Multibase (Neversink 12.04.2019)
+Show # Unique - Multibase (Neversink 11.06.2019)
     Rarity = Unique
-	BaseType "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Leather Belt" "Magistrate Crown" "Onyx Amulet" "Citrine Amulet" "Ebony Tower Shield" "Eternal Sword" "Fiend Dagger" "Goathide Boots" "Gold Amulet" "Gold Ring" "Granite Flask" "Imperial Bow" "Imperial Staff" "Murder Boots" "Nightmare Bascinet" "Sadist Garb" "Sage Wand" "Sorcerer Boots" "Stealth Boots" "Stibnite Flask" "Terror Claw" "Titan Greaves" "Tornado Wand" "Two-Stone Ring" "Unset Ring" "Vaal Sceptre"
+	BaseType "Agate Amulet" "Amber Amulet" "Hubris Circlet" "Jade Amulet" "Lapis Amulet" "Leather Belt" "Moonstone Ring" "Silver Flask" "Topaz Ring" "Unset Ring" "Blood Raiment" "Coral Amulet" "Ebony Tower Shield" "Ezomyte Staff" "Fiend Dagger" "Goathide Boots" "Gold Amulet" "Gold Ring" "Imperial Bow" "Iron Ring" "Judgement Staff" "Magistrate Crown" "Onyx Amulet" "Sadist Garb" "Sage Wand" "Stibnite Flask" "Studded Belt"
     SetTextColor 0 0 0 0                # transparent
     SetBackgroundColor 175 96 37        # uniq
     SetBorderColor 0 0 0 0              # transparent
@@ -375,9 +375,9 @@ Show # Unique - Multibase (Neversink 12.04.2019)
     MinimapIcon 2 Red Star
     PlayEffect Red
 
-Show # Unique - Fated (Neversink 12.04.2019)
+Show # Unique - Fated (Neversink 11.06.2019)
     Rarity = Unique
-	BaseType "Coral Amulet" "Crude Bow" "Death Bow" "Fire Arrow Quiver" "Gavel" "Gilded Sallet" "Gnarled Branch" "Goathide Gloves" "Golden Buckler" "Iron Circlet" "Iron Hat" "Iron Ring" "Iron Staff" "Jade Hatchet" "Jagged Maul" "Long Bow" "Ornate Sword" "Painted Buckler" "Plank Kite Shield" "Plate Vest" "Reaver Sword" "Reinforced Greaves" "Royal Bow" "Royal Staff" "Scholar Boots" "Serrated Arrow Quiver" "Sledgehammer" "Spiraled Wand" "Studded Belt" "Velvet Gloves" "Velvet Slippers" "Vine Circlet" "War Buckler" "Wild Leather" "Woodsplitter"
+	BaseType "Assassin Bow" "Bronzescale Boots" "Deerskin Gloves" "Ezomyte Blade" "Holy Chainmail" "Imperial Skean" "Karui Maul" "Opal Wand" "Silk Gloves" "Soldier Helmet" "Sulphur Flask" "Timeworn Claw" "Titanium Spirit Shield" "Vaal Blade" "War Hammer"
     SetBorderColor 159 15 213			# violett
     SetFontSize 35
     PlayAlertSound 8 150
@@ -567,15 +567,15 @@ Show # Map Fragments - Guardians
 # Divination Cards
 # #######################################################################################################################
 
-Show # Divination Cards - exclusion (Neversink 12.04.2019)
+Show # Divination Cards - exclusion (Neversink 11.06.2019)
     Class "Divination Card"
     BaseType "The Wolf's Shadow" "The Master Artisan"
     SetTextColor 0 180 255              # cards
     SetFontSize 35
 
-Show # Divination Cards - T1 (Neversink 12.04.2019)
+Show # Divination Cards - T1 (Neversink 11.06.2019)
     Class "Divination Card"
-	BaseType "Abandoned Wealth" "Beauty Through Death" "House of Mirrors" "Hunter's Reward" "Immortal Resolve" "Mawr Blaidd" "Pride Before the Fall" "Seven Years Bad Luck" "The Doctor" "The Dragon's Heart" "The Ethereal" "The Fiend" "The Immortal" "The Iron Bard" "The King's Heart" "The Life Thief" "The Master" "The Mayor" "The Nurse" "The Offering" "The Risk" "The Samurai's Eye" "The Spark and the Flame" "The Wind" "The Wolven King's Bite" "Wealth and Power"
+	BaseType "Abandoned Wealth" "Alluring Bounty" "Beauty Through Death" "Burning Blood" "House of Mirrors" "Hunter's Reward" "Immortal Resolve" "Mawr Blaidd" "Pride of the First Ones" "Seven Years Bad Luck" "The Celestial Stone" "The Doctor" "The Dragon's Heart" "The Fiend" "The Immortal" "The Iron Bard" "The Life Thief" "The Mayor" "The Nurse" "The Risk" "The Saint's Treasure" "The Samurai's Eye" "The Spark and the Flame" "The Vast" "The Wolven King's Bite" "Wealth and Power"
     SetTextColor 0 180 255              # cards
     SetBorderColor 0 255 150            # high value
     SetFontSize 45
@@ -583,9 +583,9 @@ Show # Divination Cards - T1 (Neversink 12.04.2019)
     MinimapIcon 0 Blue Star
     PlayEffect Blue
 
-Show # Divination Cards - T2 (Neversink 12.04.2019)
+Show # Divination Cards - T2 (Neversink 11.06.2019)
     Class "Divination Card"
-	BaseType "Chaotic Disposition" "The Artist" "The Brittle Emperor" "The Cartographer" "The Celestial Justicar" "The Celestial Stone" "The Dreamer" "The Enlightened" "The Hoarder" "The Landing" "The Polymath" "The Professor" "The Queen" "The Sacrifice" "The Saint's Treasure" "The Sephirot" "The Undaunted" "The Vast" "The Void" "The Wolf" "The World Eater"
+	BaseType "Buried Treasure" "Chaotic Disposition" "Dark Dreams" "Pride Before the Fall" "The Cartographer" "The Deep Ones" "The Landing" "The Professor" "The Queen" "The Seeker" "The Sephirot" "The Soul" "The Undaunted" "The Void"
     SetTextColor 0 180 255              # cards
     SetBorderColor 0 180 255            # cards
     SetFontSize 40
@@ -593,27 +593,27 @@ Show # Divination Cards - T2 (Neversink 12.04.2019)
     MinimapIcon 0 Blue Diamond
     PlayEffect Blue
 
-Show # Divination Cards - T3 (Neversink 12.04.2019)
+Show # Divination Cards - T3 (Neversink 11.06.2019)
     Class "Divination Card"
-	BaseType "Alone in the Darkness" "Arrogance of the Vaal" "Assassin's Favour" "Atziri's Arsenal" "Blind Venture" "Boon of the First Ones" "Bowyer's Dream" "Emperor of Purity" "Glimmer of Hope" "Harmony of Souls" "Heterochromia" "Humility" "Jack in the Box" "Last Hope" "Left to Fate" "Lingering Remnants" "Lucky Connections" "Lucky Deck" "Monochrome" "No Traces" "Perfection" "Rebirth" "Sambodhi's Vow" "Scholar of the Seas" "The Admirer" "The Aesthete" "The Avenger" "The Body" "The Breach" "The Cacophony" "The Chains that Bind" "The Cursed King" "The Dapper Prodigy" "The Dark Mage" "The Encroaching Darkness" "The Endless Darkness" "The Formless Sea" "The Gladiator" "The Hale Heart" "The Hunger" "The Innocent" "The Inventor" "The Jester" "The Jeweller's Boon" "The Journey" "The Last One Standing" "The Lion" "The Mad King" "The Mercenary" "The Messenger" "The Obscured" "The Penitent" "The Porcupine" "The Price of Protection" "The Seeker" "The Surveyor" "The Thaumaturgist" "The Throne" "The Traitor" "The Trial" "The Twilight Moon" "The Undisputed" "The Valkyrie" "The Valley of Steel Boxes" "The Warlord" "The Wilted Rose" "The Wretched" "Time-Lost Relic"
+	BaseType "Alone in the Darkness" "Arrogance of the Vaal" "Boon of the First Ones" "Bowyer's Dream" "Demigod's Wager" "Echoes of Love" "Emperor of Purity" "Heterochromia" "Humility" "Last Hope" "Left to Fate" "Lucky Deck" "Merciless Armament" "Monochrome" "No Traces" "Perfection" "Rebirth" "Sambodhi's Vow" "The Artist" "The Breach" "The Brittle Emperor" "The Celestial Justicar" "The Chains that Bind" "The Dapper Prodigy" "The Dark Mage" "The Dreamer" "The Enlightened" "The Ethereal" "The Hale Heart" "The Hoarder" "The Insatiable" "The Inventor" "The Jeweller's Boon" "The Journey" "The King's Heart" "The Master" "The Offering" "The Polymath" "The Porcupine" "The Primordial" "The Sacrifice" "The Thaumaturgist" "The Throne" "The Undisputed" "The Valkyrie" "The Valley of Steel Boxes" "The Warlord" "The Wilted Rose" "The Wolf" "The World Eater" "Time-Lost Relic" "Vanity"
     SetTextColor 0 180 255              # cards
     SetBorderColor 0 180 255            # cards
     PlayAlertSound 3 150
     MinimapIcon 2 Blue Square
     PlayEffect Blue
 
-Show # Divination Cards - T4 (Neversink 12.04.2019)
+Show # Divination Cards - T4 (Neversink 11.06.2019)
     Class "Divination"
-	BaseType "Coveted Possession" "Emperor's Luck" "Loyalty" "The Catalyst" "The Gemcutter" "The Survivalist" "The Union" "The Wrath" "Three Faces in the Dark" "Three Voices" "Vinia's Token" "Boon of Justice"
+	BaseType "Boon of Justice" "Coveted Possession" "Emperor's Luck" "Harmony of Souls" "Her Mask" "Loyalty" "Lucky Connections" "The Cacophony" "The Catalyst" "The Fool" "The Gemcutter" "The Innocent" "The Puzzle" "The Scholar" "The Survivalist" "The Union" "The Wrath" "Three Faces in the Dark" "Three Voices" "Vinia's Token"
     SetTextColor 0 180 255              # cards
     SetBorderColor 0 180 255            # cards
     PlayAlertSound 3 150
     MinimapIcon 2 Blue Circle
     PlayEffect Blue
 
-Hide # Divination Cards - Hide crap (Neversink 12.04.2019)
+Hide # Divination Cards - Hide crap (Neversink 11.06.2019)
     Class "Divination Card"
-    BaseType "Rain of Chaos" "The Puzzle" "The Scholar" "A Mother's Parting Gift" "Anarchy's Price" "Birth of the Three" "Carrion Crow" "Cartographer's Delight" "Dark Temptation" "Death" "Destined to Crumble" "Doedre's Madness" "Dying Anguish" "Forbidden Power" "Grave Knowledge" "Hermit" "King's Blade" "Lantador's Lost Love" "Light and Truth" "Metalsmith's Gift" "Might is Right" "Other Cheek" "Prosperity" "Rain Tempter" "Rats" "Struck by Lightning" "The Army of Blood" "The Betrayal" "The Blazing Fire" "The Calling" "The Coming Storm" "The Deceiver" "The Eye of the Dragon" "The Fox" "The Incantation" "The Inoculated" "The Lich" "The Lover" "The Lunaris Priestess" "The Metalsmith's Gift" "The Opulent" "The Pack Leader" "The Pact" "The Rabid Rhoa" "The Ruthless Ceinture" "The Scarred Meadow" "The Sigil" "The Siren" "The Sun" "The Surgeon" "The Twins" "The Visionary" "The Warden" "The Watcher" "The Witch" "Thunderous Skies" "Tranquillity" "Volatile Power" "The Golden Era"
+    BaseType "Rain of Chaos" "A Mother's Parting Gift" "Anarchy's Price" "Audacity" "Birth of the Three" "Dark Temptation" "Destined to Crumble" "Dying Anguish" "Grave Knowledge" "Lantador's Lost Love" "Might is Right" "Struck by Lightning" "The Betrayal" "The Carrion Crow" "The Coming Storm" "The Drunken Aristocrat" "The Flora's Gift" "The Hermit" "The Incantation" "The King's Blade" "The Lover" "The Lunaris Priestess" "The Metalsmith's Gift" "The Opulent" "The Scarred Meadow" "The Summoner" "The Warden" "The Watcher" "The Witch" "Thunderous Skies" "Turn the Other Cheek" "Volatile Power"
     SetTextColor 0 180 255              # cards
     SetFontSize 25
 
