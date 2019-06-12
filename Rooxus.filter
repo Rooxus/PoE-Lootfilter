@@ -143,19 +143,19 @@ Show # Currency - Low Value
     SetBorderColor 127 255 212          # aquamarine1
     SetFontSize 45
 
-Show # Currency - Low Value
+Hide # Currency - Low Value
     Class "Currency"
     BaseType "Blacksmith's Whetstone"
     SetTextColor 170 158 130			# currency
     SetFontSize 45
 
-Show # Currency - Low Value
+Hide # Currency - Low Value
     Class "Currency"
     BaseType "Armourer's Scrap"
     SetTextColor 170 158 130			# currency
     SetFontSize 45
 
-Show # Currency - Low Value
+Hide # Currency - Low Value
     Class "Currency"
     BaseType "Portal Scroll"
     SetTextColor 170 158 130			# currency
@@ -974,19 +974,19 @@ Show # Normal/Magic - Specials - T2
 # Normal/Magic - Chromatic Recipe
 # #######################################################################################################################
 
-Show # Normal/Magic - Chromatic Recipe
-    SocketGroup "RGB"
-    Height <= 4
-    Width = 1
-    Rarity <= Magic
-    SetBorderColor 0 197 205            # turquoise3
+# Show # Normal/Magic - Chromatic Recipe
+#     SocketGroup "RGB"
+#     Height <= 4
+#     Width = 1
+#     Rarity <= Magic
+#     SetBorderColor 0 197 205            # turquoise3
 
-Show # Normal/Magic - Chromatic Recipe
-    SocketGroup "RGB"
-    Height = 2
-    Width = 2
-    Rarity <= Magic
-    SetBorderColor 0 197 205            # turquoise3
+# Show # Normal/Magic - Chromatic Recipe
+#     SocketGroup "RGB"
+#     Height = 2
+#     Width = 2
+#     Rarity <= Magic
+#     SetBorderColor 0 197 205            # turquoise3
 
 # #######################################################################################################################
 # Normal/Magic - Jewelery
@@ -1569,7 +1569,7 @@ Show # Rare - Equipment - ARM - Helmet - T2
     SetBorderColor 255 255 119          # Rare
     SetFontSize 40
 
-Show # Rare - Equipment - ARM - Body Armour - T2
+Hide # Rare - Equipment - ARM - Body Armour - T2
     Rarity = Rare
     BaseType "Gladiator Plate"
     SetBorderColor 255 255 119          # Rare
@@ -1591,7 +1591,7 @@ Show # Rare - Equipment - ARM - Helmet - T3
     Rarity = Rare
     BaseType "Samite Helmet"
 
-Show # Rare - Equipment - ARM - Body Armour - T3
+Hide # Rare - Equipment - ARM - Body Armour - T3
     Rarity = Rare
     BaseType "Crusader Plate" "Golden Plate" "Majestic Plate"
 
@@ -1699,7 +1699,7 @@ Show # Rare - Equipment - EVA+ARM - Helmet - T2
     SetBorderColor 255 255 119          # Rare
     SetFontSize 40
 
-Show # Rare - Equipment - EVA+ARM - Body Armour - T2
+Hide # Rare - Equipment - EVA+ARM - Body Armour - T2
     Rarity = Rare
     BaseType "Triumphant Lamellar" "General's Brigandine" "Full Dragonscale"
     SetBorderColor 255 255 119          # Rare
@@ -1721,7 +1721,7 @@ Show # Rare - Equipment - EVA+ARM - Helmet - T3
     Rarity = Rare
     BaseType "Lacquered Helmet" "Fencer Helm" "Fluted Bascinet"
 
-Show # Rare - Equipment - EVA+ARM - Body Armour - T3
+Hide # Rare - Equipment - EVA+ARM - Body Armour - T3
     Rarity = Rare
     BaseType "Desert Brigandine" "Battle Lamellar" "Commander's Brigandine" "Dragonscale Doublet"
 
@@ -1743,7 +1743,7 @@ Show # Rare - Equipment - ARM+ES - Helmet - T1
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 40
 
-Show # Rare - Equipment - ARM+ES - Body Armour - T1
+Hide # Rare - Equipment - ARM+ES - Body Armour - T1
     Rarity = Rare
     BaseType "Saintly Chainmail"
     SetBorderColor 150 0 0              # smoothred
@@ -1767,7 +1767,7 @@ Show # Rare - Equipment - ARM+ES - Helmet - T2
     SetBorderColor 255 255 119          # Rare
     SetFontSize 40
 
-Show # Rare - Equipment - ARM+ES - Body Armour - T2
+Hide # Rare - Equipment - ARM+ES - Body Armour - T2
     Rarity = Rare
     BaseType "Saint's Hauberk" "Elegant Ringmail" "Conquest Chainmail"
     SetBorderColor 255 255 119          # Rare
@@ -1789,7 +1789,7 @@ Show # Rare - Equipment - ARM+ES - Helmet - T3
     Rarity = Rare
     BaseType "Great Crown"
 
-Show # Rare - Equipment - ARM+ES - Body Armour - T3
+Hide # Rare - Equipment - ARM+ES - Body Armour - T3
     Rarity = Rare
     BaseType "Devout Chainmail" "Ornate Ringmail" "Crusader Chainmail" "Chain Hauberk"
 
