@@ -115,7 +115,7 @@ Show # Currency - Low Value
     SetBorderColor 127 255 212          # aquamarine1
     SetFontSize 45
 
-Show # Currency - Low Value
+Hide # Currency - Low Value
     Class "Currency"
     BaseType "Orb of Chance"
     SetTextColor 170 158 130			# currency
@@ -129,7 +129,7 @@ Show # Currency - Low Value
     SetBorderColor 127 255 212          # aquamarine1
     SetFontSize 45
 
-Show # Currency - Low Value
+Hide # Currency - Low Value
     Class "Currency"
     BaseType "Orb of Transmutation"
     SetTextColor 170 158 130			# currency
@@ -564,7 +564,7 @@ Show # Maps - MapTier 13-15
     PlayEffect Yellow
 
 Hide # Maps - MapTier low maps on T15+
-	MapTier <= 9
+	MapTier <= 6
     ItemLevel >= 82
     Class "Maps"
     SetBorderColor 255 140 0		    # darkorange
@@ -738,7 +738,7 @@ Hide # Gems - Q1+
 
 Show # Gems - DropOnly
     Class "Gems"
-    BaseType "Portal" "Empower" "Enhance" "Enlighten" "Added Chaos Damage" "Vaal Breach" "Detonate Mines"
+    BaseType "Portal" "Empower" "Enhance" "Enlighten" "Vaal Breach"
     SetTextColor 27 162 155             # gem
     SetBorderColor 27 162 155           # gem
     SetFontSize 45
@@ -1046,19 +1046,19 @@ Show # Normal/Magic - Specials - T2
 # Normal/Magic - Chromatic Recipe
 # #######################################################################################################################
 
-Show # Normal/Magic - Chromatic Recipe
-    SocketGroup "RGB"
-    Height <= 4
-    Width = 1
-    Rarity <= Magic
-    SetBorderColor 0 197 205            # turquoise3
+# Show # Normal/Magic - Chromatic Recipe
+#     SocketGroup "RGB"
+#     Height <= 4
+#     Width = 1
+#     Rarity <= Magic
+#     SetBorderColor 0 197 205            # turquoise3
 
-Show # Normal/Magic - Chromatic Recipe
-    SocketGroup "RGB"
-    Height = 2
-    Width = 2
-    Rarity <= Magic
-    SetBorderColor 0 197 205            # turquoise3
+# Show # Normal/Magic - Chromatic Recipe
+#     SocketGroup "RGB"
+#     Height = 2
+#     Width = 2
+#     Rarity <= Magic
+#     SetBorderColor 0 197 205            # turquoise3
 
 # #######################################################################################################################
 # Normal/Magic - Jewelery
@@ -1110,8 +1110,9 @@ Show
     SetFontSize 45
 
 # Show
-#     Rarity = Normal
-#     BaseType "Imperial Claw" "Gemini Claw"
+#     ItemLevel >= 83
+#     Rarity <= Magic
+#     BaseType "Imperial Claw"
 #     SetBorderColor 150 0 0              # smoothred
 #     SetFontSize 45
 
@@ -1366,13 +1367,13 @@ Hide # Rare - 2H Mace - T2
 # Rare - Claw
 # #######################################################################################################################
 
-Show # Rare - Claw - T1
+Hide # Rare - Claw - T1
     Rarity = Rare
     BaseType "Imperial Claw" "Gemini Claw"
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 45
 
-Show # Rare - Claw - T2
+Hide # Rare - Claw - T2
     Rarity = Rare
     BaseType "Terror Claw" "Vaal Claw" "Eye Gouger" "Throat Stabber" "Hellion's Paw"
     SetBorderColor 255 255 119          # Rare
