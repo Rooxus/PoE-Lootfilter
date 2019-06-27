@@ -563,12 +563,12 @@ Show # Maps - MapTier 13-15
     MinimapIcon 0 Yellow Diamond
     PlayEffect Yellow
 
-# Hide # Maps - MapTier low maps on T15+
-# 	MapTier <= 9
-#     ItemLevel >= 82
-#     Class "Maps"
-#     SetBorderColor 255 140 0		    # darkorange
-#     SetFontSize 45
+Hide # Maps - MapTier low maps on T15+
+	MapTier <= 6
+    ItemLevel >= 82
+    Class "Maps"
+    SetBorderColor 255 140 0		    # darkorange
+    SetFontSize 45
 
 Show # Maps - MapTier 10-12
 	MapTier >= 10
@@ -709,13 +709,27 @@ Show # Divination Cards - T4 (Neversink 17.06.2019)
 
 Hide # Divination Cards - Hide crap (Neversink 17.06.2019)
     Class "Divination Card"
-	BaseType "A Mother's Parting Gift" "Anarchy's Price" "Birth of the Three" "Call to the First Ones" "Cartographer's Delight" "Dark Temptation" "Death" "Dying Anguish" "Grave Knowledge" "Lantador's Lost Love" "Light and Truth" "Might is Right" "Prosperity" "Rain Tempter" "Rats" "Struck by Lightning" "The Army of Blood" "The Blazing Fire" "The Calling" "The Carrion Crow" "The Cataclysm" "The Coming Storm" "The Doppelganger" "The Drunken Aristocrat" "The Endurance" "The Fathomless Depths" "The Feast" "The Flora's Gift" "The Hermit" "The Incantation" "The Inoculated" "The King's Blade" "The Lich" "The Lover" "The Lunaris Priestess" "The Metalsmith's Gift" "The Oath" "The Opulent" "The Pack Leader" "The Pact" "The Rabid Rhoa" "The Ruthless Ceinture" "The Scarred Meadow" "The Summoner" "The Sun" "The Surgeon" "The Twins" "The Visionary" "The Warden" "The Watcher" "The Witch" "Thirst for Knowledge" "Thunderous Skies" "Tranquillity" "Turn the Other Cheek" "Volatile Power"
+	BaseType "A Mother's Parting Gift" "Anarchy's Price" "Birth of the Three" "Call to the First Ones" "Cartographer's Delight" "Dark Temptation" "Death" "Dying Anguish" "Grave Knowledge" "Lantador's Lost Love" "Light and Truth" "Might is Right" "Prosperity" "Rain Tempter" "Rats" "Struck by Lightning" "The Army of Blood" "The Blazing Fire" "The Calling" "The Carrion Crow" "The Cataclysm" "The Coming Storm" "The Doppelganger" "The Drunken Aristocrat" "The Endurance" "The Fathomless Depths" "The Feast" "The Flora's Gift" "The Hermit" "The Incantation" "The Inoculated" "The King's Blade" "The Lich" "The Lover" "The Lunaris Priestess" "The Metalsmith's Gift" "The Oath" "The Opulent" "The Pack Leader" "The Pact" "The Rabid Rhoa" "The Ruthless Ceinture" "The Scarred Meadow" "The Summoner" "The Sun" "The Surgeon" "The Twins" "The Visionary" "The Warden" "The Watcher" "The Witch" "Thirst for Knowledge" "Thunderous Skies" "Tranquillity" "Turn the Other Cheek" "Volatile Power" "Destined to Crumble"
     SetTextColor 0 180 255              # cards
     SetFontSize 25
 
 # #######################################################################################################################
 # Gems
 # #######################################################################################################################
+
+Show # Gems - DropOnly
+    Class "Gems"
+    BaseType "Portal" "Empower" "Enhance" "Enlighten" "Vaal Breach"
+    SetTextColor 27 162 155             # gem
+    SetBorderColor 27 162 155           # gem
+    SetFontSize 45
+
+Show # Gems - LVL19+
+	GemLevel >= 19
+    Class "Gems"
+    SetTextColor 27 162 155             # gem
+    SetBorderColor 27 162 155           # gem
+    SetFontSize 45
 
 Show # Gems - Q20+
     Quality >= 20
@@ -730,17 +744,10 @@ Show # Gems - Q10+
     SetBorderColor 27 162 155           # gem
     SetFontSize 45
 
-Show # Gems - Q1+
-    Quality >= 1
+Show # Gems - Q5+
+    Quality >= 5
     Class "Gems"
     SetTextColor 27 162 155             # gem
-    SetFontSize 45
-
-Show # Gems - DropOnly
-    Class "Gems"
-    BaseType "Portal" "Empower" "Enhance" "Enlighten" "Added Chaos Damage" "Vaal Breach" "Detonate Mines"
-    SetTextColor 27 162 155             # gem
-    SetBorderColor 27 162 155           # gem
     SetFontSize 45
 
 Show # Gems - Vaal
@@ -889,19 +896,6 @@ Show
     SetFontSize 45
 
 # #######################################################################################################################
-# Vailed
-# #######################################################################################################################
-
-Show # Veiled Mod
-    Identified True
-    HasExplicitMod "Veil"
-    SetBorderColor 255 0 255
-    SetFontSize 45
-    PlayAlertSound 1 200                # Sound - T2
-    MinimapIcon 0 Brown Diamond
-    PlayEffect Brown
-
-# #######################################################################################################################
 # Chance
 # #######################################################################################################################
 
@@ -912,10 +906,10 @@ Show # Veiled Mod
 #     SetBorderColor 231 180 120          # chance
 
 # #######################################################################################################################
-# Magic - Specific League Items
+# Specific Items
 # #######################################################################################################################
 
-Show # Synthesis - Fractured Items
+Show # Specific Items - Fractured Items
 	FracturedItem True
 	Rarity <= Rare
 	SetFontSize 45
@@ -925,7 +919,7 @@ Show # Synthesis - Fractured Items
     MinimapIcon 0 Brown Star
     PlayEffect Brown
 
-Show # Synthesis - Synthesis Items
+Show # Specific Items - Synthesis Items
 	SynthesisedItem True
 	Rarity <= Rare
     SetBorderColor 150 0 0              # smoothred
@@ -934,7 +928,24 @@ Show # Synthesis - Synthesis Items
     MinimapIcon 0 Brown Star
     PlayEffect Brown
 
-Show # Delve Mod Items
+Show # Specific Items - Veiled Mod
+    Identified True
+    HasExplicitMod "Veil"
+    SetBorderColor 150 0 0              # smoothred
+    SetFontSize 45
+    PlayAlertSound 1 200                # Sound - T2
+    MinimapIcon 0 Brown Star
+    PlayEffect Brown
+
+Show # Specific Items - Enchanted Items
+	AnyEnchantment True
+    SetBorderColor 150 0 0              # smoothred
+    SetFontSize 45
+    PlayAlertSound 1 200                # Sound - T2
+    MinimapIcon 0 Brown Star
+    PlayEffect Brown
+
+Show # Specific Items - Delve Items
     Identified True
     HasExplicitMod "of Crafting" "of Spellcraft" "of Weaponcraft" "of the Underground" "Subterranean"
     SetBorderColor 150 0 0              # smoothred
@@ -943,7 +954,7 @@ Show # Delve Mod Items
     MinimapIcon 0 Brown Star
     PlayEffect Brown
 
-Show # Bestiary Mod Items
+Show # Specific Items - Bestiary Items
 	Identified True
 	HasExplicitMod "of Farrul" "of Craiceann" "of Fenumus" "of Saqawal"
     SetBorderColor 150 0 0              # smoothred
@@ -952,7 +963,7 @@ Show # Bestiary Mod Items
     MinimapIcon 0 Brown Star
     PlayEffect Brown
 
-Show # Incursion Mod Items
+Show # Specific Items - Incursion Items
     Identified True
     HasExplicitMod "Tacati" "Citaqualotl" "Matatl" "Topotante" "Xopec" "Guatelitzi" "Puhuarte"
     SetBorderColor 150 0 0              # smoothred
@@ -961,21 +972,9 @@ Show # Incursion Mod Items
     MinimapIcon 0 Brown Star
     PlayEffect Brown
 
-Show # Warband Mod Items
+Show # Specific Items - Warband Items
     Identified True
     HasExplicitMod "Brinerot" "Mutewind" "Redblade" "Betrayer's" "Deceiver's" "Turncoat's"
-    SetBorderColor 150 0 0              # smoothred
-    SetFontSize 45
-    PlayAlertSound 1 200                # Sound - T2
-    MinimapIcon 0 Brown Star
-    PlayEffect Brown
-
-# #######################################################################################################################
-# Enchanted Items
-# #######################################################################################################################
-
-Show
-	AnyEnchantment True
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 45
     PlayAlertSound 1 200                # Sound - T2
