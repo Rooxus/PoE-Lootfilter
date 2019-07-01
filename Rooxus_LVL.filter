@@ -89,14 +89,16 @@ Show # Currency - Valuable shards
 
 Show # Currency - Medium Value
     Class "Currency"
-    BaseType "Glassblower's Bauble"
+    BaseType "Annulment Shard" "Binding Shard" "Chaos Shard" "Regal Shard" "Alchemy Shard"
     SetTextColor 127 255 212            # aquamarine1
     SetBorderColor 127 255 212          # aquamarine1
     SetFontSize 45
+    MinimapIcon 2 White Circle
+    PlayEffect White
 
 Show # Currency - Medium Value
     Class "Currency"
-    BaseType "Annulment Shard" "Binding Shard" "Chaos Shard" "Regal Shard" "Alchemy Shard"
+    BaseType "Glassblower's Bauble"
     SetTextColor 127 255 212            # aquamarine1
     SetBorderColor 127 255 212          # aquamarine1
     SetFontSize 45
@@ -179,23 +181,11 @@ Hide # Currency - Scroll Fragment & Alteration Shard
 
 Show # Currency - Legion
 	Class Currency
-	BaseType "Timeless Maraketh Splinter"
-    SetTextColor 170 158 130			# currency
-    SetBackgroundColor 191 239 255      # lightblue1
-    SetBorderColor 175 96 37            # uniq
-    SetFontSize 45
-    PlayAlertSound 7 180                # Sound - T3
-    MinimapIcon 0 White Square
-    PlayEffect White
-
-Show # Currency - Legion
-	Class Currency
-	BaseType "Timeless Eternal Empire Splinter" "Timeless Karui Splinter" "Timeless Templar Splinter" "Timeless Vaal Splinter"
+	BaseType "Timeless Eternal Empire Splinter" "Timeless Karui Splinter" "Timeless Templar Splinter" "Timeless Vaal Splinter" "Timeless Maraketh Splinter"
     SetTextColor 170 158 130			# currency
     SetBackgroundColor 191 239 255      # lightblue1
     SetBorderColor 170 158 130			# currency
     SetFontSize 45
-    PlayAlertSound 7 180                # Sound - T3
     MinimapIcon 2 White Square
     PlayEffect White
 
@@ -298,12 +288,24 @@ Show # Currency - Prophecy
 # Currency - Breach
 # #######################################################################################################################
 
-Show # Currency - Breach
+Show # Currency - Breach - Blessing
     Class "Currency"
-    BaseType "Splinter of Xoph" "Splinter of Tul" "Splinter of Esh" "Splinter of Uul-Netol" "Splinter of Chayula" "Blessing of Xoph" "Blessing of Tul" "Blessing of Esh" "Blessing of Uul-Netol" "Blessing of Chayula"
+    BaseType "Blessing of Xoph" "Blessing of Tul" "Blessing of Esh" "Blessing of Uul-Netol" "Blessing of Chayula"
     SetTextColor 170 158 130			# currency
     SetBorderColor 170 158 130			# currency
     SetFontSize 45
+    PlayAlertSound 1 200                # Sound - T2
+    MinimapIcon 0 White Diamond
+    PlayEffect White
+
+Show # Currency - Breach - Splinter
+    Class "Currency"
+    BaseType "Splinter of Xoph" "Splinter of Tul" "Splinter of Esh" "Splinter of Uul-Netol" "Splinter of Chayula"
+    SetTextColor 170 158 130			# currency
+    SetBorderColor 170 158 130			# currency
+    SetFontSize 45
+    MinimapIcon 2 White Square
+    PlayEffect White
 
 # #######################################################################################################################
 # Currency - Essence
@@ -463,7 +465,7 @@ Show # Unique - T2 (Neversink 17.06.2019)
 Show # Unique - Multibase (Neversink 17.06.2019)
     Rarity = Unique
 	BaseType "Agate Amulet" "Amber Amulet" "Hubris Circlet" "Jade Amulet" "Lapis Amulet" "Leather Belt" "Rustic Sash" "Silver Flask" "Topaz Ring" "Two-Stone Ring" "Unset Ring" "Vaal Axe" "Blood Raiment" "Ebony Tower Shield" "Fiend Dagger" "Gold Amulet" "Gold Ring" "Granite Flask" "Harlequin Mask" "Heavy Belt" "Imperial Bow" "Imperial Skean" "Iron Ring" "Nightmare Bascinet" "Onyx Amulet" "Prismatic Ring" "Prophet Crown" "Sadist Garb" "Stibnite Flask" "Studded Belt"
-    SetTextColor 0 0 0 0                # transparent
+    SetTextColor 72 118 255             # royalblue1
     SetBackgroundColor 175 96 37        # uniq
     SetBorderColor 0 0 0 0              # transparent
     SetFontSize 40
@@ -562,6 +564,13 @@ Show # Maps - MapTier 13-15
     PlayAlertSound 4 250                # Sound - Map
     MinimapIcon 0 Yellow Diamond
     PlayEffect Yellow
+
+Hide # Maps - MapTier low maps on T15+
+	MapTier <= 6
+    ItemLevel >= 82
+    Class "Maps"
+    SetBorderColor 255 140 0		    # darkorange
+    SetFontSize 45
 
 Show # Maps - MapTier 10-12
 	MapTier >= 10
@@ -717,13 +726,6 @@ Show # Gems - DropOnly
     SetBorderColor 27 162 155           # gem
     SetFontSize 45
 
-Show # Gems - LVL19+
-	GemLevel >= 19
-    Class "Gems"
-    SetTextColor 27 162 155             # gem
-    SetBorderColor 27 162 155           # gem
-    SetFontSize 45
-
 Show # Gems - Q20+
     Quality >= 20
     Class "Gems"
@@ -749,6 +751,13 @@ Show # Gems - Vaal
     SetTextColor 27 162 155             # gem
     SetFontSize 45
 
+Show # Gems - LVL19+
+	GemLevel >= 19
+    Class "Gems"
+    SetTextColor 27 162 155             # gem
+    SetBorderColor 27 162 155           # gem
+    SetFontSize 45
+
 Hide # Gems - HideAll
     Class "Gems"
     SetTextColor 27 162 155             # gem
@@ -768,7 +777,7 @@ Show # Shaper - Jewelery
     SetFontSize 45
     PlayAlertSound 1 200                # Sound - T2
     MinimapIcon 0 Brown Diamond
- 	PlayEffect Brown
+    PlayEffect Brown
 
 Show
     ShaperItem True
@@ -780,7 +789,7 @@ Show
     SetFontSize 45
     PlayAlertSound 1 200                # Sound - T2
     MinimapIcon 0 Brown Diamond
- 	PlayEffect Brown
+    PlayEffect Brown
 
 Show
     ShaperItem True
@@ -792,7 +801,7 @@ Show
     SetFontSize 45
     PlayAlertSound 1 100               # Sound - T2 quieter
     MinimapIcon 0 Brown Diamond
- 	PlayEffect Brown
+    PlayEffect Brown
 
 Show
     ShaperItem True
@@ -804,7 +813,7 @@ Show
     SetFontSize 45
     PlayAlertSound 1 100               # Sound - T2 quieter
     MinimapIcon 0 Brown Diamond
- 	PlayEffect Brown
+    PlayEffect Brown
 
 Show
     ShaperItem True
@@ -818,7 +827,7 @@ Show
     SetFontSize 45
     PlayAlertSound 1 100               # Sound - T2 quieter
     MinimapIcon 0 Brown Diamond
- 	PlayEffect Brown
+    PlayEffect Brown
 
 Show
     ShaperItem True
@@ -841,7 +850,7 @@ Show
     SetFontSize 45
     PlayAlertSound 1 200                # Sound - T2
     MinimapIcon 0 Brown Diamond
- 	PlayEffect Brown
+    PlayEffect Brown
 
 Show
     ElderItem True
@@ -853,7 +862,7 @@ Show
     SetFontSize 45
     PlayAlertSound 1 200                # Sound - T2
     MinimapIcon 0 Brown Diamond
- 	PlayEffect Brown
+    PlayEffect Brown
 
 Show
     ElderItem True
@@ -863,9 +872,9 @@ Show
     SetBackgroundColor 72 118 255		# royalblue1
     SetBorderColor 159 15 213			# violett
     SetFontSize 45
-    PlayAlertSound 1 100               # Sound - T2 quieter
+    PlayAlertSound 1 100                # Sound - T2 quieter
     MinimapIcon 0 Brown Diamond
- 	PlayEffect Brown
+    PlayEffect Brown
 
 Show
     ElderItem True
@@ -877,9 +886,9 @@ Show
     SetBackgroundColor 72 118 255		# royalblue1
     SetBorderColor 159 15 213			# violett
     SetFontSize 45
-    PlayAlertSound 1 100               # Sound - T2 quieter
+    PlayAlertSound 1 100                # Sound - T2 quieter
     MinimapIcon 0 Brown Diamond
- 	PlayEffect Brown
+    PlayEffect Brown
 
 Show
     ElderItem True
@@ -892,10 +901,10 @@ Show
 # Chance
 # #######################################################################################################################
 
-# Show # Chance - Throat Stabber
+# Show # Chance - The Wise Oak
 #     Corrupted False
 #     Rarity = Normal
-#     BaseType "Throat Stabber"
+#     BaseType "Bismuth Flask"
 #     SetBorderColor 231 180 120          # chance
 
 # #######################################################################################################################
@@ -1002,13 +1011,6 @@ Show
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 45
 
-Show
-    ItemLevel >= 77
-    Rarity = Normal
-    BaseType "Jewelled Foil"
-    SetTextColor 255 255 255             # white
-    SetBackgroundColor 70 70 70          # darkgrey
-
 # #######################################################################################################################
 # Normal/Magic - Specials
 # #######################################################################################################################
@@ -1019,16 +1021,16 @@ Show # Fishing Rod
     SetFontSize 45
     PlayAlertSound 5 300                # Sound - T1
     MinimapIcon 0 Brown Star
- 	PlayEffect Brown
+    PlayEffect Brown
 
 Show # Normal/Magic - Specials - T1
-    Rarity >= Normal
+    Rarity <= Magic
     BaseType "Steel Ring"
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 45
     PlayAlertSound 1 200                # Sound - T2
     MinimapIcon 0 Brown Diamond
- 	PlayEffect Brown
+    PlayEffect Brown
 
 Show # Normal/Magic - Specials - T1
     Rarity <= Magic
@@ -1037,7 +1039,7 @@ Show # Normal/Magic - Specials - T1
     SetFontSize 45
     PlayAlertSound 1 200                # Sound - T2
     MinimapIcon 0 Brown Diamond
- 	PlayEffect Brown
+    PlayEffect Brown
 
 Show # Normal/Magic - Specials - T1
     Rarity <= Magic
@@ -1049,38 +1051,44 @@ Show # Normal/Magic - Specials - T2
     Rarity <= Magic
     BaseType "Bone Helmet"
     SetBorderColor 255 140 0		    # darkorange
-    SetFontSize 35
+    SetFontSize 45
 
 Show # Normal/Magic - Specials - T2
     Rarity <= Magic
     BaseType "Fingerless Silk Gloves" "Spiked Gloves" "Gripped Gloves"
     SetBorderColor 255 140 0		    # darkorange
-    SetFontSize 35
+    SetFontSize 45
+
+Show # Normal/Magic - Specials - Two-Toned Boots
+    Rarity <= Magic
+    BaseType "Two-Toned Boots"
+    SetBorderColor 255 140 0		    # darkorange
+    SetFontSize 45
 
 Show # Normal/Magic - Specials - T2
     Rarity <= Magic
     BaseType "Sacrificial Garb"
     SetBorderColor 255 140 0		    # darkorange
-    SetFontSize 35
+    SetFontSize 45
 
 Show # Normal/Magic - Specials - T2
     Rarity <= Magic
     BaseType "Vanguard Belt" "Marble Amulet" "Blue Pearl Amulet"
     SetBorderColor 255 140 0		    # darkorange
-    SetFontSize 35
+    SetFontSize 45
 
 # #######################################################################################################################
 # Normal/Magic - Chromatic Recipe
 # #######################################################################################################################
 
-Show
+Show # Normal/Magic - Chromatic Recipe
     SocketGroup "RGB"
     Height <= 4
     Width = 1
     Rarity <= Magic
     SetBorderColor 0 197 205            # turquoise3
 
-Show
+Show # Normal/Magic - Chromatic Recipe
     SocketGroup "RGB"
     Height = 2
     Width = 2
