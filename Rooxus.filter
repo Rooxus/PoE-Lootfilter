@@ -263,6 +263,30 @@ Show
 # Currency - Prophecy
 # #######################################################################################################################
 
+Show # Currency - Prophecy - T1
+	Class Currency
+	BaseType "Prophecy"
+	Prophecy "Fated Connections" "Monstrous Treasure" "The Queen's Sacrifice" "Trash to Treasure"
+    SetTextColor 170 158 130		    # currency
+    SetBackgroundColor 191 239 255      # lightblue1
+    SetBorderColor 170 158 130          # currency
+    SetFontSize 45
+    PlayAlertSound 9 225                # Sound - prophecy
+    MinimapIcon 0 White Star
+    PlayEffect White
+
+Show # Currency - Prophecy - T2
+	Class Currency
+	BaseType "Prophecy"
+	Prophecy "A Vision of Ice and Fire" "Cleanser of Sins" "Darktongue's Shriek" "The Feral Lord V" "The Jeweller's Touch" "The King's Path" "The Plaguemaw V" "The Unbreathing Queen V" "Twice Enchanted" "Unbearable Whispers V" "Vaal Winds" "Wind and Thunder"
+    SetTextColor 170 158 130		    # currency
+    SetBackgroundColor 191 239 255      # lightblue1
+    SetBorderColor 170 158 130          # currency
+    SetFontSize 45
+    PlayAlertSound 9 225                # Sound - prophecy
+    MinimapIcon 0 White Diamond
+    PlayEffect White
+
 Show # Currency - Prophecy
     Class "Currency"
     BaseType "Prophecy"
@@ -271,7 +295,7 @@ Show # Currency - Prophecy
     SetBorderColor 170 158 130          # currency
     SetFontSize 45
     PlayAlertSound 9 225                # Sound - prophecy
-    MinimapIcon 0 White Star
+    MinimapIcon 0 White Square
     PlayEffect White
 
 Show # Currency - Prophecy
@@ -546,6 +570,16 @@ Show # Links and Sockets - 6s
 # Maps
 # #######################################################################################################################
 
+Show # Maps - MapTier - Jungle Valley Map, Burial Chambers Map
+    Class "Maps"
+	BaseType "Jungle Valley Map" "Burial Chambers Map"
+    SetTextColor 150 0 0                # smoothred
+    SetBorderColor 150 0 0              # smoothred
+    SetFontSize 45
+    PlayAlertSound 4 250                # Sound - Map
+    MinimapIcon 0 Yellow Star
+    PlayEffect Yellow
+
 Show # Maps - MapTier 16+
 	MapTier >= 16
     Class "Maps"
@@ -554,6 +588,15 @@ Show # Maps - MapTier 16+
     SetFontSize 45
     PlayAlertSound 4 250                # Sound - Map
     MinimapIcon 0 Yellow Star
+    PlayEffect Yellow
+
+Show # Maps - Shaped
+	ShapedMap True
+    Class "Maps"
+    SetBorderColor 150 0 0              # smoothred
+    SetFontSize 45
+    PlayAlertSound 4 250                # Sound - Map
+    MinimapIcon 0 Yellow Diamond
     PlayEffect Yellow
 
 Show # Maps - MapTier 13-15
@@ -901,17 +944,32 @@ Show
 # Chance
 # #######################################################################################################################
 
-Show # Chance - The Wise Oak
-    Corrupted False
-    Rarity = Normal
-    BaseType "Bismuth Flask"
-    SetBorderColor 231 180 120          # chance
-
 Show # Chance - Shavronne's Wrappings
     Corrupted False
     Rarity = Normal
     BaseType "Occultist's Vestment"
     SetBorderColor 231 180 120          # chance
+    SetFontSize 45
+
+# Show # Chance - Greed's Embrace
+#     Corrupted False
+#     Rarity = Normal
+#     BaseType "Golden Plate"
+#     SetBorderColor 231 180 120          # chance
+
+# Show # Chance - Windripper
+#     Corrupted False
+#     Rarity = Normal
+#     BaseType "Imperial Bow"
+#     SetBorderColor 231 180 120          # chance
+#     SetFontSize 45
+
+Show # Chance - Goldwyrm
+    Corrupted False
+    Rarity = Normal
+    BaseType "Nubuck Boots"
+    SetBorderColor 231 180 120          # chance
+    SetFontSize 45
 
 # #######################################################################################################################
 # Specific Items
@@ -923,8 +981,8 @@ Show # Specific Items - Fractured Items
 	SetFontSize 45
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 45
-    PlayAlertSound 1 200                # Sound - T2
-    MinimapIcon 0 Brown Star
+    PlayAlertSound 2 200                # Sound - T2
+    MinimapIcon 0 Brown Square
     PlayEffect Brown
 
 Show # Specific Items - Synthesis Items
@@ -932,8 +990,8 @@ Show # Specific Items - Synthesis Items
 	Rarity <= Rare
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 45
-    PlayAlertSound 1 200                # Sound - T2
-    MinimapIcon 0 Brown Star
+    PlayAlertSound 2 200                # Sound - T2
+    MinimapIcon 0 Brown Square
     PlayEffect Brown
 
 Show # Specific Items - Veiled Mod
@@ -941,16 +999,16 @@ Show # Specific Items - Veiled Mod
     HasExplicitMod "Veil"
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 45
-    PlayAlertSound 1 200                # Sound - T2
-    MinimapIcon 0 Brown Star
+    PlayAlertSound 2 200                # Sound - T2
+    MinimapIcon 0 Brown Square
     PlayEffect Brown
 
 Show # Specific Items - Enchanted Items
 	AnyEnchantment True
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 45
-    PlayAlertSound 1 200                # Sound - T2
-    MinimapIcon 0 Brown Star
+    PlayAlertSound 2 200                # Sound - T2
+    MinimapIcon 0 Brown Square
     PlayEffect Brown
 
 Show # Specific Items - Delve Items
@@ -958,8 +1016,8 @@ Show # Specific Items - Delve Items
     HasExplicitMod "of Crafting" "of Spellcraft" "of Weaponcraft" "of the Underground" "Subterranean"
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 45
-    PlayAlertSound 1 200                # Sound - T2
-    MinimapIcon 0 Brown Star
+    PlayAlertSound 2 200                # Sound - T2
+    MinimapIcon 0 Brown Square
     PlayEffect Brown
 
 Show # Specific Items - Bestiary Items
@@ -967,8 +1025,8 @@ Show # Specific Items - Bestiary Items
 	HasExplicitMod "of Farrul" "of Craiceann" "of Fenumus" "of Saqawal"
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 45
-    PlayAlertSound 1 200                # Sound - T2
-    MinimapIcon 0 Brown Star
+    PlayAlertSound 2 200                # Sound - T2
+    MinimapIcon 0 Brown Square
     PlayEffect Brown
 
 Show # Specific Items - Incursion Items
@@ -976,8 +1034,8 @@ Show # Specific Items - Incursion Items
     HasExplicitMod "Tacati" "Citaqualotl" "Matatl" "Topotante" "Xopec" "Guatelitzi" "Puhuarte"
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 45
-    PlayAlertSound 1 200                # Sound - T2
-    MinimapIcon 0 Brown Star
+    PlayAlertSound 2 200                # Sound - T2
+    MinimapIcon 0 Brown Square
     PlayEffect Brown
 
 Show # Specific Items - Warband Items
@@ -985,8 +1043,8 @@ Show # Specific Items - Warband Items
     HasExplicitMod "Brinerot" "Mutewind" "Redblade" "Betrayer's" "Deceiver's" "Turncoat's"
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 45
-    PlayAlertSound 1 200                # Sound - T2
-    MinimapIcon 0 Brown Star
+    PlayAlertSound 2 200                # Sound - T2
+    MinimapIcon 0 Brown Square
     PlayEffect Brown
 
 # #######################################################################################################################
@@ -1164,6 +1222,7 @@ Show # Rare - Jewelery - Jewels
 
 Show # Rare - Jewelery - Ring - T1
     Rarity = Rare
+    Class "Rings"
     BaseType "Steel Ring"
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 45
@@ -1173,6 +1232,7 @@ Show # Rare - Jewelery - Ring - T1
 
 Show # Rare - Jewelery - Ring - T1
     Rarity = Rare
+    Class "Rings"
     BaseType "Opal Ring"
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 45
@@ -1180,9 +1240,22 @@ Show # Rare - Jewelery - Ring - T1
     MinimapIcon 0 Brown Diamond
     PlayEffect Brown
 
-Show # Rare - Jewelery - Amulets/Rings
+Show # Rare - Jewelery - Ring - T2
     Rarity = Rare
-    Class "Amulets" "Rings"
+    Class "Rings"
+    BaseType "Diamond Ring" "Prismatic Ring" "Two-Stone Ring"
+    SetBorderColor 150 0 0              # smoothred
+    SetFontSize 40
+
+Hide # Rare - Jewelery - Ring
+    Rarity = Rare
+    Class "Rings"
+    SetBorderColor 150 0 0              # smoothred
+    SetFontSize 40
+
+Hide # Rare - Jewelery - Amulets
+    Rarity = Rare
+    Class "Amulets"
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 40
 
@@ -1198,7 +1271,7 @@ Show # Rare - Jewelery - Belt - T1
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 45
 
-Show # Rare - Jewelery - Belt - T2
+Hide # Rare - Jewelery - Belt - T2
     Rarity = Rare
     BaseType "Leather Belt"
     SetBorderColor 255 255 119          # Rare
@@ -1210,9 +1283,9 @@ Hide # Rare - Jewelery - Belt - T3
     SetBorderColor 255 255 119          # Rare
     SetFontSize 40
 
-# Show # Rare - Jewelery - Belt - T4
-#     Rarity = Rare
-#     Class "Belts"
+Hide # Rare - Jewelery - Belt - T4
+    Rarity = Rare
+    Class "Belts"
 
 # #######################################################################################################################
 # Rare - Crit Sword
@@ -1517,7 +1590,7 @@ Hide # Rare - Bow
 # Rare - Quiver
 # #######################################################################################################################
 
-Show # Rare - Quiver - T1
+Hide # Rare - Quiver - T1
     Rarity = Rare
     BaseType "Spike-Point Arrow Quiver"
     SetBorderColor 150 0 0              # smoothred
