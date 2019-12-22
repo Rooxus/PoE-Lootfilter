@@ -48,7 +48,7 @@ Show # Currency - Valuable
 
 Show # Currency - Valuable
     Class "Currency"
-    BaseType "Journeyman Cartographer's Sextant" "Apprentice Cartographer's Sextant" "Master Cartographer's Sextant"
+    BaseType  "Simple Sextant" "Awakened Sextant" "Prime Sextant"
     SetTextColor 170 158 130			# currency
     SetBackgroundColor 191 239 255      # lightblue1
     SetBorderColor 170 158 130          # currency
@@ -466,9 +466,9 @@ Hide # Currency - Low Value
 # Unique
 # #######################################################################################################################
 
-Show # Unique - T1 (Neversink 17.06.2019)
+Show # Unique - T1 (Neversink 19.12.2019)
     Rarity = Unique
-	BaseType "Ambush Mitts" "Callous Mask" "Carnal Boots" "Coronal Leather" "Crusader Boots" "Ezomyte Tower Shield" "Full Dragonscale" "Full Wyrmscale" "Gemstone Sword" "Glorious Plate" "Greatwolf Talisman" "Hydrascale Gauntlets" "Imperial Maul" "Jewelled Foil" "Jingling Spirit Shield" "Legion Gloves" "Nubuck Boots" "Ornate Quiver" "Prismatic Jewel" "Prophecy Wand" "Rawhide Boots" "Riveted Gloves" "Royal Axe" "Ruby Amulet" "Ruby Flask" "Sapphire Flask" "Siege Axe" "Silk Gloves" "Sorcerer Boots" "Timeless Jewel" "Vaal Blade" "Vaal Rapier" "Varnished Coat" "Void Axe" "Wereclaw Talisman" "Zodiac Leather"
+	BaseType "Ambush Mitts" "Riveted Gloves" "Callous Mask" "Carnal Boots" "Crusader Boots" "Deerskin Gloves" "Ezomyte Tower Shield" "Gemstone Sword" "Glorious Plate" "Jewelled Foil" "Jingling Spirit Shield" "Legion Gloves" "Nightmare Mace" "Ornate Quiver" "Prismatic Jewel" "Prophecy Wand" "Rawhide Boots" "Saint's Hauberk" "Siege Axe" "Silk Gloves" "Clasped Mitts" "Timeless Jewel" "Wyrmscale Doublet" "Zodiac Leather" "Sapphire Flask" "Vaal Rapier" "Royal Axe" "Blood Raiment"
     SetTextColor 175 96 37              # uniq
     SetBackgroundColor 255 255 255      # white
     SetBorderColor 175 96 37            # uniq
@@ -477,18 +477,27 @@ Show # Unique - T1 (Neversink 17.06.2019)
     MinimapIcon 0 Red Star
     PlayEffect Red
 
-Show # Unique - T2 (Neversink 17.06.2019)
+Show # Unique - T2 (Neversink 19.12.2019)
     Rarity = Unique
-	BaseType "Arcanist Gloves" "Assassin's Boots" "Blood Sceptre" "Carnal Sceptre" "Champion Kite Shield" "Ezomyte Burgonet" "Gladiator Plate" "Karui Maul" "Midnight Blade" "Occultist's Vestment" "Polished Spiked Shield" "Rawhide Tower Shield" "Sacrificial Garb" "Serpentscale Gauntlets" "Steel Ring" "Steelwood Bow" "Vaal Spirit Shield" "Wyrmscale Doublet" "Assassin Bow" "Bronzescale Boots" "Deerskin Gloves" "Ezomyte Blade" "Holy Chainmail" "Judgement Staff" "Opal Wand" "Soldier Helmet" "Sulphur Flask" "Timeworn Claw" "Titanium Spirit Shield" "War Hammer"
+	BaseType "Arcanist Gloves" "Bismuth Flask" "Two-Stone Ring" "Champion Kite Shield" "Varnished Coat" "Close Helmet" "Elegant Ringmail" "Nubuck Boots" "Nubuck Gloves" "Occultist's Vestment" "Rawhide Tower Shield" "Soldier Helmet" "Sanctified Life Flask" "Ruby Flask" "Timeworn Claw" "Granite Flask" "Vaal Blade" "Imperial Maul" "Highborn Staff" "Karui Maul" "Void Axe" "Corsair Sword" "Savant's Robe" "Assassin's Boots" "Hydrascale Gauntlets" "Ancient Gauntlets" "Full Dragonscale" "Holy Chainmail" "Arcanist Slippers" "Gold Ring"
     SetBorderColor 0 255 150            # high value
     SetFontSize 45
     PlayAlertSound 1 200                # Sound - T2
     MinimapIcon 0 Red Diamond
     PlayEffect Red
 
-Show # Unique - Multibase (Neversink 17.06.2019)
+Show # Unique - T3 (Neversink 19.12.2019)
+    Class "Divination Card"
+	BaseType "Judgement Staff" "Citrine Amulet" "Blue Pearl Amulet" "Cutlass" "Opal Ring" "Carnal Mitts" "Lacquered Garb" "Penetrating Arrow Quiver" "Exquisite Leather" "Diamond Flask" "Full Wyrmscale" "Midnight Blade" "Nightmare Bascinet" "Vaal Regalia" "Titan Greaves" "Imperial Bow" "Imperial Staff" "Hellion's Paw" "Karui Chopper" "Ezomyte Staff" "Steelwood Bow" "Citadel Bow" "Abyssal Axe" "Imperial Claw" "Ritual Sceptre" "Carnal Sceptre" "Tornado Wand" "Blood Sceptre" "Slaughter Knife" "Short Bow" "Spine Bow" "Throat Stabber" "Bronzescale Boots" "Serpentscale Gauntlets" "Gladiator Plate" "Leather Cap" "Destiny Leather" "Coronal Leather" "Thorium Spirit Shield" "Sinner Tricorne" "Assassin's Garb" "Deicide Mask" "Spike-Point Arrow Quiver" "Raven Mask" "Laminated Kite Shield" "Necromancer Silks" "Conjurer Gloves" "Sorcerer Gloves" "Sentinel Jacket"
+    SetBorderColor 0 255 150            # high value
+    SetFontSize 45
+    PlayAlertSound 3 150
+    MinimapIcon 0 Red Square
+    PlayEffect Red
+
+Show # Unique - Multibase (Neversink 19.12.2019)
     Rarity = Unique
-	BaseType "Agate Amulet" "Amber Amulet" "Hubris Circlet" "Jade Amulet" "Lapis Amulet" "Leather Belt" "Rustic Sash" "Silver Flask" "Topaz Ring" "Two-Stone Ring" "Unset Ring" "Vaal Axe" "Blood Raiment" "Ebony Tower Shield" "Fiend Dagger" "Gold Amulet" "Gold Ring" "Granite Flask" "Harlequin Mask" "Heavy Belt" "Imperial Bow" "Imperial Skean" "Iron Ring" "Nightmare Bascinet" "Onyx Amulet" "Prismatic Ring" "Prophet Crown" "Sadist Garb" "Stibnite Flask" "Studded Belt"
+	BaseType "Amber Amulet" "Assassin Bow" "Fiend Dagger" "Leather Belt" "Sapphire Ring" "Triumphant Lamellar" "Two-Point Arrow Quiver" "Agate Amulet" "Ezomyte Burgonet" "Solaris Circlet" "Silken Hood" "Topaz Ring" "Silver Flask" "Carved Wand" "Coral Amulet" "Heavy Belt" "Imperial Skean" "Iron Ring" "Jade Amulet" "Magistrate Crown" "Murder Boots" "Murder Mitts" "Onyx Amulet" "Sadist Garb" "Stibnite Flask" "Studded Belt" "Sulphur Flask" "Turquoise Amulet" "Sage Wand" "Sorcerer Boots" "Stealth Boots" "Goathide Boots"
     SetTextColor 72 118 255             # royalblue1
     SetBackgroundColor 175 96 37        # uniq
     SetBorderColor 0 0 0 0              # transparent
@@ -497,9 +506,9 @@ Show # Unique - Multibase (Neversink 17.06.2019)
     MinimapIcon 2 Red Star
     PlayEffect Red
 
-Show # Unique - Fated (Neversink 17.06.2019)
+Show # Unique - Fated (Neversink 19.12.2019)
     Rarity = Unique
-	BaseType "Brass Maul" "Clasped Boots" "Cleaver" "Coral Ring" "Crude Bow" "Crusader Plate" "Crystal Wand" "Death Bow" "Fire Arrow Quiver" "Gavel" "Gilded Sallet" "Gnarled Branch" "Goathide Gloves" "Golden Buckler" "Great Crown" "Great Mallet" "Iron Circlet" "Iron Hat" "Iron Mask" "Ironscale Boots" "Jade Hatchet" "Jagged Maul" "Latticed Ringmail" "Leather Hood" "Long Bow" "Moonstone Ring" "Ornate Sword" "Painted Buckler" "Plank Kite Shield" "Plate Vest" "Reaver Sword" "Reinforced Greaves" "Royal Bow" "Royal Staff" "Rusted Sword" "Scholar Boots" "Serrated Arrow Quiver" "Sharktooth Arrow Quiver" "Skinning Knife" "Sledgehammer" "Spiraled Wand" "Strapped Leather" "Tarnished Spirit Shield" "Velvet Gloves" "Velvet Slippers" "Vine Circlet" "War Buckler" "Wild Leather" "Woodsplitter"
+	BaseType "Brass Maul" "Clasped Boots" "Cleaver" "Coral Ring" "Crude Bow" "Crusader Plate" "Crystal Wand" "Death Bow" "Fire Arrow Quiver" "Gavel" "Gilded Sallet" "Gnarled Branch" "Goathide Gloves" "Gold Amulet" "Golden Buckler" "Great Crown" "Great Mallet" "Iron Circlet" "Iron Hat" "Iron Mask" "Iron Staff" "Ironscale Boots" "Jade Hatchet" "Jagged Maul" "Latticed Ringmail" "Leather Hood" "Long Bow" "Moonstone Ring" "Ornate Sword" "Painted Buckler" "Plank Kite Shield" "Plate Vest" "Reaver Sword" "Reinforced Greaves" "Royal Bow" "Royal Staff" "Rusted Sword" "Scholar Boots" "Serrated Arrow Quiver" "Sharktooth Arrow Quiver" "Skinning Knife" "Sledgehammer" "Spiraled Wand" "Strapped Leather" "Tarnished Spirit Shield" "Velvet Gloves" "Velvet Slippers" "Vine Circlet" "War Buckler" "Wild Leather" "Woodsplitter"
     SetBorderColor 159 15 213			# violett
     SetFontSize 35
     PlayAlertSound 8 150
@@ -537,6 +546,11 @@ Show # Unique - Jewelery/Maps
     MinimapIcon 0 Red Diamond
     PlayEffect Red
 
+# Hide # Unique - Crappy
+# 	Rarity Unique
+# 	BaseType "Ambusher" "Antique Rapier" "Auric Mace" "Aventail Helmet" "Awl" "Baroque Round Shield" "Basket Rapier" "Bastard Sword" "Bone Circlet" "Boot Blade" "Boot Knife" "Branded Kite Shield" "Brass Spirit Shield" "Bronze Gauntlets" "Bronze Sceptre" "Bronzescale Gauntlets" "Buckskin Tunic" "Burnished Spiked Shield" "Chain Gloves" "Champion Kite Shield" "Chiming Spirit Shield" "Close Helmet" "Coiled Staff" "Colossal Tower Shield" "Compound Spiked Shield" "Conquest Chainmail" "Copper Plate" "Corrugated Buckler" "Crusader Chainmail" "Crystal Sceptre" "Cutthroat's Garb" "Decimation Bow" "Decorative Axe" "Deerskin Boots" "Demon's Horn" "Destroyer Regalia" "Dragonscale Boots" "Dragonscale Gauntlets" "Dread Maul" "Dream Mace" "Driftwood Wand" "Elder Sword" "Engraved Wand" "Estoc" "Ezomyte Axe" "Festival Mask" "Flaying Knife" "Fright Claw" "Full Scale Armour" "Gladius" "Goat's Horn" "Golden Mask" "Goliath Gauntlets" "Great Helmet" "Greater Mana Flask" "Grinning Fetish" "Gut Ripper" "Legion Boots" "Lunaris Circlet" "Marble Amulet" "Mesh Boots" "Military Staff" "Nailed Fist" "Ornate Mace" "Ornate Ringmail" "Pine Buckler" "Plague Mask" "Plated Greaves" "Platinum Kris" "Poleaxe" "Quartz Wand" "Quicksilver Flask" "Recurve Bow" "Reinforced Tower Shield" "Riveted Boots" "Rock Breaker" "Rotted Round Shield" "Royal Skean" "Sabre" "Sage's Robe" "Samite Gloves" "Samite Helmet" "Scholar's Robe" "Secutor Helm" "Sentinel Jacket" "Shadow Axe" "Shagreen Boots" "Sharkskin Boots" "Short Bow" "Silk Slippers" "Slaughter Knife" "Solaris Circlet" "Soldier Boots" "Spidersilk Robe" "Spiked Club" "Steel Gauntlets" "Stiletto" "Strapped Boots" "Studded Round Shield" "Sundering Axe" "Supreme Spiked Shield" "Thresher Claw" "Throat Stabber" "Tiger Sword" "Tomahawk" "Tribal Circlet" "Tricorne" "Twilight Blade" "Tyrant's Sekhem" "Vaal Buckler" "Vaal Claw" "Vanguard Belt" "Visored Sallet" "Wool Gloves" "Wool Shoes" "Wrapped Mitts"
+#   SetFontSize 35
+
 # #######################################################################################################################
 # Links and Sockets
 # #######################################################################################################################
@@ -570,15 +584,15 @@ Show # Links and Sockets - 6s
 # Maps
 # #######################################################################################################################
 
-Show # Maps - MapTier - Jungle Valley Map, Burial Chambers Map
-    Class "Maps"
-	BaseType "Jungle Valley Map" "Burial Chambers Map"
-    SetTextColor 150 0 0                # smoothred
-    SetBorderColor 150 0 0              # smoothred
-    SetFontSize 45
-    PlayAlertSound 4 250                # Sound - Map
-    MinimapIcon 0 Yellow Star
-    PlayEffect Yellow
+# Show # Maps - MapTier - Special
+#     Class "Maps"
+#     BaseType "Gardens Map" "Plaza Map" "Terrace Map"
+#     SetTextColor 150 0 0                # smoothred
+#     SetBorderColor 150 0 0              # smoothred
+#     SetFontSize 45
+#     PlayAlertSound 4 250                # Sound - Map
+#     MinimapIcon 0 Yellow Star
+#     PlayEffect Yellow
 
 Show # Maps - MapTier 16+
 	MapTier >= 16
@@ -608,12 +622,12 @@ Show # Maps - MapTier 13-15
     MinimapIcon 0 Yellow Diamond
     PlayEffect Yellow
 
-Hide # Maps - MapTier low maps on T15+
-	MapTier <= 6
-    ItemLevel >= 82
-    Class "Maps"
-    SetBorderColor 255 140 0		    # darkorange
-    SetFontSize 45
+# Hide # Maps - MapTier low maps on T15+
+# 	MapTier <= 6
+#     ItemLevel >= 82
+#     Class "Maps"
+#     SetBorderColor 255 140 0		    # darkorange
+#     SetFontSize 45
 
 Show # Maps - MapTier 10-12
 	MapTier >= 10
@@ -708,15 +722,15 @@ Show # Map Fragments - Guardians
 # Divination Cards
 # #######################################################################################################################
 
-Show # Divination Cards - exclusion (Neversink 17.06.2019)
+Show # Divination Cards - exclusion (Neversink 19.12.2019)
     Class "Divination Card"
     BaseType "The Wolf's Shadow" "The Master Artisan"
     SetTextColor 0 180 255              # cards
     SetFontSize 35
 
-Show # Divination Cards - T1 (Neversink 17.06.2019)
+Show # Divination Cards - T1 (Neversink 19.12.2019)
     Class "Divination Card"
-	BaseType "Abandoned Wealth" "Alluring Bounty" "Beauty Through Death" "Burning Blood" "House of Mirrors" "Hunter's Reward" "Immortal Resolve" "Pride Before the Fall" "Pride of the First Ones" "The Celestial Justicar" "The Doctor" "The Dragon's Heart" "The Enlightened" "The Fiend" "The Immortal" "The Iron Bard" "The King's Heart" "The Last One Standing" "The Life Thief" "The Nurse" "The Samurai's Eye" "The Spark and the Flame" "The Undisputed" "The Wolven King's Bite" "The World Eater" "Wealth and Power"
+    BaseType "Abandoned Wealth" "Alluring Bounty" "Beauty Through Death" "House of Mirrors" "Hunter's Reward" "Immortal Resolve" "Nook's Crown" "Pride of the First Ones" "Seven Years Bad Luck" "The Damned" "The Demon" "The Doctor" "The Fiend" "The Immortal" "The Iron Bard" "The Nurse" "The Price of Loyalty" "The Samurai's Eye" "The Spark and the Flame" "The Mayor" "Void of the Elements" "Baited Expectations" "The Escape" "Etched in Blood" "Squandered Prosperity" "Succor of the Sinless" "The Porcupine"
     SetTextColor 0 180 255              # cards
     SetBorderColor 0 255 150            # high value
     SetFontSize 45
@@ -724,9 +738,9 @@ Show # Divination Cards - T1 (Neversink 17.06.2019)
     MinimapIcon 0 Blue Star
     PlayEffect Blue
 
-Show # Divination Cards - T2 (Neversink 17.06.2019)
+Show # Divination Cards - T2 (Neversink 19.12.2019)
     Class "Divination Card"
-	BaseType "Chaotic Disposition" "Last Hope" "Seven Years Bad Luck" "The Cartographer" "The Gladiator" "The Mayor" "The Queen" "The Risk" "The Sacrifice" "The Saint's Treasure" "The Void"
+	BaseType "Chaotic Disposition" "Mawr Blaidd" "The Bargain" "The Cartographer" "The Eye of Terror" "Wealth and Power" "The Polymath" "The Queen" "The Saint's Treasure" "The Sephirot" "The Soul" "The Undaunted" "The Void" "The Wolven King's Bite" "The Celestial Stone" "The Old Man" "The Dragon's Heart" "Burning Blood" "The Life Thief" "Azyran's Reward" "The Chosen" "Divine Justice"
     SetTextColor 0 180 255              # cards
     SetBorderColor 0 180 255            # cards
     SetFontSize 40
@@ -734,27 +748,27 @@ Show # Divination Cards - T2 (Neversink 17.06.2019)
     MinimapIcon 0 Blue Diamond
     PlayEffect Blue
 
-Show # Divination Cards - T3 (Neversink 17.06.2019)
+Show # Divination Cards - T3 (Neversink 19.12.2019)
     Class "Divination Card"
-	BaseType "Boon of the First Ones" "Bowyer's Dream" "Buried Treasure" "Dark Dreams" "Earth Drinker" "Emperor of Purity" "Heterochromia" "Humility" "Left to Fate" "Mawr Blaidd" "Monochrome" "Sambodhi's Vow" "The Artist" "The Beast" "The Breach" "The Brittle Emperor" "The Celestial Stone" "The Chains that Bind" "The Dapper Prodigy" "The Dark Mage" "The Deep Ones" "The Dreamer" "The Endless Darkness" "The Ethereal" "The Hale Heart" "The Hoarder" "The Hunger" "The Jeweller's Boon" "The Journey" "The Landing" "The Master" "The Offering" "The Polymath" "The Porcupine" "The Professor" "The Scavenger" "The Seeker" "The Sephirot" "The Soul" "The Standoff" "The Throne" "The Undaunted" "The Valkyrie" "The Vast" "The Warlord" "The Wind" "The Wolf" "Vanity"
+	BaseType "Pride Before the Fall" "Blessing of God" "Boon of the First Ones" "Bowyer's Dream" "Buried Treasure" "Dark Dreams" "Emperor of Purity" "Heterochromia" "Humility" "Last Hope" "Lucky Deck" "Perfection" "Remembrance" "The Artist" "The Brittle Emperor" "The Chains that Bind" "The Dapper Prodigy" "The Dark Mage" "The Dreamer" "The Endless Darkness" "The Ethereal" "The Hale Heart" "The Hoarder" "The Jeweller's Boon" "The Journey" "The King's Heart" "The Last One Standing" "The Enlightened" "The Offering" "The Landing" "The Porcupine" "The Price of Protection" "The Celestial Justicar" "The Risk" "The Sacrifice" "The Seeker" "The Throne" "The Valkyrie" "The Valley of Steel Boxes" "The Deep Ones" "The Warlord" "The World Eater" "Vanity" "Hunter's Resolve" "Time-Lost Relic" "The Professor" "The Vast" "Hubris" "The Wolf" "Left to Fate" "The Hunger" "The Thaumaturgist" "The Wind" "The Master" "The Primordial" "The Heroic Shot" "Anarchy's Price" "Earth Drinker" "The Avenger" "The Fletcher" "The Formless Sea" "The Gladiator" "The Pack Leader" "The Pact" "Tranquillity" "The Obscured" "The Deceiver" "Alone in the Darkness" "Vile Power" "The Bones" "Cameria's Cut" "The Craving" "Deathly Designs" "The Fishmonger" "Friendship" "Underground Forest"
     SetTextColor 0 180 255              # cards
     SetBorderColor 0 180 255            # cards
     PlayAlertSound 3 150
     MinimapIcon 2 Blue Square
     PlayEffect Blue
 
-Show # Divination Cards - T4 (Neversink 17.06.2019)
+Show # Divination Cards - T4 (Neversink 19.12.2019)
     Class "Divination"
-	BaseType "Boon of Justice" "Coveted Possession" "Demigod's Wager" "Emperor's Luck" "Harmony of Souls" "Her Mask" "Loyalty" "Lucky Connections" "Lucky Deck" "No Traces" "The Cacophony" "The Catalyst" "The Fool" "The Gemcutter" "The Innocent" "The Inventor" "The Puzzle" "The Scholar" "The Survivalist" "The Union" "The Wrath" "Three Faces in the Dark" "Three Voices" "Vinia's Token"
+	BaseType "Boon of Justice" "Coveted Possession" "Demigod's Wager" "Emperor's Luck" "Harmony of Souls" "Her Mask" "Imperial Legacy" "Loyalty" "Lucky Connections" "Monochrome" "More is Never Enough" "No Traces" "Sambodhi's Vow" "The Cacophony" "The Catalyst" "The Deal" "The Flora's Gift" "The Fool" "The Gemcutter" "The Innocent" "The Inventor" "The Puzzle" "The Side Quest" "The Survivalist" "The Union" "The Wrath" "Three Faces in the Dark" "Three Voices" "Vinia's Token"
     SetTextColor 0 180 255              # cards
     SetBorderColor 0 180 255            # cards
     PlayAlertSound 3 150
     MinimapIcon 2 Blue Circle
     PlayEffect Blue
 
-Hide # Divination Cards - Hide crap (Neversink 17.06.2019)
+Hide # Divination Cards - Hide crap (Neversink 19.12.2019)
     Class "Divination Card"
-	BaseType "A Mother's Parting Gift" "Anarchy's Price" "Birth of the Three" "Call to the First Ones" "Cartographer's Delight" "Dark Temptation" "Death" "Dying Anguish" "Grave Knowledge" "Lantador's Lost Love" "Light and Truth" "Might is Right" "Prosperity" "Rain Tempter" "Rats" "Struck by Lightning" "The Army of Blood" "The Blazing Fire" "The Calling" "The Carrion Crow" "The Cataclysm" "The Coming Storm" "The Doppelganger" "The Drunken Aristocrat" "The Endurance" "The Fathomless Depths" "The Feast" "The Flora's Gift" "The Hermit" "The Incantation" "The Inoculated" "The King's Blade" "The Lich" "The Lover" "The Lunaris Priestess" "The Metalsmith's Gift" "The Oath" "The Opulent" "The Pack Leader" "The Pact" "The Rabid Rhoa" "The Ruthless Ceinture" "The Scarred Meadow" "The Summoner" "The Sun" "The Surgeon" "The Twins" "The Visionary" "The Warden" "The Watcher" "The Witch" "Thirst for Knowledge" "Thunderous Skies" "Tranquillity" "Turn the Other Cheek" "Volatile Power" "Destined to Crumble"
+	BaseType "A Mother's Parting Gift" "Audacity" "Birth of the Three" "The Surgeon" "Dark Temptation" "Death" "Destined to Crumble" "Dying Anguish" "Lantador's Lost Love" "Light and Truth" "Lingering Remnants" "Might is Right" "Prosperity" "Rain Tempter" "Rats" "Struck by Lightning" "The Army of Blood" "The Blazing Fire" "The Carrion Crow" "The Cataclysm" "The Coming Storm" "The Conduit" "The Endurance" "The Fathomless Depths" "The Hermit" "The Incantation" "The Inoculated" "The King's Blade" "The Lich" "The Lover" "The Lunaris Priestess" "The Metalsmith's Gift" "The Mountain" "The Oath" "The Rabid Rhoa" "The Ruthless Ceinture" "The Scarred Meadow" "The Sigil" "The Siren" "The Sun" "The Visionary" "The Warden" "The Watcher" "The Web" "The Witch" "Thunderous Skies" "Turn the Other Cheek" "Cartographer's Delight"
     SetTextColor 0 180 255              # cards
     SetFontSize 25
 
@@ -849,7 +863,7 @@ Show
 Show
     ShaperItem True
     Rarity <= Rare
-    Class "Daggers" "Sceptres" "Quivers"
+    Class "Rune Daggers" "Daggers" "Sceptres" "Quivers"
     SetTextColor 255 255 255            # white
     SetBackgroundColor 72 118 255		# royalblue1
     SetBorderColor 159 15 213			# violett
@@ -863,7 +877,7 @@ Show
     ItemLevel >= 83
     DropLevel >= 62
     Rarity <= Rare
-    Class "Two Hand Maces" "Two Hand Axes" "Two Hand Swords" "Bows" "One Hand Swords" "One Hand Maces" "One Hand Axes" "Wand" "Sceptre" "Staves" "Claws" "Body Armour" "Gloves" "Boots" "Helmets" "Quivers" "Daggers" "Shields"
+    Class "Two Hand Maces" "Two Hand Axes" "Two Hand Swords" "Bows" "One Hand Swords" "One Hand Maces" "One Hand Axes" "Wand" "Sceptre" "Warstaves" "Staves" "Claws" "Body Armour" "Gloves" "Boots" "Helmets" "Quivers" "Rune Daggers" "Daggers" "Shields"
     SetTextColor 255 255 255            # white
     SetBackgroundColor 72 118 255		# royalblue1
     SetBorderColor 159 15 213			# violett
@@ -924,7 +938,7 @@ Show
     ItemLevel >= 83
     DropLevel >= 62
     Rarity <= Rare
-    Class "Two Hand Maces" "Two Hand Axes" "Two Hand Swords" "Bows" "One Hand Swords" "One Hand Maces" "One Hand Axes" "Wand" "Sceptre" "Staves" "Claws" "Body Armour" "Gloves" "Boots" "Helmets" "Quivers" "Daggers" "Shields"
+    Class "Two Hand Maces" "Two Hand Axes" "Two Hand Swords" "Bows" "One Hand Swords" "One Hand Maces" "One Hand Axes" "Wand" "Sceptre" "Warstaves" "Staves" "Claws" "Body Armour" "Gloves" "Boots" "Helmets" "Quivers" "Rune Daggers" "Daggers" "Shields"
     SetTextColor 255 255 255            # white
     SetBackgroundColor 72 118 255		# royalblue1
     SetBorderColor 159 15 213			# violett
@@ -944,18 +958,18 @@ Show
 # Chance
 # #######################################################################################################################
 
-Show # Chance - Shavronne's Wrappings
-    Corrupted False
-    Rarity = Normal
-    BaseType "Occultist's Vestment"
-    SetBorderColor 231 180 120          # chance
-    SetFontSize 45
-
-# Show # Chance - Greed's Embrace
+# Show # Chance - Shavronne's Wrappings
 #     Corrupted False
 #     Rarity = Normal
-#     BaseType "Golden Plate"
+#     BaseType "Occultist's Vestment"
 #     SetBorderColor 231 180 120          # chance
+#     SetFontSize 45
+
+Show # Chance - Kaom's Heart
+    Corrupted False
+    Rarity = Normal
+    BaseType "Glorious Plate"
+    SetBorderColor 231 180 120          # chance
 
 # Show # Chance - Windripper
 #     Corrupted False
@@ -964,12 +978,12 @@ Show # Chance - Shavronne's Wrappings
 #     SetBorderColor 231 180 120          # chance
 #     SetFontSize 45
 
-Show # Chance - Goldwyrm
-    Corrupted False
-    Rarity = Normal
-    BaseType "Nubuck Boots"
-    SetBorderColor 231 180 120          # chance
-    SetFontSize 45
+# Show # Chance - Goldwyrm
+#     Corrupted False
+#     Rarity = Normal
+#     BaseType "Nubuck Boots"
+#     SetBorderColor 231 180 120          # chance
+#     SetFontSize 45
 
 # #######################################################################################################################
 # Specific Items
@@ -1041,6 +1055,15 @@ Show # Specific Items - Incursion Items
 Show # Specific Items - Warband Items
     Identified True
     HasExplicitMod "Brinerot" "Mutewind" "Redblade" "Betrayer's" "Deceiver's" "Turncoat's"
+    SetBorderColor 150 0 0              # smoothred
+    SetFontSize 45
+    PlayAlertSound 2 200                # Sound - T2
+    MinimapIcon 0 Brown Square
+    PlayEffect Brown
+
+Show
+	HasInfluence Crusader Redeemer Hunter Warlord
+	Rarity <= Rare
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 45
     PlayAlertSound 2 200                # Sound - T2
@@ -1169,6 +1192,13 @@ Show # Normal/Magic - Jewelery - Abyss Jewel
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 45
 
+Show # Normal/Magic - Jewelery - Jewel
+    Rarity <= Magic
+    BaseType "Viridian Jewel"
+    Class "Jewel"
+    SetBorderColor 136 136 255          # magic
+    SetFontSize 45
+
 Hide # Normal/Magic - Jewelery - Jewel
     Rarity <= Magic
     Class "Jewel"
@@ -1186,7 +1216,7 @@ Hide # Normal/Magic - Jewelery
 
 Hide # Normal/Magic - Hide Equipment
     Rarity <= Magic
-    Class "Gloves" "Body Armours" "Boots" "Helmets" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "One Hand Swords" "One Hand Axes" "One Hand Maces" "Claws" "Daggers" "Wands" "Bows" "Shields" "Staves" "Sceptres" "Quivers"
+    Class "Gloves" "Body Armours" "Boots" "Helmets" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "One Hand Swords" "One Hand Axes" "One Hand Maces" "Claws" "Rune Daggers" "Daggers" "Wands" "Bows" "Shields" "Warstaves" "Staves" "Sceptres" "Quivers"
     SetFontSize 25
 
 # #######################################################################################################################
@@ -1196,7 +1226,7 @@ Hide # Normal/Magic - Hide Equipment
 # Show # Rare - Weapon - Quality Recipe
 #     Quality >= 5
 #     Rarity = Rare
-#     Class "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Bows" "Staves"
+#     Class "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Bows" "Warstaves" "Staves"
 #     SetBorderColor 255 255 255           # white
 #     SetFontSize 45
 
@@ -1247,13 +1277,20 @@ Show # Rare - Jewelery - Ring - T2
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 40
 
-Hide # Rare - Jewelery - Ring
+Show # Rare - Jewelery - Ring
     Rarity = Rare
     Class "Rings"
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 40
 
-Hide # Rare - Jewelery - Amulets
+Show # Rare - Jewelery - Amulets - talisman
+    Rarity = Rare
+	Class "Amulets"
+	BaseType "Talisman"
+    SetBorderColor 150 0 0              # smoothred
+    SetFontSize 45
+
+Show # Rare - Jewelery - Amulets
     Rarity = Rare
     Class "Amulets"
     SetBorderColor 150 0 0              # smoothred
@@ -1271,19 +1308,19 @@ Show # Rare - Jewelery - Belt - T1
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 45
 
-Hide # Rare - Jewelery - Belt - T2
+Show # Rare - Jewelery - Belt - T2
     Rarity = Rare
     BaseType "Leather Belt"
     SetBorderColor 255 255 119          # Rare
     SetFontSize 40
 
-Hide # Rare - Jewelery - Belt - T3
+Show # Rare - Jewelery - Belt - T3
     Rarity = Rare
     BaseType "Heavy Belt" "Rustic Sash"
     SetBorderColor 255 255 119          # Rare
     SetFontSize 40
 
-Hide # Rare - Jewelery - Belt - T4
+Show # Rare - Jewelery - Belt - T4
     Rarity = Rare
     Class "Belts"
 
@@ -1291,22 +1328,22 @@ Hide # Rare - Jewelery - Belt - T4
 # Rare - Crit Sword
 # #######################################################################################################################
 
-Hide # Rare - Crit Sword - T1
+Show # Rare - Crit Sword - T1
     Rarity = Rare
     BaseType "Jewelled Foil" "Spiraled Foil"
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 45
 
-Hide # Rare - Crit Sword - T2
+Show # Rare - Crit Sword - T2
     Rarity = Rare
     BaseType "Pecoraro" "Dragonbone Rapier"
     SetBorderColor 255 255 119          # Rare
     SetFontSize 40
 
 Hide # Rare - Crit Sword - T2 - Ele sowrds
-   Rarity = Rare
-   BaseType "Serrated Foil" "Fancy Foil"
-   SetBorderColor 255 255 119 # Rare
+    Rarity = Rare
+    BaseType "Serrated Foil" "Fancy Foil"
+    SetBorderColor 255 255 119 # Rare
     SetFontSize 40
 
 Hide # Rare - Crit Sword - T2
@@ -1382,7 +1419,7 @@ Hide # Rare - 2H Sword - T2
 # Rare - 1H Axe
 # #######################################################################################################################
 
-Hide # Rare - 1H Axe - T1
+Show # Rare - 1H Axe - T1
     Rarity = Rare
     BaseType "Siege Axe" "Vaal Hatchet" "Runic Hatchet"
     SetBorderColor 150 0 0              # smoothred
@@ -1459,18 +1496,40 @@ Hide # Rare - Claw - T2
     SetFontSize 40
 
 # #######################################################################################################################
+# Rare - Rune Daggers
+# #######################################################################################################################
+
+###TODO
+# Hide # Rare - Dagger - T1
+#     Rarity = Rare
+#     BaseType "Demon Dagger"
+#     SetBorderColor 150 0 0              # smoothred
+#     SetFontSize 45
+
+# Hide # Rare - Dagger - T2
+#     Rarity = Rare
+#     BaseType "Slaughter Knife"
+#     SetBorderColor 255 255 119          # Rare
+#     SetFontSize 40
+
+Hide # Rare - Dagger - T3
+    Rarity = Rare
+    Class "Rune Daggers"
+    SetFontSize 40
+
+# #######################################################################################################################
 # Rare - Dagger
 # #######################################################################################################################
 
 Hide # Rare - Dagger - T1
     Rarity = Rare
-    BaseType "Demon Dagger" "Ambusher"
+    BaseType "Ambusher"
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 45
 
 Hide # Rare - Dagger - T2
     Rarity = Rare
-    BaseType "Imperial Skean" "Platinum Kris" "Ezomyte Dagger" "Slaughter Knife"
+    BaseType "Gutting Knife"
     SetBorderColor 255 255 119          # Rare
     SetFontSize 40
 
@@ -1533,20 +1592,23 @@ Hide # Rare - Wand - T3
     SetFontSize 40
 
 # #######################################################################################################################
+# Rare - Warstaves
+# #######################################################################################################################
+
+Hide # Rare - Staff - T2
+    Rarity = Rare
+    Class "Warstaves"
+    SetFontSize 40
+
+# #######################################################################################################################
 # Rare - Staff
 # #######################################################################################################################
 
 Hide # Rare - Staff - T1
     Rarity = Rare
-    BaseType "Eclipse Staff" "Lathi"
+    BaseType "Eclipse Staff"
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 45
-
-Hide # Rare - Staff - T2
-    Rarity = Rare
-    BaseType "Judgement Staff" "Imperial Staff" "Maelström Staff" "Ezomyte Staff"
-    SetBorderColor 255 255 119          # Rare
-    SetFontSize 40
 
 Hide # Rare - Staff - T2
     Rarity = Rare
@@ -1557,7 +1619,7 @@ Hide # Rare - Staff - T2
 # Rare - Bow
 # #######################################################################################################################
 
-Hide # Rare - Bow - T1
+Show # Rare - Bow - T1
     Rarity = Rare
     BaseType "Harbinger Bow"
     SetBorderColor 150 0 0              # smoothred
@@ -1577,7 +1639,7 @@ Hide # Rare - Bow - T2
 
 Hide # Rare - Bow - T2 - Speed
     Rarity = Rare
-    BaseType "Crude Bow" "Short Bow" "Grove Bow" "Royal Bow" "Highborn Bow" "Imperial Bow" "Reflex Bow" "Steelwood Bow"
+    BaseType "Royal Bow" "Imperial Bow" "Grove Bow" "Short Bow"
     SetBorderColor 255 255 119          # Rare
     SetFontSize 40
 
@@ -1590,7 +1652,7 @@ Hide # Rare - Bow
 # Rare - Quiver
 # #######################################################################################################################
 
-Hide # Rare - Quiver - T1
+Show # Rare - Quiver - T1
     Rarity = Rare
     BaseType "Spike-Point Arrow Quiver"
     SetBorderColor 150 0 0              # smoothred
@@ -1602,7 +1664,7 @@ Hide # Rare - Quiver - T2
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 40
 
-Hide # Rare - Quiver
+Show # Rare - Quiver
     Rarity = Rare
     Class "Quivers"
     SetBorderColor 255 255 119          # Rare
@@ -1622,25 +1684,25 @@ Hide # Rare - Quiver
 # Rare - Equipment - ES
 # #######################################################################################################################
 
-Hide # Rare - Equipment - ES - Helmet - T1
+Show # Rare - Equipment - ES - Helmet - T1
     Rarity = Rare
     BaseType "Hubris Circlet"
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 40
 
-Hide # Rare - Equipment - ES - Body Armour - T1
+Show # Rare - Equipment - ES - Body Armour - T1
     Rarity = Rare
     BaseType "Vaal Regalia"
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 40
 
-Hide # Rare - Equipment - ES - Gloves - T1
+Show # Rare - Equipment - ES - Gloves - T1
     Rarity = Rare
     BaseType "Sorcerer Gloves"
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 40
 
-Hide # Rare - Equipment - ES - Boots - T1
+Show # Rare - Equipment - ES - Boots - T1
     Rarity = Rare
     BaseType "Sorcerer Boots"
     SetBorderColor 150 0 0              # smoothred
@@ -1658,13 +1720,13 @@ Hide # Rare - Equipment - ES - Body Armour - T2
     SetBorderColor 255 255 119          # Rare
     SetFontSize 40
 
-Hide # Rare - Equipment - ES - Gloves - T2
+Show # Rare - Equipment - ES - Gloves - T2
     Rarity = Rare
     BaseType "Arcanist Gloves"
     SetBorderColor 255 255 119          # Rare
     SetFontSize 40
 
-Hide # Rare - Equipment - ES - Boots - T2
+Show # Rare - Equipment - ES - Boots - T2
     Rarity = Rare
     BaseType "Arcanist Slippers"
     SetBorderColor 255 255 119          # Rare
@@ -1678,11 +1740,11 @@ Hide # Rare - Equipment - ES - Body Armour - T3
     Rarity = Rare
     BaseType "Necromancer Silks" "Savant's Robe" "Destroyer Regalia"
 
-Hide # Rare - Equipment - ES - Gloves - T3
+Show # Rare - Equipment - ES - Gloves - T3
     Rarity = Rare
     BaseType "Conjurer Gloves"
 
-Hide # Rare - Equipment - ES - Boots - T3
+Show # Rare - Equipment - ES - Boots - T3
     Rarity = Rare
     BaseType "Conjurer Boots"
 
@@ -1702,13 +1764,13 @@ Hide # Rare - Equipment - ARM - Body Armour - T1
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 40
 
-Hide # Rare - Equipment - ARM - Gloves - T1
+Show # Rare - Equipment - ARM - Gloves - T1
     Rarity = Rare
     BaseType "Titan Gauntlets"
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 40
 
-Hide # Rare - Equipment - ARM - Boots - T1
+Show # Rare - Equipment - ARM - Boots - T1
     Rarity = Rare
     BaseType "Titan Greaves"
     SetBorderColor 150 0 0              # smoothred
@@ -1726,13 +1788,13 @@ Hide # Rare - Equipment - ARM - Body Armour - T2
     SetBorderColor 255 255 119          # Rare
     SetFontSize 40
 
-Hide # Rare - Equipment - ARM - Gloves - T2
+Show # Rare - Equipment - ARM - Gloves - T2
     Rarity = Rare
     BaseType "Vaal Gauntlets"
     SetBorderColor 255 255 119          # Rare
     SetFontSize 40
 
-Hide # Rare - Equipment - ARM - Boots - T2
+Show # Rare - Equipment - ARM - Boots - T2
     Rarity = Rare
     BaseType "Vaal Greaves"
     SetBorderColor 255 255 119          # Rare
@@ -1746,11 +1808,11 @@ Hide # Rare - Equipment - ARM - Body Armour - T3
     Rarity = Rare
     BaseType "Crusader Plate" "Golden Plate" "Majestic Plate"
 
-Hide # Rare - Equipment - ARM - Gloves - T3
+Show # Rare - Equipment - ARM - Gloves - T3
     Rarity = Rare
     BaseType "Goliath Gauntlets"
 
-Hide # Rare - Equipment - ARM - Boots - T3
+Show # Rare - Equipment - ARM - Boots - T3
     Rarity = Rare
     BaseType "Goliath Greaves"
 
@@ -1770,13 +1832,13 @@ Hide # Rare - Equipment - EVA - Body Armour - T1
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 40
 
-Hide # Rare - Equipment - EVA - Gloves - T1
+Show # Rare - Equipment - EVA - Gloves - T1
     Rarity = Rare
     BaseType "Slink Gloves"
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 40
 
-Hide # Rare - Equipment - EVA - Boots - T1
+Show # Rare - Equipment - EVA - Boots - T1
     Rarity = Rare
     BaseType "Slink Boots"
     SetBorderColor 150 0 0              # smoothred
@@ -1794,13 +1856,13 @@ Hide # Rare - Equipment - EVA - Body Armour - T2
     SetBorderColor 255 255 119          # Rare
     SetFontSize 40
 
-Hide # Rare - Equipment - EVA - Gloves - T2
+Show # Rare - Equipment - EVA - Gloves - T2
     Rarity = Rare
     BaseType "Stealth Gloves"
     SetBorderColor 255 255 119          # Rare
     SetFontSize 40
 
-Hide # Rare - Equipment - EVA - Boots - T2
+Show # Rare - Equipment - EVA - Boots - T2
     Rarity = Rare
     BaseType "Stealth Boots"
     SetBorderColor 255 255 119          # Rare
@@ -1814,11 +1876,11 @@ Hide # Rare - Equipment - EVA - Body Armour - T3
     Rarity = Rare
     BaseType "Destiny Leather" "Sharkskin Tunic" "Cutthroat's Garb"
 
-Hide # Rare - Equipment - EVA - Gloves - T3
+Show # Rare - Equipment - EVA - Gloves - T3
     Rarity = Rare
     BaseType "Shagreen Gloves" "Sharkskin Gloves"
 
-Hide # Rare - Equipment - EVA - Boots - T3
+Show # Rare - Equipment - EVA - Boots - T3
     Rarity = Rare
     BaseType "Shagreen Boots" "Sharkskin Boots" "Eelskin Boots"
 
@@ -1832,13 +1894,13 @@ Hide # Rare - Equipment - EVA+ARM - Helmet - T1
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 40
 
-Hide # Rare - Equipment - EVA+ARM - Gloves - T1
+Show # Rare - Equipment - EVA+ARM - Gloves - T1
     Rarity = Rare
     BaseType "Dragonscale Gauntlets"
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 40
 
-Hide # Rare - Equipment - EVA+ARM - Boots - T1
+Show # Rare - Equipment - EVA+ARM - Boots - T1
     Rarity = Rare
     BaseType "Dragonscale Boots"
     SetBorderColor 150 0 0              # smoothred
@@ -1856,13 +1918,13 @@ Hide # Rare - Equipment - EVA+ARM - Body Armour - T2
     SetBorderColor 255 255 119          # Rare
     SetFontSize 40
 
-Hide # Rare - Equipment - EVA+ARM - Gloves - T2
+Show # Rare - Equipment - EVA+ARM - Gloves - T2
     Rarity = Rare
     BaseType "Hydrascale Gauntlets"
     SetBorderColor 255 255 119          # Rare
     SetFontSize 40
 
-Hide # Rare - Equipment - EVA+ARM - Boots - T2
+Show # Rare - Equipment - EVA+ARM - Boots - T2
     Rarity = Rare
     BaseType "Hydrascale Boots"
     SetBorderColor 255 255 119          # Rare
@@ -1876,11 +1938,11 @@ Hide # Rare - Equipment - EVA+ARM - Body Armour - T3
     Rarity = Rare
     BaseType "Desert Brigandine" "Battle Lamellar" "Commander's Brigandine" "Dragonscale Doublet"
 
-Hide # Rare - Equipment - EVA+ARM - Gloves - T3
+Show # Rare - Equipment - EVA+ARM - Gloves - T3
     Rarity = Rare
     BaseType "Wyrmscale Gauntlets" "Serpentscale Gauntlets"
 
-Hide # Rare - Equipment - EVA+ARM - Boots - T3
+Show # Rare - Equipment - EVA+ARM - Boots - T3
     Rarity = Rare
     BaseType "Wyrmscale Boots" "Serpentscale Boots"
 
@@ -1900,13 +1962,13 @@ Hide # Rare - Equipment - ARM+ES - Body Armour - T1
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 40
 
-Hide # Rare - Equipment - ARM+ES - Gloves - T1
+Show # Rare - Equipment - ARM+ES - Gloves - T1
     Rarity = Rare
     BaseType "Crusader Gloves"
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 40
 
-Hide # Rare - Equipment - ARM+ES - Boots - T1
+Show # Rare - Equipment - ARM+ES - Boots - T1
     Rarity = Rare
     BaseType "Crusader Boots"
     SetBorderColor 150 0 0              # smoothred
@@ -1924,13 +1986,13 @@ Hide # Rare - Equipment - ARM+ES - Body Armour - T2
     SetBorderColor 255 255 119          # Rare
     SetFontSize 40
 
-Hide # Rare - Equipment - ARM+ES - Gloves - T2
+Show # Rare - Equipment - ARM+ES - Gloves - T2
     Rarity = Rare
     BaseType "Legion Gloves" "Soldier Gloves"
     SetBorderColor 255 255 119          # Rare
     SetFontSize 40
 
-Hide # Rare - Equipment - ARM+ES - Boots - T2
+Show # Rare - Equipment - ARM+ES - Boots - T2
     Rarity = Rare
     BaseType "Legion Boots" "Soldier Boots"
     SetBorderColor 255 255 119          # Rare
@@ -1960,13 +2022,13 @@ Hide # Rare - Equipment - EVA+ES - Body Armour - T1
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 40
 
-Hide # Rare - Equipment - EVA+ES - Gloves - T1
+Show # Rare - Equipment - EVA+ES - Gloves - T1
     Rarity = Rare
     BaseType "Murder Mitts"
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 40
 
-Hide # Rare - Equipment - EVA+ES - Boots - T1
+Show # Rare - Equipment - EVA+ES - Boots - T1
     Rarity = Rare
     BaseType "Murder Boots"
     SetBorderColor 150 0 0              # smoothred
@@ -1984,13 +2046,13 @@ Hide # Rare - Equipment - EVA+ES - Body Armour - T2
     SetBorderColor 255 255 119          # Rare
     SetFontSize 40
 
-Hide # Rare - Equipment - EVA+ES - Gloves - T2
+Show # Rare - Equipment - EVA+ES - Gloves - T2
     Rarity = Rare
     BaseType "Assassin's Mitts"
     SetBorderColor 255 255 119          # Rare
     SetFontSize 40
 
-Hide # Rare - Equipment - EVA+ES - Boots - T2
+Show # Rare - Equipment - EVA+ES - Boots - T2
     Rarity = Rare
     BaseType "Assassin's Boots"
     SetBorderColor 255 255 119          # Rare
@@ -2004,11 +2066,11 @@ Hide # Rare - Equipment - EVA+ES - Body Armour - T3
     Rarity = Rare
     BaseType "Sentinel Jacket" "Crypt Armour" "Lacquered Garb"
 
-Hide # Rare - Equipment - EVA+ES - Gloves - T3
+Show # Rare - Equipment - EVA+ES - Gloves - T3
     Rarity = Rare
     BaseType "Carnal Mitts" "Ambush Mitts" "Trapper Mitts"
 
-Hide # Rare - Equipment - EVA+ES - Boots - T3
+Show # Rare - Equipment - EVA+ES - Boots - T3
     Rarity = Rare
     BaseType "Carnal Boots" "Ambush Boots" "Trapper Boots"
 
@@ -2212,7 +2274,7 @@ Hide # Rare - Hide - T3
 Hide # Rare - Hide - Obsolete Gear
     DropLevel <= 60
     Rarity = Rare
-    Class "Gloves" "Body Armours" "Boots" "Helmets" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "One Hand Swords" "One Hand Axes" "One Hand Maces" "Claws" "Daggers" "Wands" "Bows" "Shields" "Staves" "Sceptres" "Quivers"
+    Class "Gloves" "Body Armours" "Boots" "Helmets" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "One Hand Swords" "One Hand Axes" "One Hand Maces" "Claws" "Rune Daggers" "Daggers" "Wands" "Bows" "Shields" "Warstaves" "Staves" "Sceptres" "Quivers"
     SetFontSize 25
 
 Hide # Rare - Hide - Daggers - Sai
