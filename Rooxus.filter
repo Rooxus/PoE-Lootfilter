@@ -1217,12 +1217,10 @@ Show # Normal/Magic - Jewelery - Abyss Jewel
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 45
 
-Show # Normal/Magic - Jewelery - Jewel
-    Rarity <= Magic
-    BaseType "Viridian Jewel"
-    Class "Jewel"
-    SetBorderColor 136 136 255          # magic
-    SetFontSize 45
+Show # Normal/Magic - Jewelery - Delirium Jewel
+	Rarity <= Magic
+	BaseType "Large Cluster Jewel" "Medium Cluster Jewel" "Small Cluster Jewel"
+    SetBorderColor 150 0 0              # smoothred
 
 Hide # Normal/Magic - Jewelery - Jewel
     Rarity <= Magic
@@ -1268,6 +1266,18 @@ Hide # Normal/Magic - Hide Equipment
 # #######################################################################################################################
 # Rare - Jewelery
 # #######################################################################################################################
+
+Show # Rare - Jewelery - Abyss Jewel
+    Rarity = Rare
+    Class "Abyss Jewel"
+    SetBorderColor 150 0 0              # smoothred
+    SetFontSize 45
+
+Show # Rare - Jewelery - Delirium Jewel
+    Rarity = Rare
+	BaseType "Large Cluster Jewel" "Medium Cluster Jewel" "Small Cluster Jewel"
+    SetBorderColor 150 0 0              # smoothred
+    SetFontSize 45
 
 Show # Rare - Jewelery - Jewels
     Rarity = Rare
