@@ -1209,6 +1209,7 @@ Show # Normal/Magic - Jewelery - Delirium Jewel
 Show # Normal/Magic - Jewelery - Jewel
     Rarity <= Magic
     Class "Jewel"
+	BaseType "Cobalt Jewel" "Crimson Jewel" "Viridian Jewel"
     SetBorderColor 136 136 255          # magic
 
 Hide
@@ -1302,85 +1303,85 @@ Show # Rare - Chromatic Orb Recipe
 #     SetFontSize 40
 
 # #######################################################################################################################
-# Rare - Hide unwanted Drops for current char, Uncomment to show
+# Rare - comment block to show, uncomment block to hide
 # #######################################################################################################################
 
-Hide # Rare - Hide unwanted Drops for current char, uncomment to show - 1H Sword
+Hide # Rare - comment block to show, uncomment block to hide - 1H Sword
     Rarity = Rare
     Class "One Hand Swords"
     SetFontSize 25
 
-Hide # Rare - Hide unwanted Drops for current char, uncomment to show - 2H Sword
+Hide # Rare - comment block to show, uncomment block to hide - 2H Sword
     Rarity = Rare
     Class "Two Hand Swords"
     SetFontSize 25
 
-Hide # Rare - Hide unwanted Drops for current char, uncomment to show - 1H Axe
+Hide # Rare - comment block to show, uncomment block to hide - 1H Axe
     Rarity = Rare
     Class "One Hand Axes"
     SetFontSize 25
 
-Hide # Rare - Hide unwanted Drops for current char, uncomment to show - 2H Axe
+Hide # Rare - comment block to show, uncomment block to hide - 2H Axe
     Rarity = Rare
     Class "Two Hand Axes"
     SetFontSize 25
 
-Hide # Rare - Hide unwanted Drops for current char, uncomment to show - 1H Mace
+Hide # Rare - comment block to show, uncomment block to hide - 1H Mace
     Rarity = Rare
     Class "One Hand Maces"
     SetFontSize 25
 
-Hide # Rare - Hide unwanted Drops for current char, uncomment to show - 2H Mace
+Hide # Rare - comment block to show, uncomment block to hide - 2H Mace
     Rarity = Rare
     Class "Two Hand Maces"
     SetFontSize 25
 
-Hide # Rare - Hide unwanted Drops for current char, uncomment to show - Claw
+Hide # Rare - comment block to show, uncomment block to hide - Claw
     Rarity = Rare
     Class "Claws"
     SetFontSize 25
 
-Hide # Rare - Hide unwanted Drops for current char, uncomment to show - Rune Daggers
+Hide # Rare - comment block to show, uncomment block to hide - Rune Daggers
     Rarity = Rare
     Class "Rune Daggers"
     SetFontSize 25
 
-Hide # Rare - Hide unwanted Drops for current char, uncomment to show - Dagger
+Hide # Rare - comment block to show, uncomment block to hide - Dagger
     Rarity = Rare
     Class "Daggers"
     SetFontSize 25
 
-Hide # Rare - Hide unwanted Drops for current char, uncomment to show - Sceptre
+Hide # Rare - comment block to show, uncomment block to hide - Sceptre
     Rarity = Rare
     Class "Sceptres"
     SetFontSize 25
 
-# Hide # Rare - Hide unwanted Drops for current char, uncomment to show - Wand
+# Hide # Rare - comment block to show, uncomment block to hide - Wand
 #     Rarity = Rare
 #     Class "Wands"
 #     SetFontSize 25
 
-Hide # Rare - Hide unwanted Drops for current char, uncomment to show - Warstaves
+Hide # Rare - comment block to show, uncomment block to hide - Warstaves
     Rarity = Rare
     Class "Warstaves"
     SetFontSize 25
 
-# Hide # Rare - Hide unwanted Drops for current char, uncomment to show - Staves
+# Hide # Rare - comment block to show, uncomment block to hide - Staves
 #     Rarity = Rare
 #     Class "Staves"
 #     SetFontSize 25
 
-Hide # Rare - Hide unwanted Drops for current char, uncomment to show - Bows
+Hide # Rare - comment block to show, uncomment block to hide - Bows
     Rarity = Rare
     Class "Bows"
     SetFontSize 25
 
-Hide # Rare - Hide unwanted Drops for current char, uncomment to show - Quivers
+Hide # Rare - comment block to show, uncomment block to hide - Quivers
     Rarity = Rare
     Class "Quivers"
     SetFontSize 25
 
-# Hide # Rare - Hide unwanted Drops for current char, uncomment to show - Bows/Quivers
+# Hide # Rare - comment block to show, uncomment block to hide - shields
 #     Rarity = Rare
 #     Class "Shields"
 #     SetFontSize 25
@@ -1466,13 +1467,23 @@ Show
 # Flasks
 # #######################################################################################################################
 
-Show # Flasks - Utility Flasks
+Show # Flasks - Divine Life Flask
+    BaseType "Divine Life Flask"
+    Rarity <= Magic
+    SetBorderColor 150 0 0              # smoothred
+
+Show # Flasks - Utility Flasks - dmg/speed
     BaseType "Quicksilver Flask" "Silver Flask" "Sulphur Flask" "Diamond Flask"
     Rarity <= Magic
     SetBorderColor 150 0 0              # smoothred
 
-Show # Flasks - Utility Flasks
-    BaseType "Basalt Flask" "Stibnite Flask" "Granite Flask" "Jade Flask" "Bismuth Flask"
+Show # Flasks - Utility Flasks - def
+    BaseType "Basalt Flask" "Stibnite Flask" "Granite Flask" "Jade Flask" "Bismuth Flask" "Quartz Flask"
+    Rarity <= Magic
+    SetBorderColor 255 140 0		    # darkorange
+
+Show # Flasks - Utility Flasks - resist
+    BaseType "Amethyst Flask" "Ruby Flask" "Sapphire Flask" "Topaz Flask"
     Rarity <= Magic
     SetBorderColor 255 140 0		    # darkorange
 

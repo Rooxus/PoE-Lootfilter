@@ -138,32 +138,32 @@ Show # Currency - Low Value
     SetBorderColor 127 255 212          # aquamarine1
     SetFontSize 45
 
-Hide # Currency - Low Value
+Show # Currency - Low Value
     Class "Currency"
     BaseType "Orb of Augmentation"
     SetTextColor 170 158 130			# currency
     SetBorderColor 127 255 212          # aquamarine1
     SetFontSize 45
 
-Hide # Currency - Low Value
+Show # Currency - Low Value
     Class "Currency"
     BaseType "Blacksmith's Whetstone"
     SetTextColor 170 158 130			# currency
     SetFontSize 45
 
-Hide # Currency - Low Value
+Show # Currency - Low Value
     Class "Currency"
     BaseType "Armourer's Scrap"
     SetTextColor 170 158 130			# currency
     SetFontSize 45
 
-Hide # Currency - Low Value
+Show # Currency - Low Value
     Class "Currency"
     BaseType "Portal Scroll"
     SetTextColor 170 158 130			# currency
     SetFontSize 45
 
-Hide # Currency - Low Value
+Show # Currency - Low Value
     Class "Currency"
     BaseType "Scroll of Wisdom"
     SetTextColor 170 158 130			# currency
@@ -571,7 +571,7 @@ Show # Unique - Jewelery/Maps
     MinimapIcon 0 Red Diamond
     PlayEffect Red
 
-Hide # Unique - Crappy
+Show # Unique - Crappy
     Rarity Unique
     BaseType "Elegant Foil" "Ambusher" "Antique Greaves" "Antique Rapier" "Astral Plate" "Auric Mace" "Aventail Helmet" "Awl" "Baroque Round Shield" "Basket Rapier" "Bastard Sword" "Bone Armour" "Bone Circlet" "Boot Blade" "Boot Knife" "Branded Kite Shield" "Broadhead Arrow Quiver" "Bronze Gauntlets" "Bronze Sceptre" "Bronzescale Gauntlets" "Buckskin Tunic" "Burnished Spiked Shield" "Chain Gloves" "Chiming Spirit Shield" "Colossal Tower Shield" "Compound Spiked Shield" "Embroidered Gloves" "Conquest Chainmail" "Copper Plate" "Corrugated Buckler" "Crusader Chainmail" "Crystal Sceptre" "Cutthroat's Garb" "Decimation Bow" "Decorative Axe" "Deerskin Boots" "Demon Dagger" "Demon's Horn" "Desert Brigandine" "Destroyer Regalia" "Dragonscale Boots" "Dragonscale Gauntlets" "Dread Maul" "Dream Mace" "Driftwood Wand" "Dusk Blade" "Elder Sword" "Engraved Wand" "Estoc" "Ezomyte Axe" "Flaying Knife" "Fright Claw" "Full Scale Armour" "Gladius" "Goat's Horn" "Golden Mask" "Goliath Gauntlets" "Great Helmet" "Greater Mana Flask" "Grinning Fetish" "Gut Ripper" "Harmonic Spirit Shield" "Headsman Axe" "Highland Blade" "Imbued Wand" "Infernal Axe" "Iron Gauntlets" "Ivory Spirit Shield" "Jagged Foil" "Karui Sceptre" "Lacquered Helmet" "Lathi" "Lion Sword" "Long Staff" "Loricated Ringmail" "Lunaris Circlet" "Marble Amulet" "Mesh Boots" "Mesh Gloves" "Military Staff" "Mosaic Kite Shield" "Nailed Fist" "Opal Sceptre" "Ornate Mace" "Ornate Ringmail" "Pine Buckler" "Plague Mask" "Plated Greaves" "Platinum Kris" "Poleaxe" "Polished Spiked Shield" "Primordial Staff" "Quartz Wand" "Quicksilver Flask" "Recurve Bow" "Reinforced Tower Shield" "Riveted Boots" "Rock Breaker" "Rotted Round Shield" "Royal Skean" "Sabre" "Sage's Robe" "Saintly Chainmail" "Samite Gloves" "Samite Helmet" "Satin Gloves" "Scholar's Robe" "Secutor Helm" "Crystal Belt" "Serpentine Staff" "Shadow Axe" "Shagreen Boots" "Sharkskin Boots" "Silk Slippers" "Corsair Sword" "Soldier Boots" "Spidersilk Robe" "Spiked Club" "Steel Gauntlets" "Stiletto" "Strapped Boots" "Studded Round Shield" "Sundering Axe" "Supreme Spiked Shield" "Terror Maul" "Thresher Claw" "Tiger Sword" "Tomahawk" "Tribal Circlet" "Tricorne" "Twilight Blade" "Ursine Pelt" "Vaal Buckler" "Vaal Claw" "Vaal Hatchet" "Vanguard Belt" "Vile Staff" "Visored Sallet" "War Sword" "Whalebone Rapier" "Wool Gloves" "Wool Shoes" "Wrapped Mitts" "Wyrmscale Gauntlets" "Zealot Helmet" "Platinum Sceptre" "Iron Sceptre" "Tyrant's Sekhem" "Slaughter Knife" "Hellion's Paw" "Short Bow" "Abyssal Axe" "Throat Stabber" "Hallowed Hybrid Flask" "Diamond Flask" "Destiny Leather" "Serpentscale Gauntlets" "Legion Boots" "Sinner Tricorne" "Deicide Mask" "Festival Mask" "Conjurer Boots" "Brass Spirit Shield" "Spike-Point Arrow Quiver" "Laminated Kite Shield" "Necromancer Silks" "Sorcerer Gloves" "Assassin's Garb" "Conjurer Gloves" "Sentinel Jacket"
     SetFontSize 35
@@ -783,7 +783,7 @@ Show # Divination Cards - T3 (Neversink 04.01.2020)
     PlayEffect Blue
 
 Show # Divination Cards - T4 (Neversink 04.01.2020)
-    Class "Divination"
+    Class "Divination Card"
 	BaseType "Boon of Justice" "Coveted Possession" "Demigod's Wager" "Emperor's Luck" "Harmony of Souls" "Her Mask" "Imperial Legacy" "Loyalty" "Lucky Connections" "Monochrome" "More is Never Enough" "No Traces" "Sambodhi's Vow" "The Cacophony" "The Catalyst" "The Deal" "The Flora's Gift" "The Fool" "The Gemcutter" "The Innocent" "The Inventor" "The Puzzle" "The Side Quest" "The Survivalist" "The Union" "The Wrath" "Three Faces in the Dark" "Three Voices" "Vinia's Token" "The Seeker" "Buried Treasure" "The Journey"
     SetTextColor 0 180 255              # cards
     SetBorderColor 0 180 255            # cards
@@ -1193,19 +1193,19 @@ Hide # Normal/Magic - Specials - T2
 # Normal/Magic - Chromatic Recipe
 # #######################################################################################################################
 
-# Show # Normal/Magic - Chromatic Recipe
-#     SocketGroup "RGB"
-#     Height <= 4
-#     Width = 1
-#     Rarity <= Magic
-#     SetBorderColor 0 197 205            # turquoise3
+Show # Normal/Magic - Chromatic Recipe
+    SocketGroup "RGB"
+    Height <= 4
+    Width = 1
+    Rarity <= Magic
+    SetBorderColor 0 197 205            # turquoise3
 
-# Show # Normal/Magic - Chromatic Recipe
-#     SocketGroup "RGB"
-#     Height = 2
-#     Width = 2
-#     Rarity <= Magic
-#     SetBorderColor 0 197 205            # turquoise3
+Show # Normal/Magic - Chromatic Recipe
+    SocketGroup "RGB"
+    Height = 2
+    Width = 2
+    Rarity <= Magic
+    SetBorderColor 0 197 205            # turquoise3
 
 # #######################################################################################################################
 # Normal/Magic - Jewelery
@@ -1225,6 +1225,7 @@ Show # Normal/Magic - Jewelery - Delirium Jewel
 Hide # Normal/Magic - Jewelery - Jewel
     Rarity <= Magic
     Class "Jewel"
+	BaseType "Cobalt Jewel" "Crimson Jewel" "Viridian Jewel"
     SetBorderColor 136 136 255          # magic
     SetFontSize 45
 
@@ -1349,7 +1350,7 @@ Show # Rare - Jewelery - Belt - T2
     SetBorderColor 255 255 119          # Rare
     SetFontSize 40
 
-Hide # Rare - Jewelery - Belt - T3
+Show # Rare - Jewelery - Belt - T3
     Rarity = Rare
     BaseType "Heavy Belt" "Rustic Sash"
     SetBorderColor 255 255 119          # Rare
@@ -1438,15 +1439,27 @@ Hide # Rare - Bleed Sword - T2
 # Rare - 2H Sword
 # #######################################################################################################################
 
-Hide # Rare - 2H Sword - T1
+Hide # Rare - 2H Sword - Critical
     Rarity = Rare
-    BaseType "Exquisite Blade" "Reaver Sword"
+    BaseType "Exquisite Blade" "Ezomyte Blade"
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 45
 
-Hide # Rare - 2H Sword - T2
+Hide # Rare - 2H Sword - Accuracy
     Rarity = Rare
-    BaseType "Infernal Sword" "Lion Sword" "Vaal Greatsword" "Ezomyte Blade" "Headman's Sword" "Lithe Blade" "Wraith Sword" "Tiger Sword"
+    BaseType "Headman's Sword" "Reaver Sword" "Vaal Greatsword"
+    SetBorderColor 255 255 119          # Rare
+    SetFontSize 40
+
+Hide # Rare - 2H Sword - Elemental
+    Rarity = Rare
+    BaseType "Infernal Sword"
+    SetBorderColor 255 255 119          # Rare
+    SetFontSize 40
+
+Hide # Rare - 2H Sword - Stats
+    Rarity = Rare
+    BaseType "Lion Sword"
     SetBorderColor 255 255 119          # Rare
     SetFontSize 40
 
@@ -1504,13 +1517,19 @@ Hide # Rare - 1H Mace - T2
 
 Hide # Rare - 2H Mace - T1
     Rarity = Rare
-    BaseType "Piledriver" "Coronal Maul"
+    BaseType "Colossus Mallet" "Meatgrinder"
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 45
 
 Hide # Rare - 2H Mace - T2
     Rarity = Rare
-    BaseType "Terror Maul" "Imperial Maul" "Meatgrinder" "Colossus Mallet"
+    BaseType "Imperial Maul" "Coronal Maul"
+    SetBorderColor 255 255 119          # Rare
+    SetFontSize 40
+
+Hide # Rare - 2H Mace - T3
+    Rarity = Rare
+    BaseType "Karui Maul" "Piledriver" "Terror Maul"
     SetBorderColor 255 255 119          # Rare
     SetFontSize 40
 
@@ -1534,18 +1553,17 @@ Hide # Rare - Claw - T2
 # Rare - Rune Daggers
 # #######################################################################################################################
 
-###TODO
-# Hide # Rare - Dagger - T1
-#     Rarity = Rare
-#     BaseType "Demon Dagger"
-#     SetBorderColor 150 0 0              # smoothred
-#     SetFontSize 45
+Hide # Rare - Dagger - T1
+    Rarity = Rare
+    BaseType "Imperial Skean" "Royal Skean" "Skean" "Boot Knife" "Carving Knife"
+    SetBorderColor 150 0 0              # smoothred
+    SetFontSize 45
 
-# Hide # Rare - Dagger - T2
-#     Rarity = Rare
-#     BaseType "Slaughter Knife"
-#     SetBorderColor 255 255 119          # Rare
-#     SetFontSize 40
+Hide # Rare - Dagger - T2
+    Rarity = Rare
+    BaseType "Ezomyte Dagger" "Slaughter Knife" "Boot Blade" "Butcher Knife"
+    SetBorderColor 255 255 119          # Rare
+    SetFontSize 40
 
 Hide # Rare - Dagger - T3
     Rarity = Rare
@@ -1569,6 +1587,11 @@ Hide # Rare - Dagger - T2
     SetFontSize 40
 
 Hide # Rare - Dagger - T3
+    Rarity = Rare
+    BaseType "Sai"
+    SetFontSize 40
+
+Hide # Rare - Dagger - All
     Rarity = Rare
     Class "Daggers"
     SetFontSize 40
@@ -1621,7 +1644,7 @@ Hide # Rare - Wand - T3
     BaseType "Carved Wand" "Driftwood Wand" "Pagan Wand" "Heathen Wand"
     SetFontSize 40
 
-Hide # Rare - Wand - T3
+Hide # Rare - Wand - ALL
     Rarity = Rare
     Class "Wands"
     SetFontSize 40
@@ -1630,22 +1653,40 @@ Hide # Rare - Wand - T3
 # Rare - Warstaves
 # #######################################################################################################################
 
+Hide # Rare - Staff - T1
+    Rarity = Rare
+    BaseType "Judgement Staff"
+    SetBorderColor 150 0 0              # smoothred
+    SetFontSize 45
+
 Hide # Rare - Staff - T2
+    Rarity = Rare
+    BaseType "Maelström Staff" "Ezomyte Staff"
+    SetBorderColor 150 0 0              # smoothred
+    SetFontSize 45
+
+Hide # Rare - Staff - All
     Rarity = Rare
     Class "Warstaves"
     SetFontSize 40
 
 # #######################################################################################################################
-# Rare - Staff
+# Rare - Staves
 # #######################################################################################################################
 
-Hide # Rare - Staff - T1
+Hide # Rare - Staves - T1
     Rarity = Rare
     BaseType "Eclipse Staff"
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 45
 
-Hide # Rare - Staff - T2
+Hide # Rare - Staves - T2
+    Rarity = Rare
+    BaseType "Moon Staff" "Crescent Staff"
+    SetBorderColor 150 0 0              # smoothred
+    SetFontSize 45
+
+Hide # Rare - Staves - All
     Rarity = Rare
     Class "Staves"
     SetFontSize 40
@@ -1755,7 +1796,7 @@ Show # Rare - Equipment - ES - Body Armour - T2
     SetBorderColor 255 255 119          # Rare
     SetFontSize 40
 
-Hide # Rare - Equipment - ES - Gloves - T2
+Show # Rare - Equipment - ES - Gloves - T2
     Rarity = Rare
     BaseType "Arcanist Gloves"
     SetBorderColor 255 255 119          # Rare
@@ -1787,55 +1828,55 @@ Hide # Rare - Equipment - ES - Boots - T3
 # Rare - Equipment - ARM
 # #######################################################################################################################
 
-Hide # Rare - Equipment - ARM - Helmet - T1
+Show # Rare - Equipment - ARM - Helmet - T1
     Rarity = Rare
     BaseType "Royal Burgonet"
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 40
 
-Hide # Rare - Equipment - ARM - Body Armour - T1
+Show # Rare - Equipment - ARM - Body Armour - T1
     Rarity = Rare
     BaseType "Astral Plate" "Glorious Plate"
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 40
 
-Hide # Rare - Equipment - ARM - Gloves - T1
+Show # Rare - Equipment - ARM - Gloves - T1
     Rarity = Rare
     BaseType "Titan Gauntlets"
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 40
 
-Hide # Rare - Equipment - ARM - Boots - T1
+Show # Rare - Equipment - ARM - Boots - T1
     Rarity = Rare
     BaseType "Titan Greaves"
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 40
 
-Hide # Rare - Equipment - ARM - Helmet - T2
+Show # Rare - Equipment - ARM - Helmet - T2
     Rarity = Rare
     BaseType "Eternal Burgonet" "Ezomyte Burgonet"
     SetBorderColor 255 255 119          # Rare
     SetFontSize 40
 
-Hide # Rare - Equipment - ARM - Body Armour - T2
+Show # Rare - Equipment - ARM - Body Armour - T2
     Rarity = Rare
     BaseType "Gladiator Plate"
     SetBorderColor 255 255 119          # Rare
     SetFontSize 40
 
-Hide # Rare - Equipment - ARM - Gloves - T2
+Show # Rare - Equipment - ARM - Gloves - T2
     Rarity = Rare
     BaseType "Vaal Gauntlets"
     SetBorderColor 255 255 119          # Rare
     SetFontSize 40
 
-Hide # Rare - Equipment - ARM - Boots - T2
+Show # Rare - Equipment - ARM - Boots - T2
     Rarity = Rare
     BaseType "Vaal Greaves"
     SetBorderColor 255 255 119          # Rare
     SetFontSize 40
 
-Hide # Rare - Equipment - ARM - Helmet - T3
+Show # Rare - Equipment - ARM - Helmet - T3
     Rarity = Rare
     BaseType "Samite Helmet"
 
@@ -1843,11 +1884,11 @@ Hide # Rare - Equipment - ARM - Body Armour - T3
     Rarity = Rare
     BaseType "Crusader Plate" "Golden Plate" "Majestic Plate"
 
-Hide # Rare - Equipment - ARM - Gloves - T3
+Show # Rare - Equipment - ARM - Gloves - T3
     Rarity = Rare
     BaseType "Goliath Gauntlets"
 
-Hide # Rare - Equipment - ARM - Boots - T3
+Show # Rare - Equipment - ARM - Boots - T3
     Rarity = Rare
     BaseType "Goliath Greaves"
 
@@ -1855,7 +1896,7 @@ Hide # Rare - Equipment - ARM - Boots - T3
 # Rare - Equipment - EVA
 # #######################################################################################################################
 
-Hide # Rare - Equipment - EVA - Helmet - T1
+Show # Rare - Equipment - EVA - Helmet - T1
     Rarity = Rare
     BaseType "Lion Pelt"
     SetBorderColor 150 0 0              # smoothred
@@ -1867,19 +1908,19 @@ Hide # Rare - Equipment - EVA - Body Armour - T1
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 40
 
-Hide # Rare - Equipment - EVA - Gloves - T1
+Show # Rare - Equipment - EVA - Gloves - T1
     Rarity = Rare
     BaseType "Slink Gloves"
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 40
 
-Hide # Rare - Equipment - EVA - Boots - T1
+Show # Rare - Equipment - EVA - Boots - T1
     Rarity = Rare
     BaseType "Slink Boots"
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 40
 
-Hide # Rare - Equipment - EVA - Helmet - T2
+Show # Rare - Equipment - EVA - Helmet - T2
     Rarity = Rare
     BaseType "Sinner Tricorne" "Silken Hood"
     SetBorderColor 255 255 119          # Rare
@@ -1891,19 +1932,19 @@ Hide # Rare - Equipment - EVA - Body Armour - T2
     SetBorderColor 255 255 119          # Rare
     SetFontSize 40
 
-Hide # Rare - Equipment - EVA - Gloves - T2
+Show # Rare - Equipment - EVA - Gloves - T2
     Rarity = Rare
     BaseType "Stealth Gloves"
     SetBorderColor 255 255 119          # Rare
     SetFontSize 40
 
-Hide # Rare - Equipment - EVA - Boots - T2
+Show # Rare - Equipment - EVA - Boots - T2
     Rarity = Rare
     BaseType "Stealth Boots"
     SetBorderColor 255 255 119          # Rare
     SetFontSize 40
 
-Hide # Rare - Equipment - EVA - Helmet - T3
+Show # Rare - Equipment - EVA - Helmet - T3
     Rarity = Rare
     BaseType "Ursine Pelt" "Noble Tricorne"
 
@@ -1911,11 +1952,11 @@ Hide # Rare - Equipment - EVA - Body Armour - T3
     Rarity = Rare
     BaseType "Destiny Leather" "Sharkskin Tunic" "Cutthroat's Garb"
 
-Hide # Rare - Equipment - EVA - Gloves - T3
+Show # Rare - Equipment - EVA - Gloves - T3
     Rarity = Rare
     BaseType "Shagreen Gloves" "Sharkskin Gloves"
 
-Hide # Rare - Equipment - EVA - Boots - T3
+Show # Rare - Equipment - EVA - Boots - T3
     Rarity = Rare
     BaseType "Shagreen Boots" "Sharkskin Boots" "Eelskin Boots"
 
@@ -1923,7 +1964,7 @@ Hide # Rare - Equipment - EVA - Boots - T3
 # Rare - Equipment - EVA+ARM
 # #######################################################################################################################
 
-Hide # Rare - Equipment - EVA+ARM - Helmet - T1
+Show # Rare - Equipment - EVA+ARM - Helmet - T1
     Rarity = Rare
     BaseType "Nightmare Bascinet"
     SetBorderColor 150 0 0              # smoothred
@@ -1935,13 +1976,13 @@ Hide # Rare - Equipment - EVA+ARM - Gloves - T1
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 40
 
-Hide # Rare - Equipment - EVA+ARM - Boots - T1
+Show # Rare - Equipment - EVA+ARM - Boots - T1
     Rarity = Rare
     BaseType "Dragonscale Boots"
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 40
 
-Hide # Rare - Equipment - EVA+ARM - Helmet - T2
+Show # Rare - Equipment - EVA+ARM - Helmet - T2
     Rarity = Rare
     BaseType "Pig-Faced Bascinet"
     SetBorderColor 255 255 119          # Rare
@@ -1953,19 +1994,19 @@ Hide # Rare - Equipment - EVA+ARM - Body Armour - T2
     SetBorderColor 255 255 119          # Rare
     SetFontSize 40
 
-Hide # Rare - Equipment - EVA+ARM - Gloves - T2
+Show # Rare - Equipment - EVA+ARM - Gloves - T2
     Rarity = Rare
     BaseType "Hydrascale Gauntlets"
     SetBorderColor 255 255 119          # Rare
     SetFontSize 40
 
-Hide # Rare - Equipment - EVA+ARM - Boots - T2
+Show # Rare - Equipment - EVA+ARM - Boots - T2
     Rarity = Rare
     BaseType "Hydrascale Boots"
     SetBorderColor 255 255 119          # Rare
     SetFontSize 40
 
-Hide # Rare - Equipment - EVA+ARM - Helmet - T3
+Show # Rare - Equipment - EVA+ARM - Helmet - T3
     Rarity = Rare
     BaseType "Lacquered Helmet" "Fencer Helm" "Fluted Bascinet"
 
@@ -1973,11 +2014,11 @@ Hide # Rare - Equipment - EVA+ARM - Body Armour - T3
     Rarity = Rare
     BaseType "Desert Brigandine" "Battle Lamellar" "Commander's Brigandine" "Dragonscale Doublet"
 
-Hide # Rare - Equipment - EVA+ARM - Gloves - T3
+Show # Rare - Equipment - EVA+ARM - Gloves - T3
     Rarity = Rare
     BaseType "Wyrmscale Gauntlets" "Serpentscale Gauntlets"
 
-Hide # Rare - Equipment - EVA+ARM - Boots - T3
+Show # Rare - Equipment - EVA+ARM - Boots - T3
     Rarity = Rare
     BaseType "Wyrmscale Boots" "Serpentscale Boots"
 
@@ -1985,7 +2026,7 @@ Hide # Rare - Equipment - EVA+ARM - Boots - T3
 # Rare - Equipment - ARM+ES
 # #######################################################################################################################
 
-Hide # Rare - Equipment - ARM+ES - Helmet - T1
+Show # Rare - Equipment - ARM+ES - Helmet - T1
     Rarity = Rare
     BaseType "Praetor Crown"
     SetBorderColor 150 0 0              # smoothred
@@ -1997,19 +2038,19 @@ Hide # Rare - Equipment - ARM+ES - Body Armour - T1
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 40
 
-Hide # Rare - Equipment - ARM+ES - Gloves - T1
+Show # Rare - Equipment - ARM+ES - Gloves - T1
     Rarity = Rare
     BaseType "Crusader Gloves"
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 40
 
-Hide # Rare - Equipment - ARM+ES - Boots - T1
+Show # Rare - Equipment - ARM+ES - Boots - T1
     Rarity = Rare
     BaseType "Crusader Boots"
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 40
 
-Hide # Rare - Equipment - ARM+ES - Helmet - T2
+Show # Rare - Equipment - ARM+ES - Helmet - T2
     Rarity = Rare
     BaseType "Magistrate Crown" "Prophet Crown"
     SetBorderColor 255 255 119          # Rare
@@ -2021,19 +2062,19 @@ Hide # Rare - Equipment - ARM+ES - Body Armour - T2
     SetBorderColor 255 255 119          # Rare
     SetFontSize 40
 
-Hide # Rare - Equipment - ARM+ES - Gloves - T2
+Show # Rare - Equipment - ARM+ES - Gloves - T2
     Rarity = Rare
     BaseType "Legion Gloves" "Soldier Gloves"
     SetBorderColor 255 255 119          # Rare
     SetFontSize 40
 
-Hide # Rare - Equipment - ARM+ES - Boots - T2
+Show # Rare - Equipment - ARM+ES - Boots - T2
     Rarity = Rare
     BaseType "Legion Boots" "Soldier Boots"
     SetBorderColor 255 255 119          # Rare
     SetFontSize 40
 
-Hide # Rare - Equipment - ARM+ES - Helmet - T3
+Show # Rare - Equipment - ARM+ES - Helmet - T3
     Rarity = Rare
     BaseType "Great Crown"
 
@@ -2045,7 +2086,7 @@ Hide # Rare - Equipment - ARM+ES - Body Armour - T3
 # Rare - Equipment - EVA+ES
 # #######################################################################################################################
 
-Hide # Rare - Equipment - EVA+ES - Helmet - T1
+Show # Rare - Equipment - EVA+ES - Helmet - T1
     Rarity = Rare
     BaseType "Vaal Mask"
     SetBorderColor 150 0 0              # smoothred
@@ -2057,19 +2098,19 @@ Hide # Rare - Equipment - EVA+ES - Body Armour - T1
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 40
 
-Hide # Rare - Equipment - EVA+ES - Gloves - T1
+Show # Rare - Equipment - EVA+ES - Gloves - T1
     Rarity = Rare
     BaseType "Murder Mitts"
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 40
 
-Hide # Rare - Equipment - EVA+ES - Boots - T1
+Show # Rare - Equipment - EVA+ES - Boots - T1
     Rarity = Rare
     BaseType "Murder Boots"
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 40
 
-Hide # Rare - Equipment - EVA+ES - Helmet - T2
+Show # Rare - Equipment - EVA+ES - Helmet - T2
     Rarity = Rare
     BaseType "Deicide Mask" "Harlequin Mask"
     SetBorderColor 255 255 119          # Rare
@@ -2081,19 +2122,19 @@ Hide # Rare - Equipment - EVA+ES - Body Armour - T2
     SetBorderColor 255 255 119          # Rare
     SetFontSize 40
 
-Hide # Rare - Equipment - EVA+ES - Gloves - T2
+Show # Rare - Equipment - EVA+ES - Gloves - T2
     Rarity = Rare
     BaseType "Assassin's Mitts"
     SetBorderColor 255 255 119          # Rare
     SetFontSize 40
 
-Hide # Rare - Equipment - EVA+ES - Boots - T2
+Show # Rare - Equipment - EVA+ES - Boots - T2
     Rarity = Rare
     BaseType "Assassin's Boots"
     SetBorderColor 255 255 119          # Rare
     SetFontSize 40
 
-Hide # Rare - Equipment - EVA+ES - Helmet - T3
+Show # Rare - Equipment - EVA+ES - Helmet - T3
     Rarity = Rare
     BaseType "Regicide Mask" "Callous Mask"
 
@@ -2101,11 +2142,11 @@ Hide # Rare - Equipment - EVA+ES - Body Armour - T3
     Rarity = Rare
     BaseType "Sentinel Jacket" "Crypt Armour" "Lacquered Garb"
 
-Hide # Rare - Equipment - EVA+ES - Gloves - T3
+Show # Rare - Equipment - EVA+ES - Gloves - T3
     Rarity = Rare
     BaseType "Carnal Mitts" "Ambush Mitts" "Trapper Mitts"
 
-Hide # Rare - Equipment - EVA+ES - Boots - T3
+Show # Rare - Equipment - EVA+ES - Boots - T3
     Rarity = Rare
     BaseType "Carnal Boots" "Ambush Boots" "Trapper Boots"
 
@@ -2147,13 +2188,13 @@ Show # Rare - Equipment - Specials - Two-Toned Boots
 # Rare - Shield - ES
 # #######################################################################################################################
 
-Hide # Rare - Shield - ES - T1
+Show # Rare - Shield - ES - T1
     Rarity = Rare
     BaseType "Titanium Spirit Shield"
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 40
 
-Hide # Rare - Shield - ES - T1
+Show # Rare - Shield - ES - T1
     Rarity = Rare
     BaseType "Fossilised Spirit Shield"
     SetBorderColor 150 0 0              # smoothred
@@ -2269,13 +2310,13 @@ Hide # Rare - Shield - EVA+ARM - T2
 # Rare - Shield - Res
 # #######################################################################################################################
 
-Hide # Rare - Shield - Res - T1
+Show # Rare - Shield - Res - T1
     Rarity = Rare
     BaseType "Archon Kite Shield"
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 40
 
-Hide # Rare - Shield - Res - T2
+Show # Rare - Shield - Res - T2
     Rarity = Rare
     BaseType "Angelic Kite Shield"
     SetBorderColor 255 255 119          # Rare
@@ -2337,18 +2378,23 @@ Hide # Rare - Hide - Jewelery
 # Flasks
 # #######################################################################################################################
 
-Hide # Flasks - Divine Life Flask
+Show # Flasks - Divine Life Flask
     BaseType "Divine Life Flask"
     Rarity <= Magic
-    SetBorderColor 150 0 0
+    SetBorderColor 150 0 0              # smoothred
 
-Hide # Flasks - Utility Flasks
+Show # Flasks - Utility Flasks - dmg/speed
     BaseType "Quicksilver Flask" "Silver Flask" "Sulphur Flask" "Diamond Flask"
     Rarity <= Magic
     SetBorderColor 150 0 0              # smoothred
 
-Hide # Flasks - Utility Flasks
-    BaseType "Basalt Flask" "Stibnite Flask" "Granite Flask" "Jade Flask" "Bismuth Flask"
+Show # Flasks - Utility Flasks - def
+    BaseType "Basalt Flask" "Stibnite Flask" "Granite Flask" "Jade Flask" "Bismuth Flask" "Quartz Flask"
+    Rarity <= Magic
+    SetBorderColor 255 140 0		    # darkorange
+
+Show # Flasks - Utility Flasks - resist
+    BaseType "Amethyst Flask" "Ruby Flask" "Sapphire Flask" "Topaz Flask"
     Rarity <= Magic
     SetBorderColor 255 140 0		    # darkorange
 
