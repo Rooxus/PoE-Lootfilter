@@ -163,7 +163,7 @@ Show # Currency - Low Value
     SetTextColor 170 158 130            # currency
     SetFontSize 45
 
-Show # Currency - Low Value
+Hide # Currency - Low Value
     Class "Currency"
     BaseType "Scroll of Wisdom"
     SetTextColor 170 158 130            # currency
@@ -1044,11 +1044,11 @@ Show
 #     SetBorderColor 231 180 120          # chance
 #     SetFontSize 45
 
-Show # Chance - Incandescent Heart
-    Corrupted False
-    Rarity = Normal
-    BaseType "Saintly Chainmail"
-    SetBorderColor 231 180 120          # chance
+# Show # Chance - Incandescent Heart
+#     Corrupted False
+#     Rarity = Normal
+#     BaseType "Saintly Chainmail"
+#     SetBorderColor 231 180 120          # chance
 
 # Show # Chance - Kaom's Heart
 #     Corrupted False
@@ -1293,6 +1293,45 @@ Hide # Normal/Magic - Jewelery
     Rarity <= Magic
     Class "Rings" "Amulets" "Belts"
     SetFontSize 25
+
+# #######################################################################################################################
+# Normal/Magic - crafts
+# #######################################################################################################################
+
+Show # Normal/Magic - Equipment - ES - Helmet - T1
+    Rarity <= Magic
+    BaseType "Hubris Circlet"
+    ItemLevel >= 72
+    SetBorderColor 150 0 0              # smoothred
+    SetFontSize 40
+
+# Show # Normal/Magic - Equipment - ES - Body Armour - T1
+#     Rarity <= Magic
+#     BaseType "Vaal Regalia"
+#     ItemLevel >= 72
+#     SetBorderColor 150 0 0              # smoothred
+#     SetFontSize 40
+
+Show # Normal/Magic - Equipment - ES - Gloves - T1
+    Rarity <= Magic
+    BaseType "Sorcerer Gloves"
+    ItemLevel >= 72
+    SetBorderColor 150 0 0              # smoothred
+    SetFontSize 40
+
+Show # Normal/Magic - Equipment - ES - Boots - T1
+    Rarity <= Magic
+    BaseType "Sorcerer Boots"
+    ItemLevel >= 72
+    SetBorderColor 150 0 0              # smoothred
+    SetFontSize 40
+
+Show # Rare - Shield - ES - T1
+    Rarity <= Magic
+    BaseType "Titanium Spirit Shield" "Fossilised Spirit Shield"
+    ItemLevel >= 72
+    SetBorderColor 150 0 0              # smoothred
+    SetFontSize 40
 
 # #######################################################################################################################
 # Normal/Magic - Hide Equipment
@@ -1634,24 +1673,24 @@ Hide # Rare - Dagger - T3
 # Rare - Dagger
 # #######################################################################################################################
 
-Hide # Rare - Dagger - T1
+Show # Rare - Dagger - T1
     Rarity = Rare
     BaseType "Ambusher"
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 45
 
-Hide # Rare - Dagger - T2
+Show # Rare - Dagger - T2
     Rarity = Rare
     BaseType "Gutting Knife"
     SetBorderColor 255 255 119          # Rare
     SetFontSize 40
 
-Hide # Rare - Dagger - T3
+Show # Rare - Dagger - T3
     Rarity = Rare
     BaseType "Sai"
     SetFontSize 40
 
-Hide # Rare - Dagger - All
+Show # Rare - Dagger - All
     Rarity = Rare
     Class "Daggers"
     SetFontSize 40
@@ -1681,30 +1720,30 @@ Hide # Rare - Sceptre - T3
 # Rare - Wand
 # #######################################################################################################################
 
-Hide # Rare - Wand - T1
+Show # Rare - Wand - T1
     Rarity = Rare
     BaseType "Imbued Wand"
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 45
 
-Hide # Rare - Wand - T1
+Show # Rare - Wand - T1
     Rarity = Rare
     BaseType "Profane Wand"
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 45
 
-Hide # Rare - Wand - T2
+Show # Rare - Wand - T2
     Rarity = Rare
     BaseType "Prophecy Wand" "Tornado Wand" "Opal Wand" "Demon's Horn" "Engraved Wand"
     SetBorderColor 255 255 119          # Rare
     SetFontSize 40
 
-Hide # Rare - Wand - T3
+Show # Rare - Wand - T3
     Rarity = Rare
     BaseType "Carved Wand" "Driftwood Wand" "Pagan Wand" "Heathen Wand"
     SetFontSize 40
 
-Hide # Rare - Wand - ALL
+Show # Rare - Wand - ALL
     Rarity = Rare
     Class "Wands"
     SetFontSize 40
@@ -2438,7 +2477,7 @@ Hide # Rare - Hide - Jewelery
 # Flasks
 # #######################################################################################################################
 
-Show # Flasks - Divine Life Flask
+Hide # Flasks - Divine Life Flask
     BaseType "Divine Life Flask"
     Rarity <= Magic
     SetBorderColor 150 0 0              # smoothred
