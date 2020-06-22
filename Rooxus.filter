@@ -179,17 +179,17 @@ Hide # Currency - Scroll Fragment & Alteration Shard
 # Currency - Harvest
 # #######################################################################################################################
 
-Show # Currency - Harvest - T1
+Show # Currency - Harvest - L1
     Class "Harvest Seed"
     BaseType "Primal Cleaveling Seed" "Primal Dustspitter Seed" "Primal Feasting Horror Seed" "Primal Maw Seed" "Primal Rhoa Seed" "Vivid Arachnid Seed" "Vivid Leech Seed" "Vivid Scorpion Seed" "Vivid Thornweaver Seed" "Vivid Weta Seed" "Wild Ape Seed" "Wild Hatchling Seed" "Wild Hellion Seed" "Wild Thornwolf Seed" "Wild Ursaling Seed"
     SetTextColor 72 118 255             # royalblue1
     SetBorderColor 170 158 130          # currency
     SetFontSize 45
-    PlayAlertSound 7 250                # Sound - T3 louder
-    MinimapIcon 0 White Star
+    PlayAlertSound 7 150                # Sound - T3 quieter
+    MinimapIcon 2 White Square
     PlayEffect White
 
-Show # Currency - Harvest - T2
+Show # Currency - Harvest - L2
     Class "Harvest Seed"
     BaseType "Primal Chimeral Grain" "Primal Dustcrab Grain" "Primal Rhex Grain" "Primal Scrabbler Grain" "Primal Viper Grain" "Vivid Nestback Grain" "Vivid Parasite Grain" "Vivid Razorleg Grain" "Vivid Sapsucker Grain" "Vivid Striketail Grain" "Wild Bristlebeast Grain" "Wild Chieftain Grain" "Wild Homunculus Grain" "Wild Snap Hound Grain" "Wild Spikeback Grain"
     SetTextColor 72 118 255             # royalblue1
@@ -199,19 +199,25 @@ Show # Currency - Harvest - T2
     MinimapIcon 2 White Square
     PlayEffect White
 
-Show # Currency - Harvest - T3
+Show # Currency - Harvest - L3
     Class "Harvest Seed"
     BaseType "Primal Blisterlord Bulb" "Primal Crushclaw Bulb" "Primal Cystcaller Bulb" "Primal Reborn Bulb" "Primal Rhex Matriarch Bulb" "Vivid Abberarach Bulb" "Vivid Devourer Bulb" "Vivid Vulture Bulb" "Vivid Watcher Bulb" "Vivid Whipleg Bulb" "Wild Brambleback Bulb" "Wild Bristle Matron Bulb" "Wild Hellion Alpha Bulb" "Wild Infestation Queen Bulb" "Wild Thornmaw Bulb"
     SetTextColor 72 118 255             # royalblue1
-    SetBorderColor 170 158 130            # currency
+    SetBorderColor 170 158 130          # currency
     SetFontSize 45
+    PlayAlertSound 7 150                # Sound - T3 quieter
+    MinimapIcon 2 White Square
+    PlayEffect White
 
-Show # Currency - Harvest - T4
+Show # Currency - Harvest - L4
     Class "Harvest Seed"
     BaseType "Primal Blisterfruit" "Vivid Scalefruit" "Wild Thornfruit"
     SetTextColor 72 118 255             # royalblue1
     SetBorderColor 170 158 130          # currency
     SetFontSize 45
+    PlayAlertSound 7 250                # Sound - T3 louder
+    MinimapIcon 0 White Star
+    PlayEffect White
 
 Show # Currency - Harvest - All
     Class "Harvest Seed"
@@ -1213,37 +1219,37 @@ Show # Normal/Magic - Specials - T1
     MinimapIcon 0 Brown Diamond
     PlayEffect Brown
 
-Hide # Normal/Magic - Specials - T1
+Show # Normal/Magic - Specials - T1
     Rarity <= Magic
     BaseType "Crystal Belt"
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 45
 
-Hide # Normal/Magic - Specials - T2
+Show # Normal/Magic - Specials - T2
     Rarity <= Magic
     BaseType "Bone Helmet"
     SetBorderColor 255 140 0            # darkorange
     SetFontSize 45
 
-Hide # Normal/Magic - Specials - T2
+Show # Normal/Magic - Specials - T2
     Rarity <= Magic
     BaseType "Fingerless Silk Gloves" "Spiked Gloves" "Gripped Gloves"
     SetBorderColor 255 140 0            # darkorange
     SetFontSize 45
 
-Hide # Normal/Magic - Specials - Two-Toned Boots
+Show # Normal/Magic - Specials - Two-Toned Boots
     Rarity <= Magic
     BaseType "Two-Toned Boots"
     SetBorderColor 255 140 0            # darkorange
     SetFontSize 45
 
-Hide # Normal/Magic - Specials - T2
+Show # Normal/Magic - Specials - T2
     Rarity <= Magic
     BaseType "Sacrificial Garb"
     SetBorderColor 255 140 0            # darkorange
     SetFontSize 45
 
-Hide # Normal/Magic - Specials - T2
+Show # Normal/Magic - Specials - T2
     Rarity <= Magic
     BaseType "Vanguard Belt" "Marble Amulet" "Blue Pearl Amulet"
     SetBorderColor 255 140 0            # darkorange
@@ -1463,7 +1469,7 @@ Hide # Rare - Jewelery - Belt - T4
 # Rare - Crit Sword
 # #######################################################################################################################
 
-Show # Rare - Crit Sword - T1
+Hide # Rare - Crit Sword - T1
     Rarity = Rare
     BaseType "Jewelled Foil" "Spiraled Foil"
     SetBorderColor 150 0 0              # smoothred
@@ -1883,43 +1889,43 @@ Show # Rare - Equipment - ES - Boots - T1
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 40
 
-Show # Rare - Equipment - ES - Helmet - T2
+Hide # Rare - Equipment - ES - Helmet - T2
     Rarity = Rare
     BaseType "Mind Cage"
     SetBorderColor 255 255 119          # Rare
     SetFontSize 40
 
-Show # Rare - Equipment - ES - Body Armour - T2
+Hide # Rare - Equipment - ES - Body Armour - T2
     Rarity = Rare
     BaseType "Occultist's Vestment" "Widowsilk Robe"
     SetBorderColor 255 255 119          # Rare
     SetFontSize 40
 
-Show # Rare - Equipment - ES - Gloves - T2
+Hide # Rare - Equipment - ES - Gloves - T2
     Rarity = Rare
     BaseType "Arcanist Gloves"
     SetBorderColor 255 255 119          # Rare
     SetFontSize 40
 
-Show # Rare - Equipment - ES - Boots - T2
+Hide # Rare - Equipment - ES - Boots - T2
     Rarity = Rare
     BaseType "Arcanist Slippers"
     SetBorderColor 255 255 119          # Rare
     SetFontSize 40
 
-Show # Rare - Equipment - ES - Helmet - T3
+Hide # Rare - Equipment - ES - Helmet - T3
     Rarity = Rare
     BaseType "Solaris Circlet" "Necromancer Circlet"
 
-Show # Rare - Equipment - ES - Body Armour - T3
+Hide # Rare - Equipment - ES - Body Armour - T3
     Rarity = Rare
     BaseType "Necromancer Silks" "Savant's Robe" "Destroyer Regalia"
 
-Show # Rare - Equipment - ES - Gloves - T3
+Hide # Rare - Equipment - ES - Gloves - T3
     Rarity = Rare
     BaseType "Conjurer Gloves"
 
-Show # Rare - Equipment - ES - Boots - T3
+Hide # Rare - Equipment - ES - Boots - T3
     Rarity = Rare
     BaseType "Conjurer Boots"
 
@@ -1933,7 +1939,7 @@ Show # Rare - Equipment - ARM - Helmet - T1
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 40
 
-Show # Rare - Equipment - ARM - Body Armour - T1
+Hide # Rare - Equipment - ARM - Body Armour - T1
     Rarity = Rare
     BaseType "Astral Plate" "Glorious Plate"
     SetBorderColor 150 0 0              # smoothred
@@ -2299,13 +2305,13 @@ Show # Rare - Shield - ES - T1
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 40
 
-Show # Rare - Shield - ES - T2
+Hide # Rare - Shield - ES - T2
     Rarity = Rare
     BaseType "Ivory Spirit Shield" "Bone Spirit Shield"
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 40
 
-Show # Rare - Shield - ES - T2
+Hide # Rare - Shield - ES - T2
     Rarity = Rare
     BaseType "Harmonic Spirit Shield" "Thorium Spirit Shield" "Vaal Spirit Shield"
     SetBorderColor 255 255 119          # Rare
@@ -2492,7 +2498,7 @@ Show # Flasks - Utility Flasks - def
     Rarity <= Magic
     SetBorderColor 255 140 0            # darkorange
 
-Show # Flasks - Utility Flasks - resist
+Hide # Flasks - Utility Flasks - resist
     BaseType "Amethyst Flask" "Ruby Flask" "Sapphire Flask" "Topaz Flask"
     Rarity <= Magic
     SetBorderColor 255 140 0            # darkorange
