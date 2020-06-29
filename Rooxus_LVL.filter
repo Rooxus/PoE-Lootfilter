@@ -567,6 +567,26 @@ Hide # Currency - Low Value
 # Unique
 # #######################################################################################################################
 
+Show # Unique - 6L
+    LinkedSockets = 6
+    Rarity Unique
+    SetTextColor 175 96 37              # uniq
+    SetBackgroundColor 255 255 255      # white
+    SetBorderColor 175 96 37            # uniq
+    SetFontSize 45
+    PlayAlertSound 5 300                # Sound - T1
+    MinimapIcon 0 Red Star
+    PlayEffect Red
+
+Show # Unique - 5L
+    LinkedSockets = 5
+    Rarity Unique
+    SetBorderColor 0 255 150            # high value
+    SetFontSize 45
+    PlayAlertSound 1 200                # Sound - T2
+    MinimapIcon 0 Red Diamond
+    PlayEffect Red
+
 Show # Unique - T1 (Neversink 22.06.2020)
     Rarity = Unique
     BaseType "Ambush Mitts" "Arcanist Gloves" "Assassin's Boots" "Blood Raiment" "Blue Pearl Amulet" "Carnal Boots" "Champion Kite Shield" "Crusader Boots" "Ezomyte Tower Shield" "Gladiator Plate" "Glorious Plate" "Greatwolf Talisman" "Imperial Maul" "Jewelled Foil" "Karui Maul" "Large Cluster Jewel" "Legion Gloves" "Meatgrinder" "Military Staff" "Nightmare Mace" "Nubuck Boots" "Occultist's Vestment" "Ornate Quiver" "Prismatic Jewel" "Prophecy Wand" "Rawhide Boots" "Royal Axe" "Ruby Flask" "Savant's Robe" "Siege Axe" "Silk Gloves" "Steel Ring" "Steelwood Bow" "Timeless Jewel" "Vaal Rapier" "Varnished Coat" "Zodiac Leather"
