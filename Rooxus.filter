@@ -1468,7 +1468,7 @@ Show # Rare - Jewelery - Ring - T2
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 45
 
-Show # Rare - Jewelery - Ring
+Hide # Rare - Jewelery - Ring
     Rarity = Rare
     Class "Rings"
     SetBorderColor 150 0 0              # smoothred
@@ -1499,7 +1499,7 @@ Show # Rare - Jewelery - Belt - T1
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 45
 
-Show # Rare - Jewelery - Belt - T2
+Hide # Rare - Jewelery - Belt - T2
     Rarity = Rare
     BaseType "Leather Belt"
     SetBorderColor 255 255 119          # Rare
