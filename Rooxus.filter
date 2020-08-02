@@ -1124,12 +1124,12 @@ Show
 #     SetBorderColor 231 180 120          # chance
 #     SetFontSize 45
 
-Show # Chance - Headhunter
-    Corrupted False
-    Rarity = Normal
-    BaseType "Leather Belt"
-    SetBorderColor 231 180 120          # chance
-    SetFontSize 45
+# Show # Chance - Headhunter
+#     Corrupted False
+#     Rarity = Normal
+#     BaseType "Leather Belt"
+#     SetBorderColor 231 180 120          # chance
+#     SetFontSize 45
 
 # Show # Chance - Goldwyrm
 #     Corrupted False
@@ -1475,7 +1475,7 @@ Show # Rare - Jewelery - Ring - T1
     MinimapIcon 0 Brown Diamond
     PlayEffect Brown
 
-Show # Rare - Jewelery - Ring - T2
+Hide # Rare - Jewelery - Ring - T2
     Rarity = Rare
     Class "Rings"
     BaseType "Diamond Ring" "Prismatic Ring" "Two-Stone Ring"
