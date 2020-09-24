@@ -659,7 +659,7 @@ Show # Unique - Jewelery/Maps
     MinimapIcon 0 Red Diamond
     PlayEffect Red
 
-Hide # Unique - Crappy
+Show # Unique - Crappy
     Rarity Unique
     BaseType == "Ambusher" "Ancient Gauntlets" "Antique Greaves" "Antique Rapier" "Assassin's Garb" "Astral Plate" "Auric Mace" "Aventail Helmet" "Awl" "Baroque Round Shield" "Basket Rapier" "Bastard Sword" "Bone Armour" "Bone Circlet" "Boot Blade" "Boot Knife" "Branded Kite Shield" "Brass Spirit Shield" "Bronze Gauntlets" "Bronze Sceptre" "Bronzescale Gauntlets" "Buckskin Tunic" "Burnished Spiked Shield" "Chain Gloves" "Chiming Spirit Shield" "Coiled Staff" "Colossal Tower Shield" "Compound Spiked Shield" "Conjurer Gloves" "Conquest Chainmail" "Copper Plate" "Corrugated Buckler" "Crusader Chainmail" "Crystal Sceptre" "Cutthroat's Garb" "Decimation Bow" "Decorative Axe" "Deerskin Boots" "Deicide Mask" "Demon's Horn" "Desert Brigandine" "Destroyer Regalia" "Dragonscale Boots" "Dragonscale Gauntlets" "Dread Maul" "Dream Mace" "Driftwood Wand" "Dusk Blade" "Eelskin Gloves" "Elder Sword" "Elegant Foil" "Embroidered Gloves" "Engraved Wand" "Estoc" "Festival Mask" "Flaying Knife" "Fright Claw" "Full Dragonscale" "Full Scale Armour" "Gladius" "Goat's Horn" "Golden Mask" "Goliath Gauntlets" "Great Helmet" "Greater Mana Flask" "Grinning Fetish" "Hallowed Hybrid Flask" "Harmonic Spirit Shield" "Headsman Axe" "Highland Blade" "Imbued Wand" "Infernal Axe" "Iron Gauntlets" "Iron Sceptre" "Ivory Spirit Shield" "Jagged Foil" "Karui Sceptre" "Lacquered Helmet" "Lunaris Circlet" "Marble Amulet" "Mesh Boots" "Mesh Gloves" "Mosaic Kite Shield" "Nailed Fist" "Necromancer Silks" "Opal Sceptre" "Ornate Mace" "Ornate Ringmail" "Pine Buckler" "Plague Mask" "Plated Greaves" "Platinum Kris" "Platinum Sceptre" "Poleaxe" "Polished Spiked Shield" "Primordial Staff" "Quartz Wand" "Quicksilver Flask" "Recurve Bow" "Reinforced Tower Shield" "Riveted Boots" "Rock Breaker" "Rotted Round Shield" "Royal Skean" "Sabre" "Sage's Robe" "Saintly Chainmail" "Samite Gloves" "Samite Helmet" "Satin Gloves" "Scholar's Robe" "Secutor Helm" "Sentinel Jacket" "Serpentine Staff" "Shadow Axe" "Shagreen Boots" "Shagreen Gloves" "Sharkskin Boots" "Simple Robe" "Soldier Boots" "Sorcerer Gloves" "Spidersilk Robe" "Spiked Club" "Steel Gauntlets" "Steel Kite Shield" "Stiletto" "Strapped Boots" "Studded Round Shield" "Sundering Axe" "Supreme Spiked Shield" "Thresher Claw" "Tiger Sword" "Timeworn Claw" "Tomahawk" "Tribal Circlet" "Tricorne" "Twilight Blade" "Ursine Pelt" "Vaal Buckler" "Vaal Claw" "Vaal Hatchet" "Vanguard Belt" "Vile Staff" "Visored Sallet" "War Sword" "Whalebone Rapier" "Wool Gloves" "Wool Shoes" "Wrapped Mitts" "Wyrmscale Gauntlets" "Zealot Helmet"
     SetFontSize 45
@@ -981,7 +981,7 @@ Show # Gems - LVL19+
 Show # Gems - HideAll
     Class "Gems"
     SetTextColor 27 162 155             # gem
-    SetFontSize 25
+    SetFontSize 45
 
 # #######################################################################################################################
 # Shaper
@@ -1279,7 +1279,6 @@ Show # Fishing Rod
     MinimapIcon 0 Brown Star
     PlayEffect Brown
 
-
 # #######################################################################################################################
 # Rare - Jewelery
 # #######################################################################################################################
@@ -1344,7 +1343,7 @@ Show # Rare - Jewelery - Amulets - talisman
 Show # Rare - Jewelery - Amulets
     Rarity <= Rare
     Class "Amulets"
-    BaseType "Jade Amulet" "Citrine Amulet" "Turquoise Amulet"
+    BaseType "Paua Amulet"
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 45
 
@@ -1698,7 +1697,7 @@ Hide # Rare - Sceptre - T3
 # Rare - Wand
 # #######################################################################################################################
 
-Show # Rare - Wand - Minion
+Hide # Rare - Wand - Minion
     Rarity <= Rare
     BaseType "Convoking Wand"
     SetBorderColor 150 0 0              # smoothred
@@ -1850,7 +1849,7 @@ Show # Rare - Equipment - ES - Helmet - T1
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 45
 
-Hide # Rare - Equipment - ES - Body Armour - T1
+Show # Rare - Equipment - ES - Body Armour - T1
     Rarity <= Rare
     BaseType "Vaal Regalia"
     SetBorderColor 150 0 0              # smoothred
@@ -1916,25 +1915,25 @@ Hide # Rare - Equipment - ES - Boots - T3
 # Rare - Equipment - ARM
 # #######################################################################################################################
 
-Show # Rare - Equipment - ARM - Helmet - T1
+Hide # Rare - Equipment - ARM - Helmet - T1
     Rarity <= Rare
     BaseType "Royal Burgonet"
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 45
 
-Show # Rare - Equipment - ARM - Body Armour - T1
+Hide # Rare - Equipment - ARM - Body Armour - T1
     Rarity <= Rare
     BaseType "Astral Plate"
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 45
 
-Show # Rare - Equipment - ARM - Gloves - T1
+Hide # Rare - Equipment - ARM - Gloves - T1
     Rarity <= Rare
     BaseType "Titan Gauntlets"
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 45
 
-Show # Rare - Equipment - ARM - Boots - T1
+Hide # Rare - Equipment - ARM - Boots - T1
     Rarity <= Rare
     BaseType "Titan Greaves"
     SetBorderColor 150 0 0              # smoothred
@@ -1994,7 +1993,7 @@ Show # Rare - Equipment - EVA - Helmet - T1
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 45
 
-Hide # Rare - Equipment - EVA - Body Armour - T1
+Show # Rare - Equipment - EVA - Body Armour - T1
     Rarity <= Rare
     BaseType "Zodiac Leather" "Assassin's Garb"
     SetBorderColor 150 0 0              # smoothred
@@ -2272,13 +2271,13 @@ Show # Rare - Equipment - Specials - Fingerless Silk Gloves
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 45
 
-Hide # Rare - Equipment - Specials - Gripped Gloves
+Show # Rare - Equipment - Specials - Gripped Gloves
     Rarity <= Rare
     BaseType "Gripped Gloves"
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 45
 
-Hide # Rare - Equipment - Specials - Spiked Gloves
+Show # Rare - Equipment - Specials - Spiked Gloves
     Rarity <= Rare
     BaseType "Spiked Gloves"
     SetBorderColor 150 0 0              # smoothred
@@ -2328,7 +2327,7 @@ Hide # Rare - Shield - ES - T2
 # Rare - Shield - EVA
 # #######################################################################################################################
 
-Hide # Rare - Shield - EVA - T1
+Show # Rare - Shield - EVA - T1
     Rarity <= Rare
     BaseType "Lacquered Buckler"
     SetBorderColor 150 0 0              # smoothred

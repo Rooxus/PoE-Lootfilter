@@ -152,7 +152,7 @@ Show # Currency - Low Value
     SetTextColor 170 158 130            # currency
     SetFontSize 45
 
-Show # Currency - Low Value
+Hide # Currency - Low Value
     Class "Currency"
     BaseType "Scroll of Wisdom"
     SetTextColor 170 158 130            # currency
@@ -659,11 +659,10 @@ Show # Unique - Jewelery/Maps
     MinimapIcon 0 Red Diamond
     PlayEffect Red
 
-Hide # Unique - Crappy
+Show # Unique - Crappy
     Rarity Unique
     BaseType == "Ambusher" "Ancient Gauntlets" "Antique Greaves" "Antique Rapier" "Assassin's Garb" "Astral Plate" "Auric Mace" "Aventail Helmet" "Awl" "Baroque Round Shield" "Basket Rapier" "Bastard Sword" "Bone Armour" "Bone Circlet" "Boot Blade" "Boot Knife" "Branded Kite Shield" "Brass Spirit Shield" "Bronze Gauntlets" "Bronze Sceptre" "Bronzescale Gauntlets" "Buckskin Tunic" "Burnished Spiked Shield" "Chain Gloves" "Chiming Spirit Shield" "Coiled Staff" "Colossal Tower Shield" "Compound Spiked Shield" "Conjurer Gloves" "Conquest Chainmail" "Copper Plate" "Corrugated Buckler" "Crusader Chainmail" "Crystal Sceptre" "Cutthroat's Garb" "Decimation Bow" "Decorative Axe" "Deerskin Boots" "Deicide Mask" "Demon's Horn" "Desert Brigandine" "Destroyer Regalia" "Dragonscale Boots" "Dragonscale Gauntlets" "Dread Maul" "Dream Mace" "Driftwood Wand" "Dusk Blade" "Eelskin Gloves" "Elder Sword" "Elegant Foil" "Embroidered Gloves" "Engraved Wand" "Estoc" "Festival Mask" "Flaying Knife" "Fright Claw" "Full Dragonscale" "Full Scale Armour" "Gladius" "Goat's Horn" "Golden Mask" "Goliath Gauntlets" "Great Helmet" "Greater Mana Flask" "Grinning Fetish" "Hallowed Hybrid Flask" "Harmonic Spirit Shield" "Headsman Axe" "Highland Blade" "Imbued Wand" "Infernal Axe" "Iron Gauntlets" "Iron Sceptre" "Ivory Spirit Shield" "Jagged Foil" "Karui Sceptre" "Lacquered Helmet" "Lunaris Circlet" "Marble Amulet" "Mesh Boots" "Mesh Gloves" "Mosaic Kite Shield" "Nailed Fist" "Necromancer Silks" "Opal Sceptre" "Ornate Mace" "Ornate Ringmail" "Pine Buckler" "Plague Mask" "Plated Greaves" "Platinum Kris" "Platinum Sceptre" "Poleaxe" "Polished Spiked Shield" "Primordial Staff" "Quartz Wand" "Quicksilver Flask" "Recurve Bow" "Reinforced Tower Shield" "Riveted Boots" "Rock Breaker" "Rotted Round Shield" "Royal Skean" "Sabre" "Sage's Robe" "Saintly Chainmail" "Samite Gloves" "Samite Helmet" "Satin Gloves" "Scholar's Robe" "Secutor Helm" "Sentinel Jacket" "Serpentine Staff" "Shadow Axe" "Shagreen Boots" "Shagreen Gloves" "Sharkskin Boots" "Simple Robe" "Soldier Boots" "Sorcerer Gloves" "Spidersilk Robe" "Spiked Club" "Steel Gauntlets" "Steel Kite Shield" "Stiletto" "Strapped Boots" "Studded Round Shield" "Sundering Axe" "Supreme Spiked Shield" "Thresher Claw" "Tiger Sword" "Timeworn Claw" "Tomahawk" "Tribal Circlet" "Tricorne" "Twilight Blade" "Ursine Pelt" "Vaal Buckler" "Vaal Claw" "Vaal Hatchet" "Vanguard Belt" "Vile Staff" "Visored Sallet" "War Sword" "Whalebone Rapier" "Wool Gloves" "Wool Shoes" "Wrapped Mitts" "Wyrmscale Gauntlets" "Zealot Helmet"
     SetFontSize 45
-
 
 # #######################################################################################################################
 # Links and Sockets
@@ -919,6 +918,17 @@ Hide # Divination Cards - Hide crap (Neversink 22.06.2020)
 # Gems
 # #######################################################################################################################
 
+Show
+	Class Gems
+	BaseType "Awakened"
+    SetTextColor 27 162 155             # gem
+    SetBackgroundColor 255 255 255      # white
+    SetBorderColor 255 0 0              # red
+    SetFontSize 45
+	PlayAlertSound 6 300                # Sound - T1
+    MinimapIcon 0 Green Star
+    PlayEffect Green
+
 Show # Gems - DropOnly
     Class "Gems"
     BaseType "Portal" "Empower" "Enhance" "Enlighten" "Vaal Breach"
@@ -961,7 +971,7 @@ Show # Gems - LVL19+
 Show # Gems - HideAll
     Class "Gems"
     SetTextColor 27 162 155             # gem
-    SetFontSize 25
+    SetFontSize 45
 
 # #######################################################################################################################
 # Shaper
@@ -1385,63 +1395,140 @@ Show
 #     Rarity = Magic
 
 # #######################################################################################################################
-# Normal/Magic - Jewelery
+# Rare - Jewelery
 # #######################################################################################################################
 
-Show # Normal/Magic - Jewelery - Abyss Jewel
-    Rarity <= Magic
+Show # Rare - Jewelery - Abyss Jewel
+    Rarity <= Rare
     Class "Abyss Jewel"
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 45
 
-Show # Normal/Magic - Jewelery - Delirium Jewel
-    Rarity <= Magic
+Show # Rare - Jewelery - Delirium Jewel
+    Rarity <= Rare
     BaseType "Large Cluster Jewel" "Medium Cluster Jewel" "Small Cluster Jewel"
     SetBorderColor 150 0 0              # smoothred
-
-Show # Normal/Magic - Jewelery - Jewel
-    Rarity <= Magic
-    Class "Jewel"
-    BaseType "Cobalt Jewel" "Crimson Jewel" "Viridian Jewel"
-    SetBorderColor 136 136 255          # magic
     SetFontSize 45
 
-Hide # Normal/Magic - Jewelery - amu/ring/belt
-    ItemLevel >= 45
-    Rarity <= Magic
-    BaseType "Coral Amulet" "Paua Ring" "Paua Amulet" "Iron Ring" "Cloth Belt" "Studded Belt" "Heavy Belt"
-    SetFontSize 25
+Show # Rare - Jewelery - Jewels
+    Rarity <= Rare
+    Class "Jewel"
+    SetBorderColor 150 0 0              # smoothred
+    SetFontSize 45
 
-Hide # Normal/Magic - Jewelery - amu/ring/belt
-    ItemLevel >= 40
-    Rarity <= Magic
-    Class "Rings" "Amulets" "Belts"
-    SetFontSize 25
+Show # Rare - Jewelery - Ring - T1
+    Rarity <= Rare
+    Class "Rings"
+    BaseType "Steel Ring"
+    SetBorderColor 150 0 0              # smoothred
+    SetFontSize 45
+    PlayAlertSound 1 200                # Sound - T2
+    MinimapIcon 0 Brown Diamond
+    PlayEffect Brown
 
-Show # Normal/Magic - Jewelery
-    Rarity <= Magic
-    Class "Rings" "Amulets" "Belts"
-    SetFontSize 30
+Show # Rare - Jewelery - Ring - T1
+    Rarity <= Rare
+    Class "Rings"
+    BaseType "Opal Ring"
+    SetBorderColor 150 0 0              # smoothred
+    SetFontSize 45
+    PlayAlertSound 1 200                # Sound - T2
+    MinimapIcon 0 Brown Diamond
+    PlayEffect Brown
+
+Show # Rare - Jewelery - Ring - T2
+    Rarity <= Rare
+    Class "Rings"
+    BaseType "Prismatic Ring" "Two-Stone Ring" "Coral Ring"
+    SetBorderColor 150 0 0              # smoothred
+    SetFontSize 45
+
+Hide # Rare - Jewelery - Ring
+    Rarity <= Rare
+    Class "Rings"
+    SetFontSize 45
+
+Show # Rare - Jewelery - Amulets - talisman
+    Rarity <= Rare
+    Class "Amulets"
+    BaseType "Talisman"
+    SetBorderColor 150 0 0              # smoothred
+    SetFontSize 45
+
+Show # Rare - Jewelery - Amulets
+    Rarity <= Rare
+    Class "Amulets"
+    BaseType "Paua Amulet"
+    SetBorderColor 150 0 0              # smoothred
+    SetFontSize 45
+
+Hide # Rare - Jewelery - Amulets
+    Rarity <= Rare
+    Class "Amulets"
+    SetFontSize 45
+
+Show # Rare - Jewelery - Belt - T1
+    Rarity <= Rare
+    BaseType "Crystal Belt"
+    SetBorderColor 150 0 0              # smoothred
+    SetFontSize 45
+
+Show # Rare - Jewelery - Belt - T1
+    Rarity <= Rare
+    BaseType "Stygian Vise"
+    SetBorderColor 150 0 0              # smoothred
+    SetFontSize 45
+
+Show # Rare - Jewelery - Belt - T2
+    Rarity <= Rare
+    BaseType "Leather Belt"
+    SetBorderColor 255 255 119          # Rare
+    SetFontSize 45
+
+Hide # Rare - Jewelery - Belt - T3
+    Rarity <= Rare
+    BaseType "Heavy Belt" "Rustic Sash"
+    SetBorderColor 255 255 119          # Rare
+    SetFontSize 45
+
+Hide # Rare - Jewelery - Belt - T4
+    Rarity <= Rare
+    Class "Belts"
 
 # #######################################################################################################################
 # Normal - Show caster weapons
 # #######################################################################################################################
 
 Show # Normal - Show wands
-    LinkedSockets >= 3
     ItemLevel <= 68
     Rarity = Normal
     Class "Wands"
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 40
 
-Show # Normal - Show caster weapons
-    LinkedSockets >= 4
-    ItemLevel <= 68
-    Rarity = Normal
-    Class "Staves"
-    SetBorderColor 150 0 0              # smoothred
-    SetFontSize 40
+# Show # Normal - Show wands
+#     LinkedSockets >= 3
+#     ItemLevel <= 68
+#     Rarity = Normal
+#     Class "Wands"
+#     SetBorderColor 150 0 0              # smoothred
+#     SetFontSize 40
+
+# Show # Normal - Show shields
+#     ItemLevel <= 68
+#     Rarity = Normal
+#     BaseType "Spirit Shield"
+#     Class "Shields"
+#     SetBorderColor 150 0 0              # smoothred
+#     SetFontSize 40
+
+# Show # Normal - Show caster weapons
+#     LinkedSockets >= 4
+#     ItemLevel <= 68
+#     Rarity = Normal
+#     Class "Staves"
+#     SetBorderColor 150 0 0              # smoothred
+#     SetFontSize 40
 
 # #######################################################################################################################
 # Rare - Show caster weapons
@@ -1502,10 +1589,10 @@ Hide # Normal - Hide unwanted Drops for current char, uncomment to show - Sceptr
     Class "Sceptres"
     SetFontSize 25
 
-# Hide # Normal - Hide unwanted Drops for current char, uncomment to show - Wand
-#     Rarity = Normal
-#     Class "Wands"
-#     SetFontSize 25
+Hide # Normal - Hide unwanted Drops for current char, uncomment to show - Wand
+    Rarity = Normal
+    Class "Wands"
+    SetFontSize 25
 
 Hide # Normal - Hide unwanted Drops for current char, uncomment to show - Staff
     Rarity = Normal
@@ -1517,10 +1604,10 @@ Hide # Normal - Hide unwanted Drops for current char, uncomment to show - Bows/Q
     Class "Bows" "Quivers"
     SetFontSize 25
 
-# Hide # Normal - Hide unwanted Drops for current char, uncomment to show - Shields
-#     Rarity = Normal
-#     Class "Shields"
-#     SetFontSize 25
+Hide # Normal - Hide unwanted Drops for current char, uncomment to show - Shields
+    Rarity = Normal
+    Class "Shields"
+    SetFontSize 25
 
 Hide # Normal - Hide unwanted Drops for current char, uncomment to show - Body Armours
     Rarity = Normal
