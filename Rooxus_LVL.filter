@@ -579,6 +579,16 @@ Show # Unique - 5L
     MinimapIcon 0 Red Diamond
     PlayEffect Red
 
+Show # Unique - Replica
+	Replica True
+    SetTextColor 175 96 37              # uniq
+    SetBackgroundColor 255 255 255      # white
+    SetBorderColor 175 96 37            # uniq
+    SetFontSize 45
+    PlayAlertSound 5 300                # Sound - T1
+    MinimapIcon 0 Red Star
+    PlayEffect Red
+
 Show # Unique - T1 (Neversink 22.06.2020)
     Rarity Unique
     BaseType == "Ambush Mitts" "Arcanist Gloves" "Assassin's Boots" "Blood Raiment" "Blue Pearl Amulet" "Carnal Boots" "Champion Kite Shield" "Crusader Boots" "Ezomyte Tower Shield" "Gladiator Plate" "Glorious Plate" "Greatwolf Talisman" "Imperial Maul" "Jewelled Foil" "Karui Maul" "Large Cluster Jewel" "Legion Gloves" "Meatgrinder" "Military Staff" "Nightmare Mace" "Nubuck Boots" "Occultist's Vestment" "Ornate Quiver" "Prismatic Jewel" "Prophecy Wand" "Rawhide Boots" "Royal Axe" "Ruby Flask" "Savant's Robe" "Siege Axe" "Silk Gloves" "Steel Ring" "Steelwood Bow" "Timeless Jewel" "Vaal Rapier" "Varnished Coat" "Zodiac Leather"
@@ -659,7 +669,7 @@ Show # Unique - Jewelery/Maps
     MinimapIcon 0 Red Diamond
     PlayEffect Red
 
-Hide # Unique - Crappy
+Show # Unique - Crappy
     Rarity Unique
     BaseType == "Ambusher" "Ancient Gauntlets" "Antique Greaves" "Antique Rapier" "Assassin's Garb" "Astral Plate" "Auric Mace" "Aventail Helmet" "Awl" "Baroque Round Shield" "Basket Rapier" "Bastard Sword" "Bone Armour" "Bone Circlet" "Boot Blade" "Boot Knife" "Branded Kite Shield" "Brass Spirit Shield" "Bronze Gauntlets" "Bronze Sceptre" "Bronzescale Gauntlets" "Buckskin Tunic" "Burnished Spiked Shield" "Chain Gloves" "Chiming Spirit Shield" "Coiled Staff" "Colossal Tower Shield" "Compound Spiked Shield" "Conjurer Gloves" "Conquest Chainmail" "Copper Plate" "Corrugated Buckler" "Crusader Chainmail" "Crystal Sceptre" "Cutthroat's Garb" "Decimation Bow" "Decorative Axe" "Deerskin Boots" "Deicide Mask" "Demon's Horn" "Desert Brigandine" "Destroyer Regalia" "Dragonscale Boots" "Dragonscale Gauntlets" "Dread Maul" "Dream Mace" "Driftwood Wand" "Dusk Blade" "Eelskin Gloves" "Elder Sword" "Elegant Foil" "Embroidered Gloves" "Engraved Wand" "Estoc" "Festival Mask" "Flaying Knife" "Fright Claw" "Full Dragonscale" "Full Scale Armour" "Gladius" "Goat's Horn" "Golden Mask" "Goliath Gauntlets" "Great Helmet" "Greater Mana Flask" "Grinning Fetish" "Hallowed Hybrid Flask" "Harmonic Spirit Shield" "Headsman Axe" "Highland Blade" "Imbued Wand" "Infernal Axe" "Iron Gauntlets" "Iron Sceptre" "Ivory Spirit Shield" "Jagged Foil" "Karui Sceptre" "Lacquered Helmet" "Lunaris Circlet" "Marble Amulet" "Mesh Boots" "Mesh Gloves" "Mosaic Kite Shield" "Nailed Fist" "Necromancer Silks" "Opal Sceptre" "Ornate Mace" "Ornate Ringmail" "Pine Buckler" "Plague Mask" "Plated Greaves" "Platinum Kris" "Platinum Sceptre" "Poleaxe" "Polished Spiked Shield" "Primordial Staff" "Quartz Wand" "Quicksilver Flask" "Recurve Bow" "Reinforced Tower Shield" "Riveted Boots" "Rock Breaker" "Rotted Round Shield" "Royal Skean" "Sabre" "Sage's Robe" "Saintly Chainmail" "Samite Gloves" "Samite Helmet" "Satin Gloves" "Scholar's Robe" "Secutor Helm" "Sentinel Jacket" "Serpentine Staff" "Shadow Axe" "Shagreen Boots" "Shagreen Gloves" "Sharkskin Boots" "Simple Robe" "Soldier Boots" "Sorcerer Gloves" "Spidersilk Robe" "Spiked Club" "Steel Gauntlets" "Steel Kite Shield" "Stiletto" "Strapped Boots" "Studded Round Shield" "Sundering Axe" "Supreme Spiked Shield" "Thresher Claw" "Tiger Sword" "Timeworn Claw" "Tomahawk" "Tribal Circlet" "Tricorne" "Twilight Blade" "Ursine Pelt" "Vaal Buckler" "Vaal Claw" "Vaal Hatchet" "Vanguard Belt" "Vile Staff" "Visored Sallet" "War Sword" "Whalebone Rapier" "Wool Gloves" "Wool Shoes" "Wrapped Mitts" "Wyrmscale Gauntlets" "Zealot Helmet"
     SetFontSize 45
@@ -759,6 +769,41 @@ Show # Maps - MapTier 6-9
     PlayAlertSound 4 100                # Sound - Map
     MinimapIcon 2 Yellow Square
     PlayEffect Yellow
+
+# #######################################################################################################################
+# Map Heist
+# #######################################################################################################################
+
+Show # Map Heist - Unique
+	Rarity Unique
+	Class "Blueprint" "Contract"
+    SetTextColor 175 96 37              # uniq
+    SetBackgroundColor 255 255 255      # white
+    SetBorderColor 175 96 37            # uniq
+    SetFontSize 45
+    PlayAlertSound 1 300                # Sound - T2
+    MinimapIcon 0 Red Diamond
+    PlayEffect Red
+
+Show # Map Heist - Heist Contracts
+	Class "Contract"
+	SetFontSize 45
+	SetTextColor 255 140 0              # darkorange
+	SetBorderColor 255 140 0            # darkorange
+	SetBackgroundColor 255 140 0        # darkorange
+    PlayAlertSound 4 100                # Sound - Map
+	PlayEffect White
+	MinimapIcon 2 White UpsideDownHouse
+
+Show # Map Heist - Heist Blueprints
+	Class "Blueprint"
+	SetFontSize 45
+	SetTextColor 255 140 0              # darkorange
+	SetBorderColor 255 140 0            # darkorange
+	SetBackgroundColor 255 140 0        # darkorange
+    PlayAlertSound 4 100                # Sound - Map
+	PlayEffect Red
+	MinimapIcon 0 Red UpsideDownHouse
 
 # #######################################################################################################################
 # Map Fragments
@@ -899,6 +944,28 @@ Hide # Divination Cards - Hide crap (Neversink 22.06.2020)
 # Gems
 # #######################################################################################################################
 
+Show # Gems - Awakened
+	Class Gems
+	BaseType "Awakened"
+    SetTextColor 27 162 155             # gem
+    SetBackgroundColor 255 255 255      # white
+    SetBorderColor 255 0 0              # red
+    SetFontSize 45
+	PlayAlertSound 6 300                # Sound - T1
+    MinimapIcon 0 Green Star
+    PlayEffect Green
+
+Show # Gems - AlternateQuality
+	AlternateQuality True
+	Class Gems
+    SetTextColor 27 162 155             # gem
+    SetBackgroundColor 255 255 255      # white
+    SetBorderColor 255 0 0              # red
+    SetFontSize 45
+	PlayAlertSound 6 300                # Sound - T1
+    MinimapIcon 0 Green Star
+    PlayEffect Green
+
 Show # Gems - DropOnly
     Class "Gems"
     BaseType "Portal" "Empower" "Enhance" "Enlighten" "Vaal Breach"
@@ -938,10 +1005,10 @@ Show # Gems - LVL19+
     SetBorderColor 27 162 155           # gem
     SetFontSize 45
 
-Hide # Gems - HideAll
+Show # Gems - HideAll
     Class "Gems"
     SetTextColor 27 162 155             # gem
-    SetFontSize 25
+    SetFontSize 45
 
 # #######################################################################################################################
 # Shaper
@@ -1078,6 +1145,126 @@ Show
     SetFontSize 45
 
 # #######################################################################################################################
+# Heist
+# #######################################################################################################################
+
+Show # Heist - Heist Cloaks
+	Rarity <= Rare
+	Class "Heist Cloak"
+	BaseType "Whisper-woven Cloak"
+	SetFontSize 45
+	SetBorderColor 255 85 85 255            # BORDERCOLOR:	 Contract
+	SetBackgroundColor 0 0 0 255
+	PlayAlertSound 3 300                    # DROPSOUND:	 Unique
+	PlayEffect Blue
+	MinimapIcon 1 Blue Raindrop
+
+Show # Heist - Heist Cloaks
+	Rarity <= Rare
+	Class "Heist Cloak"
+	BaseType "Hooded Cloak"
+	SetFontSize 45
+	SetBorderColor 255 85 85 255            # BORDERCOLOR:	 Contract
+	SetBackgroundColor 0 0 0 255
+	PlayAlertSound 3 300                    # DROPSOUND:	 Unique
+	PlayEffect Blue
+	MinimapIcon 1 Blue Raindrop
+
+Show # Heist - Heist Cloaks
+	Rarity <= Rare
+	Class "Heist Cloak"
+	SetFontSize 45
+	SetBorderColor 255 85 85 255            # BORDERCOLOR:	 Contract
+	SetBackgroundColor 0 0 0 255
+
+Show # Heist - Heist Brooch
+	Rarity <= Rare
+	Class "Heist Brooch"
+	BaseType "Foliate Brooch"
+	SetFontSize 45
+	SetBorderColor 255 85 85 255            # BORDERCOLOR:	 Contract
+	SetBackgroundColor 0 0 0 255
+	PlayAlertSound 3 300                    # DROPSOUND:	 Unique
+	PlayEffect Blue
+	MinimapIcon 1 Blue Raindrop
+
+Show # Heist - Heist Brooch
+	Rarity <= Rare
+	Class "Heist Brooch"
+	BaseType "Enamel Brooch"
+	SetFontSize 45
+	SetBorderColor 255 85 85 255            # BORDERCOLOR:	 Contract
+	SetBackgroundColor 0 0 0 255
+	PlayAlertSound 3 300                    # DROPSOUND:	 Unique
+	PlayEffect Blue
+	MinimapIcon 1 Blue Raindrop
+
+Show # Heist - Heist Brooch
+	Rarity <= Rare
+	Class "Heist Brooch"
+	SetFontSize 45
+	SetBorderColor 255 85 85 255            # BORDERCOLOR:	 Contract
+	SetBackgroundColor 0 0 0 255
+
+Show # Heist - Heist Gear
+	Rarity <= Rare
+	Class "Heist Gear"
+	BaseType "Burst Band" "Obsidian Sharpening Stone" "Precise Arrowhead"
+	SetFontSize 45
+	SetBorderColor 255 85 85 255            # BORDERCOLOR:	 Contract
+	SetBackgroundColor 0 0 0 255
+	PlayAlertSound 3 300                    # DROPSOUND:	 Unique
+	PlayEffect Blue
+	MinimapIcon 1 Blue Raindrop
+
+Show # Heist - Heist Gear
+	Rarity <= Rare
+	Class "Heist Gear"
+	BaseType "Aggregator Charm" "Fine Sharpening Stone" "Fragmenting Arrowhead"
+	SetFontSize 45
+	SetBorderColor 255 85 85 255            # BORDERCOLOR:	 Contract
+	SetBackgroundColor 0 0 0 255
+	PlayAlertSound 3 300                    # DROPSOUND:	 Unique
+	PlayEffect Blue
+	MinimapIcon 1 Blue Raindrop
+
+Show # Heist - Heist Gear
+	Rarity <= Rare
+	Class "Heist Gear"
+	SetFontSize 45
+	SetBorderColor 255 85 85 255            # BORDERCOLOR:	 Contract
+	SetBackgroundColor 0 0 0 255
+
+Show # Heist - Heist Tool
+	Rarity <= Rare
+	Class "Heist Tool"
+	BaseType "Grandmaster Keyring" "Master Lockpick" "Regicide Disguise Kit" "Silkweave Sole" "Steel Bracers" "Thaumaturgical Sensing Charm" "Thaumaturgical Ward" "Thaumetic Blowtorch" "Thaumetic Flashpowder"
+	SetFontSize 45
+	SetBorderColor 255 85 85 255            # BORDERCOLOR:	 Contract
+	SetBackgroundColor 0 0 0 255
+	PlayAlertSound 3 300                    # DROPSOUND:	 Unique
+	PlayEffect Blue
+	MinimapIcon 1 Blue Raindrop
+
+Show # Heist - Heist Tool
+	Rarity <= Rare
+	Class "Heist Tool"
+	BaseType "Azurite Flashpowder" "Espionage Disguise Kit" "Fine Lockpick" "Polished Sensing Charm" "Runed Bracers" "Shining Ward" "Skeleton Keyring" "Sulphur Blowtorch" "Winged Sole"
+	SetFontSize 45
+	SetBorderColor 255 85 85 255            # BORDERCOLOR:	 Contract
+	SetBackgroundColor 0 0 0 255
+	PlayAlertSound 3 300                    # DROPSOUND:	 Unique
+	PlayEffect Blue
+	MinimapIcon 1 Blue Raindrop
+
+Show # Heist - Heist Tool
+	Rarity <= Rare
+	Class "Heist Tool"
+	SetFontSize 45
+	SetBorderColor 255 85 85 255            # BORDERCOLOR:	 Contract
+	SetBackgroundColor 0 0 0 255
+
+# #######################################################################################################################
 # Chance
 # #######################################################################################################################
 
@@ -1117,6 +1304,34 @@ Show
 # #######################################################################################################################
 # Specific Items
 # #######################################################################################################################
+
+Show  # Specific Items - Heist Items - Enchantments
+	AnyEnchantment True
+	Class "Body Armours" "Bows" "Claws" "Daggers" "One Hand" "Quivers" "Rune Dagger" "Sceptre" "Shields" "Staves" "Two Hand" "Wand" "Warstaves"
+    SetFontSize 45
+    SetBorderColor 150 0 0              # smoothred
+    SetFontSize 45
+    PlayAlertSound 1 100                # Sound - T2 quieter
+    MinimapIcon 0 Brown Diamond
+    PlayEffect Brown
+
+Show # Specific Items - Heist Items - T1
+	BaseType "Accumulator Wand" "Alternating Sceptre" "Anarchic Spiritblade" "Apex Cleaver" "Astrolabe Amulet" "Banishing Blade" "Battery Staff" "Boom Mace" "Cogwork Ring" "Cold-attuned Buckler" "Eventuality Rod" "Geodesic Ring" "Heat-attuned Tower Shield" "Impact Force Propagator" "Infernal Blade" "Mechalarm Belt" "Micro-Distillery Belt" "Pneumatic Dagger" "Psychotic Axe" "Simplex Amulet" "Solarine Bow" "Transfer-attuned Spirit Shield" "Void Fangs"
+    SetFontSize 45
+    SetBorderColor 150 0 0              # smoothred
+    SetFontSize 45
+    PlayAlertSound 1 100                # Sound - T2 quieter
+    MinimapIcon 0 Brown Diamond
+    PlayEffect Brown
+
+Show # Specific Items - Heist Items - T2
+	BaseType "Assembler Wand" "Blasting Blade" "Blunt Force Condenser" "Capacity Rod" "Capricious Spiritblade" "Congregator Wand" "Crack Mace" "Crushing Force Magnifier" "Disapprobation Axe" "Endothermic Buckler" "Exhausting Spirit Shield" "Exothermic Tower Shield" "Fickle Spiritblade" "Flare Mace" "Flashfire Blade" "Flickerflame Blade" "Foundry Bow" "Hedron Bow" "Hollowpoint Dagger" "Honed Cleaver" "Magmatic Tower Shield" "Malign Fangs" "Maltreatment Axe" "Oscillating Sceptre" "Polar Buckler" "Potentiality Rod" "Pressurised Dagger" "Prime Cleaver" "Rebuking Blade" "Reciprocation Staff" "Shadow Fangs" "Stabilising Sceptre" "Subsuming Spirit Shield" "Transformer Staff"
+    SetFontSize 45
+    SetBorderColor 150 0 0              # smoothred
+    SetFontSize 45
+    PlayAlertSound 2 200                # Sound - T2
+    MinimapIcon 0 Brown Square
+    PlayEffect Brown
 
 Show # Specific Items - Fractured Items
     FracturedItem True
@@ -1653,8 +1868,21 @@ Hide # Rare - comment block to show, uncomment block to hide - Quivers
 
 # Hide # Rare - comment block to show, uncomment block to hide - shields
 #     Rarity = Rare
+#     BaseType "Spirit Shield"
 #     Class "Shields"
 #     SetFontSize 25
+
+Hide # Rare - comment block to show, uncomment block to hide - shields
+    Rarity = Rare
+    BaseType "Buckler"
+    Class "Shields"
+    SetFontSize 25
+
+Hide # Rare - comment block to show, uncomment block to hide - shields
+    Rarity = Rare
+    BaseType "Tower Shield"
+    Class "Shields"
+    SetFontSize 25
 
 # #######################################################################################################################
 # Rare - Hide Obsolete Gear
