@@ -120,33 +120,33 @@ Show # Currency - Low Value
     SetBorderColor 127 255 212          # aquamarine1
     SetFontSize 45
 
-Show # Currency - Low Value
+Hide # Currency - Low Value
     Class "Currency"
     BaseType "Orb of Transmutation"
     SetTextColor 170 158 130            # currency
     SetBorderColor 127 255 212          # aquamarine1
     SetFontSize 45
 
-Show # Currency - Low Value
+Hide # Currency - Low Value
     Class "Currency"
     BaseType "Orb of Augmentation"
     SetTextColor 170 158 130            # currency
     SetBorderColor 127 255 212          # aquamarine1
     SetFontSize 45
 
-Show # Currency - Low Value
+Hide # Currency - Low Value
     Class "Currency"
     BaseType "Blacksmith's Whetstone"
     SetTextColor 170 158 130            # currency
     SetFontSize 45
 
-Show # Currency - Low Value
+Hide # Currency - Low Value
     Class "Currency"
     BaseType "Armourer's Scrap"
     SetTextColor 170 158 130            # currency
     SetFontSize 45
 
-Show # Currency - Low Value
+Hide # Currency - Low Value
     Class "Currency"
     BaseType "Portal Scroll"
     SetTextColor 170 158 130            # currency
@@ -1273,7 +1273,7 @@ Show # Heist - Heist Cloaks
     MinimapIcon 0 Brown Diamond
     PlayEffect Brown
 
-Show # Heist - Heist Cloaks
+Hide # Heist - Heist Cloaks
 	Rarity <= Rare
 	Class "Heist Cloak"
     SetTextColor 255 255 255            # white
@@ -1304,7 +1304,7 @@ Show # Heist - Heist Brooch
     MinimapIcon 0 Brown Diamond
     PlayEffect Brown
 
-Show # Heist - Heist Brooch
+Hide # Heist - Heist Brooch
 	Rarity <= Rare
 	Class "Heist Brooch"
     SetTextColor 255 255 255            # white
@@ -1335,7 +1335,7 @@ Show # Heist - Heist Gear
     MinimapIcon 0 Brown Diamond
     PlayEffect Brown
 
-Show # Heist - Heist Gear
+Hide # Heist - Heist Gear
 	Rarity <= Rare
 	Class "Heist Gear"
     SetTextColor 255 255 255            # white
@@ -1366,7 +1366,7 @@ Show # Heist - Heist Tool
     MinimapIcon 0 Brown Diamond
     PlayEffect Brown
 
-Show # Heist - Heist Tool
+Hide # Heist - Heist Tool
 	Rarity <= Rare
 	Class "Heist Tool"
     SetTextColor 255 255 255            # white
@@ -1780,11 +1780,11 @@ Show # Rare - Jewelery - Ring - T1
 Show # Rare - Jewelery - Ring - T2
     Rarity = Rare
     Class "Rings"
-    BaseType "Diamond Ring" "Prismatic Ring" "Two-Stone Ring"
+    BaseType "Prismatic Ring" "Two-Stone Ring"
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 45
 
-Show # Rare - Jewelery - Ring
+Hide # Rare - Jewelery - Ring
     Rarity = Rare
     Class "Rings"
     SetBorderColor 150 0 0              # smoothred
@@ -1836,7 +1836,7 @@ Hide # Rare - Jewelery - Belt - T4
 # Rare - Chromatic Orb Recipe
 # #######################################################################################################################
 
-Show # Rare - Chromatic Orb Recipe
+Hide # Rare - Chromatic Orb Recipe
     SocketGroup "RGB"
     Height <= 4
     Width = 1
@@ -1844,7 +1844,7 @@ Show # Rare - Chromatic Orb Recipe
     SetBorderColor 0 197 205            # turquoise3
     SetFontSize 45
 
-Show # Rare - Chromatic Orb Recipe
+Hide # Rare - Chromatic Orb Recipe
     SocketGroup "RGB"
     Height = 2
     Width = 2
@@ -2113,30 +2113,30 @@ Hide # Rare - Sceptre - T3
 # Rare - Wand
 # #######################################################################################################################
 
-Show # Rare - Wand - T1
+Hide # Rare - Wand - T1
     Rarity = Rare
     BaseType "Imbued Wand"
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 45
 
-Show # Rare - Wand - T1
+Hide # Rare - Wand - T1
     Rarity = Rare
     BaseType "Profane Wand"
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 45
 
-Show # Rare - Wand - T2
+Hide # Rare - Wand - T2
     Rarity = Rare
     BaseType "Prophecy Wand" "Tornado Wand" "Opal Wand" "Demon's Horn" "Engraved Wand"
     SetBorderColor 255 255 119          # Rare
     SetFontSize 45
 
-Show # Rare - Wand - T3
+Hide # Rare - Wand - T3
     Rarity = Rare
     BaseType "Carved Wand" "Driftwood Wand" "Pagan Wand" "Heathen Wand"
     SetFontSize 45
 
-Show # Rare - Wand - ALL
+Hide # Rare - Wand - ALL
     Rarity = Rare
     Class "Wands"
     SetFontSize 45
@@ -2343,7 +2343,7 @@ Show # Rare - Equipment - ARM - Gloves - T1
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 45
 
-Show # Rare - Equipment - ARM - Boots - T1
+Hide # Rare - Equipment - ARM - Boots - T1
     Rarity = Rare
     BaseType "Titan Greaves"
     SetBorderColor 150 0 0              # smoothred
@@ -2367,7 +2367,7 @@ Show # Rare - Equipment - ARM - Gloves - T2
     SetBorderColor 255 255 119          # Rare
     SetFontSize 45
 
-Show # Rare - Equipment - ARM - Boots - T2
+Hide # Rare - Equipment - ARM - Boots - T2
     Rarity = Rare
     BaseType "Vaal Greaves"
     SetBorderColor 255 255 119          # Rare
@@ -2388,7 +2388,7 @@ Show # Rare - Equipment - ARM - Gloves - T3
     BaseType "Goliath Gauntlets"
     SetFontSize 45
 
-Show # Rare - Equipment - ARM - Boots - T3
+Hide # Rare - Equipment - ARM - Boots - T3
     Rarity = Rare
     BaseType "Goliath Greaves"
     SetFontSize 45
@@ -2481,7 +2481,7 @@ Show # Rare - Equipment - EVA+ARM - Gloves - T1
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 45
 
-Show # Rare - Equipment - EVA+ARM - Boots - T1
+Hide # Rare - Equipment - EVA+ARM - Boots - T1
     Rarity = Rare
     BaseType "Dragonscale Boots"
     SetBorderColor 150 0 0              # smoothred
@@ -2505,7 +2505,7 @@ Show # Rare - Equipment - EVA+ARM - Gloves - T2
     SetBorderColor 255 255 119          # Rare
     SetFontSize 45
 
-Show # Rare - Equipment - EVA+ARM - Boots - T2
+Hide # Rare - Equipment - EVA+ARM - Boots - T2
     Rarity = Rare
     BaseType "Hydrascale Boots"
     SetBorderColor 255 255 119          # Rare
@@ -2526,7 +2526,7 @@ Show # Rare - Equipment - EVA+ARM - Gloves - T3
     BaseType "Wyrmscale Gauntlets" "Serpentscale Gauntlets"
     SetFontSize 45
 
-Show # Rare - Equipment - EVA+ARM - Boots - T3
+Hide # Rare - Equipment - EVA+ARM - Boots - T3
     Rarity = Rare
     BaseType "Wyrmscale Boots" "Serpentscale Boots"
     SetFontSize 45
@@ -2553,7 +2553,7 @@ Show # Rare - Equipment - ARM+ES - Gloves - T1
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 45
 
-Show # Rare - Equipment - ARM+ES - Boots - T1
+Hide # Rare - Equipment - ARM+ES - Boots - T1
     Rarity = Rare
     BaseType "Crusader Boots"
     SetBorderColor 150 0 0              # smoothred
@@ -2577,7 +2577,7 @@ Show # Rare - Equipment - ARM+ES - Gloves - T2
     SetBorderColor 255 255 119          # Rare
     SetFontSize 45
 
-Show # Rare - Equipment - ARM+ES - Boots - T2
+Hide # Rare - Equipment - ARM+ES - Boots - T2
     Rarity = Rare
     BaseType "Legion Boots" "Soldier Boots"
     SetBorderColor 255 255 119          # Rare
@@ -2709,31 +2709,31 @@ Show # Rare - Shield - ES - T1
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 45
 
-Show # Rare - Shield - ES - T1
+Hide # Rare - Shield - ES - T1
     Rarity = Rare
     BaseType "Fossilised Spirit Shield"
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 45
 
-Show # Rare - Shield - ES - T2
+Hide # Rare - Shield - ES - T2
     Rarity = Rare
     BaseType "Ivory Spirit Shield" "Bone Spirit Shield"
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 45
 
-Show # Rare - Shield - ES - T2
+Hide # Rare - Shield - ES - T2
     Rarity = Rare
     BaseType "Harmonic Spirit Shield" "Thorium Spirit Shield" "Vaal Spirit Shield"
     SetBorderColor 255 255 119          # Rare
     SetFontSize 45
 
-Show # Rare - Shield - ES - T2
+Hide # Rare - Shield - ES - T2
     Rarity = Rare
     BaseType "Twig Spirit Shield" "Jingling Spirit Shield" "Harmonic Spirit Shield" "Chiming Spirit Shield"
     SetBorderColor 255 255 119          # Rare
     SetFontSize 45
 
-Show # Rare - Shield - ES - ALL
+Hide # Rare - Shield - ES - ALL
     Rarity = Rare
     BaseType "Spirit Shield"
     Class "Shields"
