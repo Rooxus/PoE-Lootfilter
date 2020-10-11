@@ -120,7 +120,7 @@ Show # Currency - Low Value
     SetBorderColor 127 255 212          # aquamarine1
     SetFontSize 45
 
-Hide # Currency - Low Value
+Show # Currency - Low Value
     Class "Currency"
     BaseType "Orb of Transmutation"
     SetTextColor 170 158 130            # currency
@@ -1076,7 +1076,7 @@ Show # Gems - Q10+
     SetBorderColor 27 162 155           # gem
     SetFontSize 45
 
-Show # Gems - Q5+
+Hide # Gems - Q5+
     Quality >= 5
     Class "Gems"
     SetTextColor 27 162 155             # gem
@@ -1249,7 +1249,7 @@ Show # Heist - trinkets
     MinimapIcon 0 Brown Diamond
     PlayEffect Brown
 
-Show # Heist - Heist Cloaks
+Show # Heist - Heist Cloaks - T1
 	Rarity <= Rare
 	Class "Heist Cloak"
 	BaseType "Whisper-woven Cloak"
@@ -1261,7 +1261,7 @@ Show # Heist - Heist Cloaks
     MinimapIcon 0 Brown Diamond
     PlayEffect Brown
 
-Show # Heist - Heist Cloaks
+Hide # Heist - Heist Cloaks - T2
 	Rarity <= Rare
 	Class "Heist Cloak"
 	BaseType "Hooded Cloak"
@@ -1269,18 +1269,15 @@ Show # Heist - Heist Cloaks
     SetBackgroundColor 72 118 255       # royalblue1
     SetBorderColor 159 15 213           # violett
     SetFontSize 45
-    PlayAlertSound 1 100                # Sound - T2 quieter
-    MinimapIcon 0 Brown Diamond
-    PlayEffect Brown
 
-Hide # Heist - Heist Cloaks
+Hide # Heist - Heist Cloaks - T3
 	Rarity <= Rare
 	Class "Heist Cloak"
     SetTextColor 255 255 255            # white
     SetBorderColor 159 15 213           # violett
     SetFontSize 45
 
-Show # Heist - Heist Brooch
+Show # Heist - Heist Brooch - T1
 	Rarity <= Rare
 	Class "Heist Brooch"
 	BaseType "Foliate Brooch"
@@ -1292,7 +1289,7 @@ Show # Heist - Heist Brooch
     MinimapIcon 0 Brown Diamond
     PlayEffect Brown
 
-Show # Heist - Heist Brooch
+Hide # Heist - Heist Brooch - T2
 	Rarity <= Rare
 	Class "Heist Brooch"
 	BaseType "Enamel Brooch"
@@ -1300,18 +1297,15 @@ Show # Heist - Heist Brooch
     SetBackgroundColor 72 118 255       # royalblue1
     SetBorderColor 159 15 213           # violett
     SetFontSize 45
-    PlayAlertSound 1 100                # Sound - T2 quieter
-    MinimapIcon 0 Brown Diamond
-    PlayEffect Brown
 
-Hide # Heist - Heist Brooch
+Hide # Heist - Heist Brooch - T3
 	Rarity <= Rare
 	Class "Heist Brooch"
     SetTextColor 255 255 255            # white
     SetBorderColor 159 15 213           # violett
     SetFontSize 45
 
-Show # Heist - Heist Gear
+Show # Heist - Heist Gear - T1
 	Rarity <= Rare
 	Class "Heist Gear"
 	BaseType "Burst Band" "Obsidian Sharpening Stone" "Precise Arrowhead"
@@ -1323,26 +1317,23 @@ Show # Heist - Heist Gear
     MinimapIcon 0 Brown Diamond
     PlayEffect Brown
 
-Show # Heist - Heist Gear
+Hide # Heist - Heist Gear - T2
 	Rarity <= Rare
 	Class "Heist Gear"
-	BaseType "Aggregator Charm" "Fine Sharpening Stone" "Fragmenting Arrowhead"
+	BaseType "Aggregator Charm" "Fine Sharpening Stone" "Hollowpoint Arrowhead"
     SetTextColor 255 255 255            # white
     SetBackgroundColor 72 118 255       # royalblue1
     SetBorderColor 159 15 213           # violett
     SetFontSize 45
-    PlayAlertSound 1 100                # Sound - T2 quieter
-    MinimapIcon 0 Brown Diamond
-    PlayEffect Brown
 
-Hide # Heist - Heist Gear
+Hide # Heist - Heist Gear - T3
 	Rarity <= Rare
 	Class "Heist Gear"
     SetTextColor 255 255 255            # white
     SetBorderColor 159 15 213           # violett
     SetFontSize 45
 
-Show # Heist - Heist Tool
+Show # Heist - Heist Tool - T1
 	Rarity <= Rare
 	Class "Heist Tool"
 	BaseType "Grandmaster Keyring" "Master Lockpick" "Regicide Disguise Kit" "Silkweave Sole" "Steel Bracers" "Thaumaturgical Sensing Charm" "Thaumaturgical Ward" "Thaumetic Blowtorch" "Thaumetic Flashpowder"
@@ -1354,7 +1345,7 @@ Show # Heist - Heist Tool
     MinimapIcon 0 Brown Diamond
     PlayEffect Brown
 
-Show # Heist - Heist Tool
+Hide # Heist - Heist Tool - T2
 	Rarity <= Rare
 	Class "Heist Tool"
 	BaseType "Azurite Flashpowder" "Espionage Disguise Kit" "Fine Lockpick" "Polished Sensing Charm" "Runed Bracers" "Shining Ward" "Skeleton Keyring" "Sulphur Blowtorch" "Winged Sole"
@@ -1362,11 +1353,8 @@ Show # Heist - Heist Tool
     SetBackgroundColor 72 118 255       # royalblue1
     SetBorderColor 159 15 213           # violett
     SetFontSize 45
-    PlayAlertSound 1 100                # Sound - T2 quieter
-    MinimapIcon 0 Brown Diamond
-    PlayEffect Brown
 
-Hide # Heist - Heist Tool
+Hide # Heist - Heist Tool - T3
 	Rarity <= Rare
 	Class "Heist Tool"
     SetTextColor 255 255 255            # white
@@ -1391,12 +1379,12 @@ Hide # Heist - Heist Tool
 #     SetBorderColor 231 180 120          # chance
 #     SetFontSize 45
 
-# Show # Chance - Kaom's Heart
-#     Corrupted False
-#     Rarity = Normal
-#     BaseType "Glorious Plate"
-#     SetBorderColor 231 180 120          # chance
-#     SetFontSize 45
+Show # Chance - Kaom's Heart
+    Corrupted False
+    Rarity = Normal
+    BaseType "Glorious Plate"
+    SetBorderColor 231 180 120          # chance
+    SetFontSize 45
 
 # Show # Chance - Headhunter
 #     Corrupted False
@@ -2253,25 +2241,25 @@ Hide # Rare - Quiver
 # Rare - Equipment - ES
 # #######################################################################################################################
 
-Show # Rare - Equipment - ES - Helmet - T1
+Hide # Rare - Equipment - ES - Helmet - T1
     Rarity = Rare
     BaseType "Hubris Circlet"
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 45
 
-Show # Rare - Equipment - ES - Body Armour - T1
+Hide # Rare - Equipment - ES - Body Armour - T1
     Rarity = Rare
     BaseType "Vaal Regalia"
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 45
 
-Show # Rare - Equipment - ES - Gloves - T1
+Hide # Rare - Equipment - ES - Gloves - T1
     Rarity = Rare
     BaseType "Sorcerer Gloves"
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 45
 
-Show # Rare - Equipment - ES - Boots - T1
+Hide # Rare - Equipment - ES - Boots - T1
     Rarity = Rare
     BaseType "Sorcerer Boots"
     SetBorderColor 150 0 0              # smoothred
@@ -2325,7 +2313,7 @@ Hide # Rare - Equipment - ES - Boots - T3
 # Rare - Equipment - ARM
 # #######################################################################################################################
 
-Show # Rare - Equipment - ARM - Helmet - T1
+Hide # Rare - Equipment - ARM - Helmet - T1
     Rarity = Rare
     BaseType "Royal Burgonet"
     SetBorderColor 150 0 0              # smoothred
@@ -2343,13 +2331,13 @@ Show # Rare - Equipment - ARM - Gloves - T1
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 45
 
-Hide # Rare - Equipment - ARM - Boots - T1
+Show # Rare - Equipment - ARM - Boots - T1
     Rarity = Rare
     BaseType "Titan Greaves"
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 45
 
-Show # Rare - Equipment - ARM - Helmet - T2
+Hide # Rare - Equipment - ARM - Helmet - T2
     Rarity = Rare
     BaseType "Eternal Burgonet" "Ezomyte Burgonet"
     SetBorderColor 255 255 119          # Rare
@@ -2373,7 +2361,7 @@ Hide # Rare - Equipment - ARM - Boots - T2
     SetBorderColor 255 255 119          # Rare
     SetFontSize 45
 
-Show # Rare - Equipment - ARM - Helmet - T3
+Hide # Rare - Equipment - ARM - Helmet - T3
     Rarity = Rare
     BaseType "Samite Helmet"
     SetFontSize 45
@@ -2469,13 +2457,13 @@ Hide # Rare - Equipment - EVA - Boots - T3
 # Rare - Equipment - EVA+ARM
 # #######################################################################################################################
 
-Show # Rare - Equipment - EVA+ARM - Helmet - T1
+Hide # Rare - Equipment - EVA+ARM - Helmet - T1
     Rarity = Rare
     BaseType "Nightmare Bascinet"
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 45
 
-Show # Rare - Equipment - EVA+ARM - Gloves - T1
+Hide # Rare - Equipment - EVA+ARM - Gloves - T1
     Rarity = Rare
     BaseType "Dragonscale Gauntlets"
     SetBorderColor 150 0 0              # smoothred
@@ -2487,7 +2475,7 @@ Hide # Rare - Equipment - EVA+ARM - Boots - T1
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 45
 
-Show # Rare - Equipment - EVA+ARM - Helmet - T2
+Hide # Rare - Equipment - EVA+ARM - Helmet - T2
     Rarity = Rare
     BaseType "Pig-Faced Bascinet"
     SetBorderColor 255 255 119          # Rare
@@ -2499,7 +2487,7 @@ Hide # Rare - Equipment - EVA+ARM - Body Armour - T2
     SetBorderColor 255 255 119          # Rare
     SetFontSize 45
 
-Show # Rare - Equipment - EVA+ARM - Gloves - T2
+Hide # Rare - Equipment - EVA+ARM - Gloves - T2
     Rarity = Rare
     BaseType "Hydrascale Gauntlets"
     SetBorderColor 255 255 119          # Rare
@@ -2511,7 +2499,7 @@ Hide # Rare - Equipment - EVA+ARM - Boots - T2
     SetBorderColor 255 255 119          # Rare
     SetFontSize 45
 
-Show # Rare - Equipment - EVA+ARM - Helmet - T3
+Hide # Rare - Equipment - EVA+ARM - Helmet - T3
     Rarity = Rare
     BaseType "Lacquered Helmet" "Fencer Helm" "Fluted Bascinet"
     SetFontSize 45
@@ -2521,7 +2509,7 @@ Hide # Rare - Equipment - EVA+ARM - Body Armour - T3
     BaseType "Desert Brigandine" "Battle Lamellar" "Commander's Brigandine" "Dragonscale Doublet"
     SetFontSize 45
 
-Show # Rare - Equipment - EVA+ARM - Gloves - T3
+Hide # Rare - Equipment - EVA+ARM - Gloves - T3
     Rarity = Rare
     BaseType "Wyrmscale Gauntlets" "Serpentscale Gauntlets"
     SetFontSize 45
@@ -2535,7 +2523,7 @@ Hide # Rare - Equipment - EVA+ARM - Boots - T3
 # Rare - Equipment - ARM+ES
 # #######################################################################################################################
 
-Show # Rare - Equipment - ARM+ES - Helmet - T1
+Hide # Rare - Equipment - ARM+ES - Helmet - T1
     Rarity = Rare
     BaseType "Praetor Crown"
     SetBorderColor 150 0 0              # smoothred
@@ -2547,7 +2535,7 @@ Hide # Rare - Equipment - ARM+ES - Body Armour - T1
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 45
 
-Show # Rare - Equipment - ARM+ES - Gloves - T1
+Hide # Rare - Equipment - ARM+ES - Gloves - T1
     Rarity = Rare
     BaseType "Crusader Gloves"
     SetBorderColor 150 0 0              # smoothred
@@ -2559,7 +2547,7 @@ Hide # Rare - Equipment - ARM+ES - Boots - T1
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 45
 
-Show # Rare - Equipment - ARM+ES - Helmet - T2
+Hide # Rare - Equipment - ARM+ES - Helmet - T2
     Rarity = Rare
     BaseType "Magistrate Crown" "Prophet Crown"
     SetBorderColor 255 255 119          # Rare
@@ -2571,7 +2559,7 @@ Hide # Rare - Equipment - ARM+ES - Body Armour - T2
     SetBorderColor 255 255 119          # Rare
     SetFontSize 45
 
-Show # Rare - Equipment - ARM+ES - Gloves - T2
+Hide # Rare - Equipment - ARM+ES - Gloves - T2
     Rarity = Rare
     BaseType "Legion Gloves" "Soldier Gloves"
     SetBorderColor 255 255 119          # Rare
