@@ -85,21 +85,21 @@ Show # Currency - Medium Value
     MinimapIcon 2 White Circle
     PlayEffect White
 
-Show # Currency - Medium Value
+Hide # Currency - Medium Value
     Class "Currency"
     BaseType "Glassblower's Bauble"
     SetTextColor 127 255 212            # aquamarine1
     SetBorderColor 127 255 212          # aquamarine1
     SetFontSize 45
 
-Show # Currency - Low Value
+Hide # Currency - Low Value
     Class "Currency"
     BaseType "Chromatic Orb"
     SetTextColor 170 158 130            # currency
     SetBorderColor 127 255 212          # aquamarine1
     SetFontSize 45
 
-Show # Currency - Low Value
+Hide # Currency - Low Value
     Class "Currency"
     BaseType "Jeweller's Orb"
     SetTextColor 170 158 130            # currency
@@ -120,7 +120,7 @@ Show # Currency - Low Value
     SetBorderColor 127 255 212          # aquamarine1
     SetFontSize 45
 
-Show # Currency - Low Value
+Hide # Currency - Low Value
     Class "Currency"
     BaseType "Orb of Transmutation"
     SetTextColor 170 158 130            # currency
@@ -970,6 +970,16 @@ Show # Map Fragments - Guardians
 # Divination Cards
 # #######################################################################################################################
 
+Show # Divination Cards - kaoms
+    Class "Divination Card"
+    BaseType == "The Mad King" "The King's Heart" "Pride Before the Fall"
+    SetTextColor 0 180 255              # cards
+    SetBorderColor 0 255 150            # high value
+    SetFontSize 45
+    PlayAlertSound 5 300                # Sound - T1
+    MinimapIcon 0 Blue Star
+    PlayEffect Blue
+
 Show # Divination Cards - T1 (Neversink 29.06.2020)
     Class "Divination Card"
     BaseType == "Abandoned Wealth" "Alluring Bounty" "Beauty Through Death" "Gift of Asenath" "House of Mirrors" "Hunter's Reward" "Immortal Resolve" "Nook's Crown" "Pride of the First Ones" "Seven Years Bad Luck" "Succor of the Sinless" "The Cheater" "The Craving" "The Demon" "The Doctor" "The Dragon's Heart" "The Escape" "The Fiend" "The Greatest Intentions" "The Hive of Knowledge" "The Immortal" "The Iron Bard" "The Long Con" "The Nurse" "The Offering" "The Price of Loyalty" "The Progeny of Lunaris" "The Samurai's Eye" "The Spark and the Flame" "The Sustenance" "The White Knight" "Void of the Elements" "Wealth and Power"
@@ -1246,7 +1256,7 @@ Show # Heist - trinkets
     SetBorderColor 159 15 213           # violett
     SetFontSize 45
     PlayAlertSound 1 200                # Sound - T2
-    MinimapIcon 0 Brown Diamond
+    MinimapIcon 2 Brown UpsideDownHouse
     PlayEffect Brown
 
 Show # Heist - Heist Cloaks - T1
@@ -1258,7 +1268,7 @@ Show # Heist - Heist Cloaks - T1
     SetBorderColor 159 15 213           # violett
     SetFontSize 45
     PlayAlertSound 1 100                # Sound - T2 quieter
-    MinimapIcon 0 Brown Diamond
+    MinimapIcon 0 Brown UpsideDownHouse
     PlayEffect Brown
 
 Hide # Heist - Heist Cloaks - T2
@@ -1286,7 +1296,7 @@ Show # Heist - Heist Brooch - T1
     SetBorderColor 159 15 213           # violett
     SetFontSize 45
     PlayAlertSound 1 100                # Sound - T2 quieter
-    MinimapIcon 0 Brown Diamond
+    MinimapIcon 2 Brown UpsideDownHouse
     PlayEffect Brown
 
 Hide # Heist - Heist Brooch - T2
@@ -1314,7 +1324,7 @@ Show # Heist - Heist Gear - T1
     SetBorderColor 159 15 213           # violett
     SetFontSize 45
     PlayAlertSound 1 100                # Sound - T2 quieter
-    MinimapIcon 0 Brown Diamond
+    MinimapIcon 2 Brown UpsideDownHouse
     PlayEffect Brown
 
 Hide # Heist - Heist Gear - T2
@@ -1342,7 +1352,7 @@ Show # Heist - Heist Tool - T1
     SetBorderColor 159 15 213           # violett
     SetFontSize 45
     PlayAlertSound 1 100                # Sound - T2 quieter
-    MinimapIcon 0 Brown Diamond
+    MinimapIcon 0 Brown UpsideDownHouse
     PlayEffect Brown
 
 Hide # Heist - Heist Tool - T2
@@ -1379,19 +1389,19 @@ Hide # Heist - Heist Tool - T3
 #     SetBorderColor 231 180 120          # chance
 #     SetFontSize 45
 
-Show # Chance - Kaom's Heart
-    Corrupted False
-    Rarity = Normal
-    BaseType "Glorious Plate"
-    SetBorderColor 231 180 120          # chance
-    SetFontSize 45
-
-# Show # Chance - Headhunter
+# Show # Chance - Kaom's Heart
 #     Corrupted False
 #     Rarity = Normal
-#     BaseType "Leather Belt"
+#     BaseType "Glorious Plate"
 #     SetBorderColor 231 180 120          # chance
 #     SetFontSize 45
+
+Show # Chance - Headhunter
+    Corrupted False
+    Rarity = Normal
+    BaseType "Leather Belt"
+    SetBorderColor 231 180 120          # chance
+    SetFontSize 45
 
 # Show # Chance - Goldwyrm
 #     Corrupted False
@@ -1516,29 +1526,29 @@ Show
 # Endgame Craft
 # #######################################################################################################################
 
-Show
-    ItemLevel >= 86
-    Rarity <= Rare
-    BaseType "Two-Toned Boots" "Fingerless Silk Gloves" "Steel Ring" "Opal Ring" "Crystal Belt" "Stygian Vise" "Titanium Spirit Shield" "Gripped Gloves" "Bone Helmet" "Titan Greaves" "Stygian Vise" "Spiked Gloves" "Marble Amulet" "Titanium Spirit Shield" "Hubris Circlet" "Vaal Regalia" "Sorcerer Gloves" "Sorcerer Boots"
-    SetBackgroundColor 191 239 255      # lightblue1
-    SetBorderColor 150 0 0              # smoothred
-    SetFontSize 45
+# Show
+#     ItemLevel >= 86
+#     Rarity <= Rare
+#     BaseType "Two-Toned Boots" "Fingerless Silk Gloves" "Steel Ring" "Opal Ring" "Crystal Belt" "Stygian Vise" "Titanium Spirit Shield" "Gripped Gloves" "Bone Helmet" "Titan Greaves" "Stygian Vise" "Spiked Gloves" "Marble Amulet" "Titanium Spirit Shield" "Hubris Circlet" "Vaal Regalia" "Sorcerer Gloves" "Sorcerer Boots"
+#     SetBackgroundColor 191 239 255      # lightblue1
+#     SetBorderColor 150 0 0              # smoothred
+#     SetFontSize 45
 
-Show
-    ItemLevel >= 85
-    Rarity <= Rare
-    BaseType "Opal Ring" "Steel Ring" "Fingerless Silk Gloves" "Stygian Vise"
-    SetBackgroundColor 191 239 255      # lightblue1
-    SetBorderColor 255 140 0            # darkorange
-    SetFontSize 45
+# Show
+#     ItemLevel >= 85
+#     Rarity <= Rare
+#     BaseType "Opal Ring" "Steel Ring" "Fingerless Silk Gloves" "Stygian Vise"
+#     SetBackgroundColor 191 239 255      # lightblue1
+#     SetBorderColor 255 140 0            # darkorange
+#     SetFontSize 45
 
-Show
-    ItemLevel >= 84
-    Rarity <= Rare
-    BaseType "Opal Ring" "Steel Ring" "Fingerless Silk Gloves"
-    SetBackgroundColor 191 239 255      # lightblue1
-    SetBorderColor 150 0 0              # smoothred
-    SetFontSize 45
+# Show
+#     ItemLevel >= 84
+#     Rarity <= Rare
+#     BaseType "Opal Ring" "Steel Ring" "Fingerless Silk Gloves"
+#     SetBackgroundColor 191 239 255      # lightblue1
+#     SetBorderColor 150 0 0              # smoothred
+#     SetFontSize 45
 
 # #######################################################################################################################
 # Normal/Magic - Specials
@@ -1582,7 +1592,7 @@ Hide # Normal/Magic - Specials - T2
     SetBorderColor 255 140 0            # darkorange
     SetFontSize 45
 
-Show # Normal/Magic - Specials - T2
+Hide # Normal/Magic - Specials - T2
     Rarity <= Magic
     BaseType "Fingerless Silk Gloves" "Spiked Gloves" "Gripped Gloves"
     SetBorderColor 255 140 0            # darkorange
@@ -1739,7 +1749,7 @@ Show # Rare - Jewelery - Delirium Jewel
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 45
 
-Show # Rare - Jewelery - Jewels
+Hide # Rare - Jewelery - Jewels
     Rarity = Rare
     Class "Jewel"
     SetBorderColor 150 0 0              # smoothred
@@ -1765,7 +1775,7 @@ Show # Rare - Jewelery - Ring - T1
     MinimapIcon 0 Brown Diamond
     PlayEffect Brown
 
-Show # Rare - Jewelery - Ring - T2
+Hide # Rare - Jewelery - Ring - T2
     Rarity = Rare
     Class "Rings"
     BaseType "Prismatic Ring" "Two-Stone Ring"
@@ -1785,7 +1795,7 @@ Show # Rare - Jewelery - Amulets - talisman
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 45
 
-Show # Rare - Jewelery - Amulets
+Hide # Rare - Jewelery - Amulets
     Rarity = Rare
     Class "Amulets"
     SetBorderColor 150 0 0              # smoothred
@@ -1803,7 +1813,7 @@ Show # Rare - Jewelery - Belt - T1
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 45
 
-Show # Rare - Jewelery - Belt - T2
+Hide # Rare - Jewelery - Belt - T2
     Rarity = Rare
     BaseType "Leather Belt"
     SetBorderColor 255 255 119          # Rare
@@ -2325,13 +2335,13 @@ Hide # Rare - Equipment - ARM - Body Armour - T1
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 45
 
-Show # Rare - Equipment - ARM - Gloves - T1
+Hide # Rare - Equipment - ARM - Gloves - T1
     Rarity = Rare
     BaseType "Titan Gauntlets"
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 45
 
-Show # Rare - Equipment - ARM - Boots - T1
+Hide # Rare - Equipment - ARM - Boots - T1
     Rarity = Rare
     BaseType "Titan Greaves"
     SetBorderColor 150 0 0              # smoothred
@@ -2349,7 +2359,7 @@ Hide # Rare - Equipment - ARM - Body Armour - T2
     SetBorderColor 255 255 119          # Rare
     SetFontSize 45
 
-Show # Rare - Equipment - ARM - Gloves - T2
+Hide # Rare - Equipment - ARM - Gloves - T2
     Rarity = Rare
     BaseType "Vaal Gauntlets"
     SetBorderColor 255 255 119          # Rare
@@ -2371,7 +2381,7 @@ Hide # Rare - Equipment - ARM - Body Armour - T3
     BaseType "Crusader Plate" "Golden Plate" "Majestic Plate"
     SetFontSize 45
 
-Show # Rare - Equipment - ARM - Gloves - T3
+Hide # Rare - Equipment - ARM - Gloves - T3
     Rarity = Rare
     BaseType "Goliath Gauntlets"
     SetFontSize 45
@@ -2657,31 +2667,31 @@ Hide # Rare - Equipment - EVA+ES - Boots - T3
 # Rare - Equipment - Specials
 # #######################################################################################################################
 
-Show # Rare - Equipment - Specials - Bone Helmet
+Hide # Rare - Equipment - Specials - Bone Helmet
     Rarity = Rare
     BaseType "Bone Helmet"
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 45
 
-Show # Rare - Equipment - Specials - Fingerless Silk Gloves
+Hide # Rare - Equipment - Specials - Fingerless Silk Gloves
     Rarity = Rare
     BaseType "Fingerless Silk Gloves"
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 45
 
-Show # Rare - Equipment - Specials - Gripped Gloves
+Hide # Rare - Equipment - Specials - Gripped Gloves
     Rarity = Rare
     BaseType "Gripped Gloves"
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 45
 
-Show # Rare - Equipment - Specials - Spiked Gloves
+Hide # Rare - Equipment - Specials - Spiked Gloves
     Rarity = Rare
     BaseType "Spiked Gloves"
     SetBorderColor 150 0 0              # smoothred
     SetFontSize 45
 
-Show # Rare - Equipment - Specials - Two-Toned Boots
+Hide # Rare - Equipment - Specials - Two-Toned Boots
     Rarity = Rare
     BaseType "Two-Toned Boots"
     SetBorderColor 150 0 0              # smoothred
@@ -2691,7 +2701,7 @@ Show # Rare - Equipment - Specials - Two-Toned Boots
 # Rare - Shield - ES
 # #######################################################################################################################
 
-Show # Rare - Shield - ES - T1
+Hide # Rare - Shield - ES - T1
     Rarity = Rare
     BaseType "Titanium Spirit Shield"
     SetBorderColor 150 0 0              # smoothred
